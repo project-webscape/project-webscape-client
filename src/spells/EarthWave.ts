@@ -6,7 +6,7 @@ type EarthWaveState = "casting" | "travel" | "impact";
 
 export class EarthWave extends Spell {
   public instance?: Group;
-  protected mixer: AnimationMixer | null = null;;
+  protected mixer: AnimationMixer | null = null;
   private currentScene?: Scene;
   private modelHandler: ModelHandler;
   private state: EarthWaveState = "casting";
@@ -38,7 +38,6 @@ export class EarthWave extends Spell {
     const action = this.mixer.clipAction(animationClip);
 
     // TODO: Handle multiple loop modes, also stopping animation
-    action.setLoop(LoopOnce, 1);
     action.clampWhenFinished = true;
     action.reset().play();
 
@@ -47,7 +46,6 @@ export class EarthWave extends Spell {
         this.model!.scene.name
       }`
     );
-
 
     if (onFinish) {
       setTimeout(() => {
@@ -69,7 +67,18 @@ export class EarthWave extends Spell {
       this.location!.z
     );
 
-    this.registerAnimations(this.model!.animations)
+    console.log(
+      `123Switching model to ${this.model!.scene.name} at location:`,
+      this.location
+    );
+    this.registerAnimations(
+      this.model!.animations.map((animation, i) => {
+        return {
+          id: i,
+          animation,
+        };
+      })
+    );
 
     // wehoo gotta figure out the scaling stuff
     this.instance.scale.set(0.001, 0.001, 0.001);
@@ -81,7 +90,7 @@ export class EarthWave extends Spell {
   render(scene: Scene) {
     console.log(`Rendering EarthWave instance at location:`, this.location);
     this.state = "casting";
-    this.switchModel(3114, scene); 
+    this.switchModel(3114, scene);
     this.playAnimationAndListen(0);
 
     // Hardcoded transition after 0.5 seconds
@@ -116,7 +125,6 @@ export class EarthWave extends Spell {
       };
       const length = Math.sqrt(dir.x * dir.x + dir.y * dir.y + dir.z * dir.z);
       if (length > 0.01) {
-
         // Normalize direction
         dir.x /= length;
         dir.y /= length;
@@ -144,7 +152,7 @@ export class EarthWave extends Spell {
     if (this.instance && this.currentScene) {
       this.currentScene.remove(this.instance);
       this.instance = undefined;
-      this.mixer = undefined;
+      this.mixer = null;
       this.currentScene = undefined;
       console.log(`EarthWave instance destroyed.`);
     }

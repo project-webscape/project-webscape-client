@@ -43,6 +43,18 @@ export class Player extends Animatable {
     super.setMixer(this.instance);
   }
 
+  faceTarget(target: Location): this {
+    if (!this.instance) {
+      console.warn("Instance is not set, cannot face target.");
+      return this;
+    }
+
+    const dx = target.x - this.instance.position.x;
+    const dz = target.z - this.instance.position.z;
+    this.instance.rotation.y = Math.atan2(dx, dz);
+    return this;
+  }
+
   getLocation(): Location {
     return this.location;
   }

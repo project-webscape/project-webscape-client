@@ -7,11 +7,11 @@ export class Spell extends Animatable {
   protected modelId: number = -1;
   protected location: Location | undefined;
   protected model: GLTF | undefined;
-  protected target?: Location; // Add this line
+  protected target?: Location;
 
   constructor(spellName: string) {
     super();
-    
+
     this.spellName = spellName;
   }
 

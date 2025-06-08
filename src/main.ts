@@ -358,7 +358,7 @@ canvas.addEventListener("click", (e) => {
       }
       wave.destroy();
     });
-
+    
     spells.push(wave);
 
     const spriteMaterial = new THREE.SpriteMaterial({
