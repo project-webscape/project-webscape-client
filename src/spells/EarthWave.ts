@@ -6,7 +6,7 @@ type EarthWaveState = "casting" | "travel" | "impact";
 
 export class EarthWave extends Spell {
   public instance?: Group;
-  private mixer?: AnimationMixer;
+  protected mixer: AnimationMixer | null = null;;
   private currentScene?: Scene;
   private modelHandler: ModelHandler;
   private state: EarthWaveState = "casting";
