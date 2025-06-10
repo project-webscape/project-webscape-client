@@ -8,7 +8,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "resolveJsonModule": true,
   },
   "include": ["src"]
 }

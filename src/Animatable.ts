@@ -36,17 +36,17 @@ export class Animatable {
     return this;
   }
 
-  public playAnimation(id: number, callback?: () => void): void {
+  public playAnimation(id: number, callback?: () => void): this {
     if (!this.mixer) {
       console.warn("Animation mixer is not set.");
-      return;
+      return this;
     }
 
     const animation = this.animations.get(id);
 
     if (!animation) {
       console.warn(`Animation with id ${id} not found.`);
-      return;
+      return this;
     }
 
     if (this.playingAnimation) {
@@ -66,5 +66,7 @@ export class Animatable {
         callback();
       }, animation.duration * 1000);
     }
+
+    return this;
   }
 }

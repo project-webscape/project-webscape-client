@@ -6,9 +6,11 @@ import { ModelHandler } from "./ModelHandler";
 import { EarthWave } from "./spells/EarthWave";
 import { UIHandler } from "./UIHandler";
 import { WorldObject } from "./WorldObject";
-
-const GAME_WIDTH = 900;
-const GAME_HEIGHT = 600;
+import { GAME_HEIGHT, GAME_WIDTH } from "./constants";
+import { objects } from "./generated/Objects";
+import { npcs } from "./generated/Npcs";
+import { NPC } from "./Npc";
+import { tileDataForCoordinate } from "./map/RemoveLater";
 
 const canvas = document.querySelector("#app") as HTMLCanvasElement;
 
@@ -20,11 +22,12 @@ const camera = new THREE.PerspectiveCamera(
   1000
 );
 
-camera.position.set(0, 5, 5);
-camera.lookAt(0, 0, 0);
+/* camera.position.set(0, 5, 5);
+camera.lookAt(0, 0, 0); */
 
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(GAME_WIDTH, GAME_HEIGHT); // Fixed size
+renderer.outputColorSpace = THREE.SRGBColorSpace;
 
 window.addEventListener("resize", () => {
   camera.aspect = 1;
@@ -55,7 +58,6 @@ const trainingDummy = new WorldObject(modelHandler, 25177)
   .setLocation({ x: 0, y: 0, z: playerLoc.z + 5 })
   .render(scene);
 
-
 const uiScene = new THREE.Scene();
 const uiCamera = new THREE.OrthographicCamera(0, 900, 600, 0, -1, 1);
 
@@ -63,37 +65,73 @@ const uiHandler = new UIHandler(uiScene);
 
 await uiHandler.loadInventory();
 
-const GAME_TILES_X = 20; 
-const GAME_TILES_Y = 20;
-const TILE_SIZE = 1; 
-const tileGeometry = new THREE.PlaneGeometry(TILE_SIZE, TILE_SIZE);
-const tileMaterial = new THREE.MeshBasicMaterial({
-  color: 0x808080,
-  side: THREE.DoubleSide,
-});
+const GAME_TILES_X = 64;
+const GAME_TILES_Y = 64;
+const TILE_SIZE = 1;
+
 for (let x = 0; x < GAME_TILES_X; x++) {
   for (let y = 0; y < GAME_TILES_Y; y++) {
+    const tileId = tileDataForCoordinate(x, y);
+
+    let hexColor: any = null;
+
+    if (tileId) {
+      let colorDecimal = null;
+
+      if (tileId === 1) {
+        colorDecimal = 12047514;
+      } else if (tileId === 4) {
+        colorDecimal = 6307904;
+      } else if (tileId === 5) {
+        colorDecimal = 3153952;
+      } else {
+        console.warn(`Unknown tile ID: ${tileId} at (${x}, ${y})`);
+      }
+
+      if (colorDecimal) {
+        hexColor = "#" + colorDecimal.toString(16).padStart(6, "0");
+      }
+    }
+
+    const tileGeometry = new THREE.PlaneGeometry(TILE_SIZE, TILE_SIZE);
+    const tileMaterial = new THREE.MeshBasicMaterial({
+      color: new THREE.Color(hexColor || 0x390000),
+      side: THREE.DoubleSide,
+    });
+
     const tile = new THREE.Mesh(tileGeometry, tileMaterial);
     tile.position.set(
-      x * TILE_SIZE - (GAME_TILES_X * TILE_SIZE) / 2,
+      x,
       0.1,
-      y * TILE_SIZE - (GAME_TILES_Y * TILE_SIZE) / 2
+      GAME_TILES_Y - 1 - y // Flip Y to match OSRS bottom-left origin
     );
     tile.rotation.x = Math.PI / 2;
     tile.name = `tile_${x}_${y}`;
     scene.add(tile);
 
+    const outlineGeometry = new THREE.EdgesGeometry(tileGeometry);
+    const outlineMaterial = new THREE.LineBasicMaterial({
+      color: 0x000000,
+      linewidth: 2,
+      depthTest: false, // Always render on top
+    });
+    const outline = new THREE.LineSegments(outlineGeometry, outlineMaterial);
+    outline.position.copy(tile.position);
+    outline.rotation.copy(tile.rotation);
+    outline.renderOrder = 999; // Ensure it's rendered last
+    scene.add(outline);
+
     const canvas = document.createElement("canvas");
     canvas.width = 64;
     canvas.height = 64;
     const ctx = canvas.getContext("2d")!;
-    ctx.font = "bold 32px Arial";
+    ctx.font = "bold 24px Arial";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     ctx.fillStyle = "#fff";
     ctx.strokeStyle = "#000";
     ctx.lineWidth = 4;
-    const label = x * GAME_TILES_Y + y + 1;
+    const label = `(${x}, ${y})`;
     ctx.strokeText(label.toString(), 32, 32);
     ctx.fillText(label.toString(), 32, 32);
 
@@ -103,45 +141,310 @@ for (let x = 0; x < GAME_TILES_X; x++) {
       transparent: true,
     });
     const sprite = new THREE.Sprite(spriteMaterial);
-    sprite.scale.set(0.3, 0.3, 0.3);
-    sprite.position.set(
-      tile.position.x,
-      tile.position.y + 0.3,
-      tile.position.z
-    );
+    sprite.scale.set(0.2, 0.2, 0.2);
+    sprite.position.set(tile.position.x, tile.position.y + 2, tile.position.z);
     scene.add(sprite);
-
-    const outlineGeometry = new THREE.PlaneGeometry(
-      TILE_SIZE * 1.05,
-      TILE_SIZE * 1.05
-    );
-    const outlineMaterial = new THREE.MeshBasicMaterial({
-      color: 0x000000,
-      side: THREE.DoubleSide,
-      transparent: true,
-      opacity: 0.5,
-      depthWrite: false,
-    });
-    const outline = new THREE.Mesh(outlineGeometry, outlineMaterial);
-    outline.position.copy(tile.position);
-    outline.position.y += 0.11; 
-    outline.rotation.x = Math.PI / 2;
-    scene.add(outline);
   }
+}
+
+const worldObjects: WorldObject[] = [];
+
+for (const object of objects) {
+  let objectId = object.id;
+  let isWall = false;
+
+  if (object.id === 1911) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 678;
+        break;
+      case 1:
+        objectId = 679;
+        break;
+      case 2:
+        objectId = 636;
+        break;
+      case 3:
+        objectId = 637;
+        break;
+      case 9:
+        objectId = 638;
+        break;
+    }
+  } else if (object.id === 1902) {
+    isWall = true;
+
+    switch (object.type) {
+      case 0:
+        objectId = 634;
+        break;
+      case 1:
+        objectId = 635;
+        break;
+      case 2:
+        objectId = 574;
+        break;
+      case 3:
+        objectId = 575;
+        break;
+      case 9:
+        objectId = 576;
+        break;
+    }
+  } else if (object.id === 1631) {
+    isWall = true;
+
+    switch (object.type) {
+      case 0:
+        objectId = 634;
+        break;
+      case 1:
+        objectId = 635;
+        break;
+      case 2:
+        objectId = 574;
+        break;
+      case 3:
+        objectId = 575;
+        break;
+      case 9:
+        objectId = 576;
+        break;
+    }
+  } else if (object.id === 980) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 1009;
+        break;
+      case 1:
+        objectId = 1010;
+        break;
+      case 2:
+        objectId = 1011;
+        break;
+      case 3:
+        objectId = 1012;
+        break;
+      case 9:
+        objectId = 1013;
+        break;
+    }
+  } else if (object.id === 814) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 993;
+        break;
+      case 1:
+        objectId = 995;
+        break;
+      case 2:
+        objectId = 996;
+        break;
+      case 3:
+        objectId = 998;
+        break;
+      case 9:
+        objectId = 999;
+        break;
+    }
+  } else if (object.id === 1626) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 844;
+        break;
+      case 1:
+        objectId = 845;
+        break;
+      case 2:
+        objectId = 846;
+        break;
+      case 3:
+        objectId = 847;
+        break;
+      case 9:
+        objectId = 848;
+        break;
+      case 10:
+        objectId = 862;
+        break;
+    }
+  } else if (object.id === 1624) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 849;
+        break;
+      case 1:
+        objectId = 850;
+        break;
+      case 2:
+        objectId = 851;
+        break;
+      case 3:
+        objectId = 852;
+        break;
+      case 9:
+        objectId = 853;
+        break;
+    }
+  } else if (object.id === 1545) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 634;
+        break;
+      case 1:
+        objectId = 635;
+        break;
+      case 2:
+        objectId = 574;
+        break;
+      case 3:
+        objectId = 575;
+        break;
+      case 9:
+        objectId = 576;
+        break;
+    }
+  } else if (object.id === 1625) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 849;
+        break;
+      case 1:
+        objectId = 850;
+        break;
+      case 2:
+        objectId = 851;
+        break;
+      case 3:
+        objectId = 852;
+        break;
+      case 9:
+        objectId = 853;
+        break;
+    }
+  } else if (object.id === 1912) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 646;
+        break;
+      case 1:
+        objectId = 647;
+        break;
+      case 2:
+        objectId = 648;
+        break;
+      case 3:
+        objectId = 649;
+        break;
+      case 9:
+        objectId = 650;
+        break;
+    }
+  } else if (object.id === 981) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 960;
+        break;
+      case 1:
+        objectId = 961;
+        break;
+      case 2:
+        objectId = 962;
+        break;
+      case 3:
+        objectId = 963;
+        break;
+      case 9:
+        objectId = 964;
+        break;
+    }
+  } else if (object.id === 12983) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 7373;
+        break;
+      case 1:
+        objectId = 7374;
+        break;
+      case 2:
+        objectId = 7375;
+        break;
+      case 3:
+        objectId = 7376;
+        break;
+      case 9:
+        objectId = 7377;
+        break;
+    }
+  }else if (object.id === 3457) {
+    isWall = true;
+    switch (object.type) {
+      case 0:
+        objectId = 3531;
+        break;
+      case 2:
+        objectId = 3532;
+        break;
+      case 3:
+        objectId = 3533;
+        break;
+      case 9:
+        objectId = 3534;
+        break;
+    }
+  }
+
+  const wo = new WorldObject(
+    modelHandler,
+    objectId,
+    isWall ? object.type : undefined
+  )
+    .setLocation({
+      x: object.x,
+      y: 0,
+      z: GAME_TILES_Y - 1 - object.y, // Flip Y to match OSRS bottom-left origin
+    })
+    .setRotation(object.direction)
+    .render(scene);
+  worldObjects.push(wo);
+}
+
+const spawnedNPCs: NPC[] = [];
+
+for (const npc of npcs) {
+  const spawnedNpc = new NPC(modelHandler, npc.id, {
+    x: npc.x - 3200,
+    y: 0,
+    z: GAME_TILES_Y - 1 - (npc.y - 3200), // Flip Y to match OSRS bottom-left origin
+  })
+    .render(scene)
+    .playAnimation(0);
+
+  spawnedNPCs.push(spawnedNpc);
 }
 
 /**
  * Camera stuff, TODO: Move to Camera class, support multiple cameras (ie. cinematic camera)
  */
-let CAMERA_DISTANCE = 6; 
+let CAMERA_DISTANCE = 6;
 let CAMERA_MIN_DISTANCE = 3;
 let CAMERA_MAX_DISTANCE = 18;
 
 let CAMERA_PITCH = Math.PI / 4;
-let CAMERA_MIN_PITCH = Math.PI / 8; 
+let CAMERA_MIN_PITCH = Math.PI / 8;
 let CAMERA_MAX_PITCH = Math.PI / 2.1;
 
-let CAMERA_YAW = Math.PI / 5; 
+let CAMERA_YAW = Math.PI / 5;
 
 function updateCameraPosition() {
   const playerPos = player.instance
@@ -159,8 +462,6 @@ function updateCameraPosition() {
   camera.position.set(x, y, z);
   camera.lookAt(playerPos.x, playerPos.y, playerPos.z);
 }
-
-updateCameraPosition();
 
 let isMiddleMouseDown = false;
 let lastMouseX = 0;
@@ -209,10 +510,10 @@ canvas.addEventListener("mousemove", (e) => {
   let hoveringObject = false;
   if (player.instance) {
     const intersectsPlayer = raycaster.intersectObject(player.instance, true);
-    const intersectsObject = raycaster.intersectObject(
-      trainingDummy.instance!,
-      true
-    );
+    const intersectsObject = raycaster.intersectObjects(
+    worldObjects.map((wo) => wo.instance!),
+    true
+  );
     if (intersectsPlayer.length > 0) {
       hoveringPlayer = true;
       document.body.style.cursor = "pointer";
@@ -228,7 +529,7 @@ canvas.addEventListener("mousemove", (e) => {
       document.body.style.cursor = "pointer";
       const tooltip = document.getElementById("tooltip");
       if (tooltip) {
-        tooltip.innerText = "Training Dummy";
+        tooltip.innerText = `Model ID: ${worldObjects.find(wo => wo.getInstanceId() === intersectsObject[0].object.parent?.id)?.getModelId()}`;
         tooltip.style.display = "block";
         tooltip.style.left = `${e.clientX + 12}px`;
         tooltip.style.top = `${e.clientY + 12}px`;
@@ -271,7 +572,6 @@ const clickActionTextures: THREE.Texture[] = [];
 let clickTexturesLoaded = false;
 let clickActionTexturesLoaded = false;
 
-
 /* TODO: Load every texture at the beginning, make reusable, this is disgusting */
 function preloadClickTextures() {
   const loader = new THREE.TextureLoader();
@@ -308,10 +608,10 @@ type ClickEffect = {
   time: number;
 };
 const clickEffects: ClickEffect[] = [];
-const actionClickEffects: ClickEffect[] = []; 
+const actionClickEffects: ClickEffect[] = [];
 
 let playerTarget: THREE.Vector3 | null = null;
-const PLAYER_SPEED = 1; 
+const PLAYER_SPEED = 5;
 
 const spells: any = [];
 
@@ -358,7 +658,7 @@ canvas.addEventListener("click", (e) => {
       }
       wave.destroy();
     });
-    
+
     spells.push(wave);
 
     const spriteMaterial = new THREE.SpriteMaterial({
@@ -383,8 +683,8 @@ canvas.addEventListener("click", (e) => {
     const tilePosition = tile.position.clone();
 
     const clone = tile.position.clone();
-    clone.x = tilePosition.x;
-    clone.z = tilePosition.z;
+    clone.x = Math.round(tilePosition.x);
+    clone.z = Math.round(tilePosition.z);
     clone.y = tilePosition.y + 0.075;
 
     playerTarget = clone;
@@ -432,6 +732,7 @@ function animate() {
       if (isWalking) {
         player.playAnimation(1);
         isWalking = false;
+        // console.log("Position is now", pos);
       }
     }
   }
@@ -439,6 +740,10 @@ function animate() {
   player.update(dt);
   for (const spell of spells) {
     spell.update(dt);
+  }
+
+  for (const npc of spawnedNPCs) {
+    npc.update(dt);
   }
 
   for (let i = clickEffects.length - 1; i >= 0; i--) {

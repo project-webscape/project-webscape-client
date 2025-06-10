@@ -11,7 +11,7 @@ import { ModelHandler } from "./ModelHandler";
 
 export class Player extends Animatable {
   protected model?: GLTF;
-  protected location: Location = { x: 0, y: 0, z: 0 };
+  protected location: Location = { x: 21, y: 0, z: 45 };
   protected playingAnimation: AnimationClip | null = null;
   protected modelHandler: ModelHandler = new ModelHandler();
 
@@ -22,9 +22,9 @@ export class Player extends Animatable {
 
     // Earth warrior champion
     this.model = modelHandler.getModel(3328);
-
+    
     this.instance = this.model.scene.clone(true);
-    this.instance.scale.set(0.005, 0.005, 0.005);
+    this.instance.scale.set(0.008, 0.008, 0.008);
     this.instance.position.set(
       this.location.x,
       this.location.y,
