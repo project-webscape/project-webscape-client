@@ -7,10 +7,17 @@ import { EarthWave } from "./spells/EarthWave";
 import { UIHandler } from "./UIHandler";
 import { WorldObject } from "./WorldObject";
 import { GAME_HEIGHT, GAME_WIDTH } from "./constants";
-import { objects } from "./generated/Objects";
 import { npcs } from "./generated/Npcs";
 import { NPC } from "./Npc";
 import { tileDataForCoordinate } from "./map/RemoveLater";
+import { SceneBuilder } from "./SceneBuilder";
+
+const modelHandler = new ModelHandler();
+
+await modelHandler.loadModels();
+
+import { Cache } from "./Cache";
+import { objects } from "./generated/Objects";
 
 const canvas = document.querySelector("#app") as HTMLCanvasElement;
 
@@ -41,10 +48,6 @@ scene.add(light);
 
 const ambient = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambient);
-
-const modelHandler = new ModelHandler();
-
-await modelHandler.loadModels();
 
 const clock = new THREE.Clock();
 
@@ -147,276 +150,24 @@ for (let x = 0; x < GAME_TILES_X; x++) {
   }
 }
 
-const worldObjects: WorldObject[] = [];
+const sceneBuilder = new SceneBuilder(modelHandler);
 
 for (const object of objects) {
   let objectId = object.id;
-  let isWall = false;
 
-  if (object.id === 1911) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 678;
-        break;
-      case 1:
-        objectId = 679;
-        break;
-      case 2:
-        objectId = 636;
-        break;
-      case 3:
-        objectId = 637;
-        break;
-      case 9:
-        objectId = 638;
-        break;
-    }
-  } else if (object.id === 1902) {
-    isWall = true;
-
-    switch (object.type) {
-      case 0:
-        objectId = 634;
-        break;
-      case 1:
-        objectId = 635;
-        break;
-      case 2:
-        objectId = 574;
-        break;
-      case 3:
-        objectId = 575;
-        break;
-      case 9:
-        objectId = 576;
-        break;
-    }
-  } else if (object.id === 1631) {
-    isWall = true;
-
-    switch (object.type) {
-      case 0:
-        objectId = 634;
-        break;
-      case 1:
-        objectId = 635;
-        break;
-      case 2:
-        objectId = 574;
-        break;
-      case 3:
-        objectId = 575;
-        break;
-      case 9:
-        objectId = 576;
-        break;
-    }
-  } else if (object.id === 980) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 1009;
-        break;
-      case 1:
-        objectId = 1010;
-        break;
-      case 2:
-        objectId = 1011;
-        break;
-      case 3:
-        objectId = 1012;
-        break;
-      case 9:
-        objectId = 1013;
-        break;
-    }
-  } else if (object.id === 814) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 993;
-        break;
-      case 1:
-        objectId = 995;
-        break;
-      case 2:
-        objectId = 996;
-        break;
-      case 3:
-        objectId = 998;
-        break;
-      case 9:
-        objectId = 999;
-        break;
-    }
-  } else if (object.id === 1626) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 844;
-        break;
-      case 1:
-        objectId = 845;
-        break;
-      case 2:
-        objectId = 846;
-        break;
-      case 3:
-        objectId = 847;
-        break;
-      case 9:
-        objectId = 848;
-        break;
-      case 10:
-        objectId = 862;
-        break;
-    }
-  } else if (object.id === 1624) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 849;
-        break;
-      case 1:
-        objectId = 850;
-        break;
-      case 2:
-        objectId = 851;
-        break;
-      case 3:
-        objectId = 852;
-        break;
-      case 9:
-        objectId = 853;
-        break;
-    }
-  } else if (object.id === 1545) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 634;
-        break;
-      case 1:
-        objectId = 635;
-        break;
-      case 2:
-        objectId = 574;
-        break;
-      case 3:
-        objectId = 575;
-        break;
-      case 9:
-        objectId = 576;
-        break;
-    }
-  } else if (object.id === 1625) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 849;
-        break;
-      case 1:
-        objectId = 850;
-        break;
-      case 2:
-        objectId = 851;
-        break;
-      case 3:
-        objectId = 852;
-        break;
-      case 9:
-        objectId = 853;
-        break;
-    }
-  } else if (object.id === 1912) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 646;
-        break;
-      case 1:
-        objectId = 647;
-        break;
-      case 2:
-        objectId = 648;
-        break;
-      case 3:
-        objectId = 649;
-        break;
-      case 9:
-        objectId = 650;
-        break;
-    }
-  } else if (object.id === 981) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 960;
-        break;
-      case 1:
-        objectId = 961;
-        break;
-      case 2:
-        objectId = 962;
-        break;
-      case 3:
-        objectId = 963;
-        break;
-      case 9:
-        objectId = 964;
-        break;
-    }
-  } else if (object.id === 12983) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 7373;
-        break;
-      case 1:
-        objectId = 7374;
-        break;
-      case 2:
-        objectId = 7375;
-        break;
-      case 3:
-        objectId = 7376;
-        break;
-      case 9:
-        objectId = 7377;
-        break;
-    }
-  }else if (object.id === 3457) {
-    isWall = true;
-    switch (object.type) {
-      case 0:
-        objectId = 3531;
-        break;
-      case 2:
-        objectId = 3532;
-        break;
-      case 3:
-        objectId = 3533;
-        break;
-      case 9:
-        objectId = 3534;
-        break;
-    }
-  }
-
-  const wo = new WorldObject(
-    modelHandler,
+  sceneBuilder.addWorldObject(
     objectId,
-    isWall ? object.type : undefined
-  )
-    .setLocation({
-      x: object.x,
-      y: 0,
-      z: GAME_TILES_Y - 1 - object.y, // Flip Y to match OSRS bottom-left origin
-    })
-    .setRotation(object.direction)
-    .render(scene);
-  worldObjects.push(wo);
+    object.x,
+    GAME_TILES_Y - 1 - object.y,
+    object.type,
+    object.direction
+  );
+}
+
+const worldObjects = sceneBuilder.getWorldObjects();
+
+for (const worldObject of worldObjects) {
+  worldObject.render(scene);
 }
 
 const spawnedNPCs: NPC[] = [];
@@ -511,9 +262,9 @@ canvas.addEventListener("mousemove", (e) => {
   if (player.instance) {
     const intersectsPlayer = raycaster.intersectObject(player.instance, true);
     const intersectsObject = raycaster.intersectObjects(
-    worldObjects.map((wo) => wo.instance!),
-    true
-  );
+      worldObjects.map((wo) => wo.instance!),
+      true
+    );
     if (intersectsPlayer.length > 0) {
       hoveringPlayer = true;
       document.body.style.cursor = "pointer";
@@ -529,7 +280,14 @@ canvas.addEventListener("mousemove", (e) => {
       document.body.style.cursor = "pointer";
       const tooltip = document.getElementById("tooltip");
       if (tooltip) {
-        tooltip.innerText = `Model ID: ${worldObjects.find(wo => wo.getInstanceId() === intersectsObject[0].object.parent?.id)?.getModelId()}`;
+        const target = worldObjects.find(
+          (wo) => wo.getInstanceId() === intersectsObject[0].object.parent?.id
+        );
+        tooltip.innerText = `Model ID: ${target?.getModelId()}, X: ${target?.instance?.position.x.toFixed(
+          2
+        )}, Y: ${target?.instance?.position.y.toFixed(
+          2
+        )}, Z: ${target?.instance?.position.z.toFixed(2)}`;
         tooltip.style.display = "block";
         tooltip.style.left = `${e.clientX + 12}px`;
         tooltip.style.top = `${e.clientY + 12}px`;
@@ -611,7 +369,7 @@ const clickEffects: ClickEffect[] = [];
 const actionClickEffects: ClickEffect[] = [];
 
 let playerTarget: THREE.Vector3 | null = null;
-const PLAYER_SPEED = 5;
+const PLAYER_SPEED = 10;
 
 const spells: any = [];
 
