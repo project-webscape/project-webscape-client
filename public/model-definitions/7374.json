@@ -1,0 +1,166 @@
+{
+  "id": 7374,
+  "vertexCount": 10,
+  "vertexX": [
+    -64,
+    -56,
+    -56,
+    -64,
+    -64,
+    -64,
+    -56,
+    -56,
+    -64,
+    -64
+  ],
+  "vertexY": [
+    -96,
+    -96,
+    -112,
+    -112,
+    -112,
+    -48,
+    -48,
+    -64,
+    -64,
+    -64
+  ],
+  "vertexZ": [
+    56,
+    64,
+    64,
+    56,
+    64,
+    56,
+    64,
+    64,
+    56,
+    64
+  ],
+  "vertexNormals": [
+    {
+      "x": 362,
+      "y": 0,
+      "z": -362,
+      "magnitude": 2
+    },
+    {
+      "x": 181,
+      "y": 0,
+      "z": -181,
+      "magnitude": 1
+    },
+    {
+      "x": 362,
+      "y": -256,
+      "z": -362,
+      "magnitude": 5
+    },
+    {
+      "x": 181,
+      "y": -256,
+      "z": -181,
+      "magnitude": 2
+    },
+    {
+      "x": 0,
+      "y": -256,
+      "z": 0,
+      "magnitude": 2
+    },
+    {
+      "x": 362,
+      "y": 0,
+      "z": -362,
+      "magnitude": 2
+    },
+    {
+      "x": 181,
+      "y": 0,
+      "z": -181,
+      "magnitude": 1
+    },
+    {
+      "x": 362,
+      "y": -256,
+      "z": -362,
+      "magnitude": 5
+    },
+    {
+      "x": 181,
+      "y": -256,
+      "z": -181,
+      "magnitude": 2
+    },
+    {
+      "x": 0,
+      "y": -256,
+      "z": 0,
+      "magnitude": 2
+    }
+  ],
+  "faceCount": 8,
+  "faceIndices1": [
+    0,
+    0,
+    3,
+    4,
+    5,
+    5,
+    8,
+    9
+  ],
+  "faceIndices2": [
+    1,
+    2,
+    2,
+    2,
+    6,
+    7,
+    7,
+    7
+  ],
+  "faceIndices3": [
+    2,
+    3,
+    4,
+    2,
+    7,
+    8,
+    9,
+    7
+  ],
+  "faceColors": [
+    6430,
+    6430,
+    6550,
+    6550,
+    6430,
+    6430,
+    6550,
+    6550
+  ],
+  "numTextureFaces": 0,
+  "faceTextureUCoordinates": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "faceTextureVCoordinates": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "priority": 0,
+  "maxPriority": 0
+}

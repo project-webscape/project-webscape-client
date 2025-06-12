@@ -1,0 +1,148 @@
+{
+  "id": 2131,
+  "vertexCount": 4,
+  "vertexX": [
+    -56,
+    -56,
+    -56,
+    -56
+  ],
+  "vertexY": [
+    -48,
+    -208,
+    -208,
+    -48
+  ],
+  "vertexZ": [
+    -64,
+    -64,
+    64,
+    64
+  ],
+  "vertexNormals": [
+    {
+      "x": -256,
+      "y": 0,
+      "z": 0,
+      "magnitude": 3
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "z": 0,
+      "magnitude": 3
+    },
+    {
+      "x": -256,
+      "y": 0,
+      "z": 0,
+      "magnitude": 3
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "z": 0,
+      "magnitude": 3
+    }
+  ],
+  "faceCount": 4,
+  "faceIndices1": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "faceIndices2": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "faceIndices3": [
+    2,
+    3,
+    1,
+    2
+  ],
+  "faceColors": [
+    127,
+    127,
+    127,
+    127
+  ],
+  "numTextureFaces": 2,
+  "texIndices1": [
+    0,
+    3
+  ],
+  "texIndices2": [
+    1,
+    2
+  ],
+  "texIndices3": [
+    3,
+    0
+  ],
+  "faceTextureUCoordinates": [
+    [
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "faceTextureVCoordinates": [
+    [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -0.0,
+      1.0
+    ],
+    [
+      1.0,
+      -0.0,
+      -0.0
+    ]
+  ],
+  "faceTextures": [
+    26,
+    26,
+    26,
+    26
+  ],
+  "textureCoords": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "textureRenderTypes": [
+    0,
+    0
+  ],
+  "priority": 0,
+  "maxPriority": 0
+}

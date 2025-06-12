@@ -1,15 +1,6 @@
 import { GLTF } from "three/examples/jsm/loaders/GLTFLoader";
 import { ModelHandler } from "./ModelHandler";
-import {
-  BufferGeometry,
-  DoubleSide,
-  Float32BufferAttribute,
-  Group,
-  Mesh,
-  MeshBasicMaterial,
-  Scene,
-  TextureLoader,
-} from "three";
+import { Group, Scene } from "three";
 import { Location } from "./types";
 import { Cache } from "./Cache";
 

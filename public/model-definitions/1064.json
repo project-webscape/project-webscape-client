@@ -1,0 +1,190 @@
+{
+  "id": 1064,
+  "vertexCount": 12,
+  "vertexX": [
+    -22,
+    -26,
+    -32,
+    -10,
+    -16,
+    -4,
+    -20,
+    -26,
+    16,
+    14,
+    11,
+    24
+  ],
+  "vertexY": [
+    -8,
+    0,
+    0,
+    0,
+    -8,
+    0,
+    0,
+    0,
+    -6,
+    0,
+    0,
+    0
+  ],
+  "vertexZ": [
+    -32,
+    -22,
+    -38,
+    -36,
+    18,
+    14,
+    28,
+    12,
+    -29,
+    -26,
+    -38,
+    -27
+  ],
+  "vertexNormals": [
+    {
+      "x": -15,
+      "y": -442,
+      "z": 15,
+      "magnitude": 3
+    },
+    {
+      "x": -34,
+      "y": -305,
+      "z": 230,
+      "magnitude": 2
+    },
+    {
+      "x": -159,
+      "y": -309,
+      "z": -149,
+      "magnitude": 2
+    },
+    {
+      "x": 163,
+      "y": -270,
+      "z": -51,
+      "magnitude": 2
+    },
+    {
+      "x": -15,
+      "y": -442,
+      "z": 15,
+      "magnitude": 3
+    },
+    {
+      "x": 163,
+      "y": -270,
+      "z": -51,
+      "magnitude": 2
+    },
+    {
+      "x": -34,
+      "y": -305,
+      "z": 230,
+      "magnitude": 2
+    },
+    {
+      "x": -159,
+      "y": -309,
+      "z": -149,
+      "magnitude": 2
+    },
+    {
+      "x": -63,
+      "y": -345,
+      "z": 121,
+      "magnitude": 3
+    },
+    {
+      "x": -204,
+      "y": -212,
+      "z": 288,
+      "magnitude": 2
+    },
+    {
+      "x": -86,
+      "y": -237,
+      "z": -111,
+      "magnitude": 2
+    },
+    {
+      "x": 164,
+      "y": -241,
+      "z": 65,
+      "magnitude": 2
+    }
+  ],
+  "faceCount": 9,
+  "faceIndices1": [
+    0,
+    0,
+    0,
+    4,
+    4,
+    4,
+    8,
+    8,
+    8
+  ],
+  "faceIndices2": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "faceIndices3": [
+    2,
+    3,
+    1,
+    6,
+    7,
+    5,
+    10,
+    11,
+    9
+  ],
+  "faceColors": [
+    4892,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892
+  ],
+  "numTextureFaces": 0,
+  "faceTextureUCoordinates": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "faceTextureVCoordinates": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "priority": 0,
+  "maxPriority": 0
+}

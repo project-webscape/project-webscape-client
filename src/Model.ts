@@ -32,6 +32,8 @@ function decodeRSColor(value: number): [number, number, number] {
   return hslToRgb(h, s, l);
 }
 
+import exampleFile from '../public/model-definitions/1148.json';
+
 function pmnToUV(
   a: Vector3,
   b: Vector3,
@@ -108,7 +110,7 @@ function applyRecolor(
 }
 
 export class Model {
-  protected modelDef: any;
+  protected modelDef: typeof exampleFile;
 
   constructor(modelDef: any) {
     this.modelDef = modelDef;
@@ -119,13 +121,13 @@ export class Model {
 
     if (
       this.modelDef &&
-      this.modelDef.vertexPositionsX &&
-      this.modelDef.faceVertexIndices1
+      this.modelDef.vertexX &&
+      this.modelDef.faceIndices1
     ) {
       const vertexCountOk =
-        this.modelDef.vertexPositionsX.length ===
-          this.modelDef.vertexPositionsY.length &&
-        this.modelDef.vertexPositionsY.length === this.modelDef.vertexPositionsZ.length;
+        this.modelDef.vertexX.length ===
+          this.modelDef.vertexY.length &&
+        this.modelDef.vertexY.length === this.modelDef.vertexZ.length;
 
       if (!vertexCountOk) {
         console.warn("Vertex array mismatch");
@@ -133,12 +135,12 @@ export class Model {
       }
 
       const geometry = new BufferGeometry();
-      const vertices: Vector3[] = this.modelDef.vertexPositionsX.map(
+      const vertices: Vector3[] = this.modelDef.vertexX.map(
         (_, i: number) =>
           new Vector3(
-            this.modelDef.vertexPositionsX[i],
-            this.modelDef.vertexPositionsY[i],
-            this.modelDef.vertexPositionsZ[i]
+            this.modelDef.vertexX[i],
+            this.modelDef.vertexY[i],
+            this.modelDef.vertexZ[i]
           )
       );
 
@@ -149,10 +151,10 @@ export class Model {
       const groups = new Map<number, number[]>();
       let vertexOffset = 0;
 
-      for (let i = 0; i < this.modelDef.faceVertexIndices1.length; i++) {
-        const i1 = this.modelDef.faceVertexIndices1[i];
-        const i2 = this.modelDef.faceVertexIndices2[i];
-        const i3 = this.modelDef.faceVertexIndices3[i];
+      for (let i = 0; i < this.modelDef.faceIndices1.length; i++) {
+        const i1 = this.modelDef.faceIndices1[i];
+        const i2 = this.modelDef.faceIndices2[i];
+        const i3 = this.modelDef.faceIndices3[i];
 
         if (
           i1 >= vertices.length ||
@@ -207,8 +209,9 @@ export class Model {
         const colorValue = this.modelDef.faceColors?.[i] ?? 0;
         const [r, g, b] = applyRecolor(
           colorValue,
-          this.modelDef.recolorToFind ?? [],
-          this.modelDef.recolorToReplace ?? []
+          // TODO: FIX
+          this.modelDef?.recolorToFind ?? [],
+          this.modelDef?.recolorToReplace ?? []
         );
         colors.push(r, g, b, r, g, b, r, g, b);
 
@@ -249,7 +252,8 @@ export class Model {
       const mesh = new Mesh(geometry, materials);
 
       const box = new Box3().setFromObject(mesh);
-      const helper = new Box3Helper(box, new Color(0xff0000));
+      // TODO: add back with keybind
+     /*  const helper = new Box3Helper(box, new Color(0xff0000)); */
 
       const dotGeometry = new BufferGeometry();
       dotGeometry.setAttribute(
@@ -257,9 +261,13 @@ export class Model {
         new Float32BufferAttribute(positions, 3)
       );
 
-      // Add while rotate here
 
-      model.add(helper);
+      while(rotation-- > 0) {
+        mesh.rotateY(Math.PI / 2);
+        /* helper.rotateY(Math.PI / 2); */
+      }
+
+    /*   model.add(helper); */
       model.add(mesh);
       model.rotation.x = Math.PI;
     }

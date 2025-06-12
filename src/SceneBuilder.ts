@@ -35,38 +35,26 @@ export class SceneBuilder {
 
     switch (type) {
       case LocType.WALL_L:
-        /*         const l1 = new Loc(id, this.modelHandler, x, 0, z);
+        const lo = new Loc(id, this.modelHandler, x, 0, z);
 
-        const w1 = new NewWorldObject(l1, type, 4 + rotation);
-        const w2 = new NewWorldObject(l1, type, (rotation + 1) & 0x3);
+        const locDefModel = lo.getModel(type, rotation);
+        if (!locDefModel) {
+          return;
+        }
+        const { model } = locDefModel;
+
+        const w1 = new NewWorldObject(lo, type, 4 + rotation, model);
+        const w2 = new NewWorldObject(lo, type, (rotation + 1) & 0x3, model);
         this.worldObjects.push(w1);
-        this.worldObjects.push(w2); */
+        this.worldObjects.push(w2);
         break;
       case LocType.WALL_STRAIGHT:
       case LocType.WALL_CORNER_DIAGONAL:
       case LocType.WALL_SQUARE_CORNER:
       case LocType.WALL_DIAGONAL:
-        this.setWall(id, x, z, rotation, type);
-        break;
       default:
-
         const l1 = new Loc(id, this.modelHandler, x, 0, z);
         this.addRegularObject(l1, type, rotation);
-        /*         if (id === 10820 || id === 879) {
-            console.log(id);
-
-        } else {
-          const wo = new WorldObject(this.modelHandler, id, undefined);
-          wo.setLocation({
-            x: x,
-            y: 0,
-            z: z,
-          });
-          wo.setRotation(rotation);
-
-          this.worldObjects.push(wo);
-        } */
-
         break;
     }
 
@@ -102,7 +90,7 @@ export class SceneBuilder {
       return;
     }
 
-    const { model, isGltf} = locDefModel;
+    const { model, isGltf } = locDefModel;
 
     if (!isGltf) {
       const wo = new NewWorldObject(loc, type, rotation, model);
@@ -116,9 +104,18 @@ export class SceneBuilder {
   }
 
   private addWallL(loc: Loc, type: number, rotation: number) {
-/*     const w1 = new NewWorldObject(loc, type, 4 + rotation);
-    const w2 = new NewWorldObject(loc, type, (rotation + 1) & 0x3);
-    this.worldObjects.push(w1);
-    this.worldObjects.push(w2); */
+    const locDefModel = loc.getModel(type, rotation);
+    if (!locDefModel) {
+      return;
+    }
+    const { model, isGltf } = locDefModel;
+    if (!isGltf) {
+      console.log("no gltf?");
+    } else {
+      const w1 = new NewWorldObject(loc, type, 4 + rotation, model);
+      const w2 = new NewWorldObject(loc, type, (rotation + 1) & 0x3, model);
+      this.worldObjects.push(w1);
+      this.worldObjects.push(w2);
+    }
   }
 }

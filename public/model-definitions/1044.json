@@ -1,0 +1,205 @@
+{
+  "id": 1044,
+  "vertexCount": 13,
+  "vertexX": [
+    16,
+    12,
+    12,
+    19,
+    -21,
+    -18,
+    -17,
+    -25,
+    -13,
+    4,
+    -4,
+    -36,
+    -28
+  ],
+  "vertexY": [
+    -6,
+    0,
+    0,
+    0,
+    -6,
+    0,
+    0,
+    0,
+    -12,
+    0,
+    -2,
+    0,
+    0
+  ],
+  "vertexZ": [
+    -49,
+    -39,
+    -56,
+    -49,
+    37,
+    27,
+    44,
+    38,
+    -11,
+    -16,
+    7,
+    -5,
+    -34
+  ],
+  "vertexNormals": [
+    {
+      "x": 150,
+      "y": -324,
+      "z": -34,
+      "magnitude": 3
+    },
+    {
+      "x": -20,
+      "y": -239,
+      "z": 136,
+      "magnitude": 2
+    },
+    {
+      "x": -44,
+      "y": -227,
+      "z": -170,
+      "magnitude": 2
+    },
+    {
+      "x": 364,
+      "y": -182,
+      "z": -34,
+      "magnitude": 2
+    },
+    {
+      "x": -112,
+      "y": -361,
+      "z": 43,
+      "magnitude": 3
+    },
+    {
+      "x": 23,
+      "y": -241,
+      "z": -137,
+      "magnitude": 2
+    },
+    {
+      "x": 84,
+      "y": -251,
+      "z": 168,
+      "magnitude": 2
+    },
+    {
+      "x": -331,
+      "y": -230,
+      "z": 55,
+      "magnitude": 2
+    },
+    {
+      "x": 49,
+      "y": -809,
+      "z": -8,
+      "magnitude": 4
+    },
+    {
+      "x": 239,
+      "y": -388,
+      "z": -118,
+      "magnitude": 2
+    },
+    {
+      "x": 87,
+      "y": -402,
+      "z": 179,
+      "magnitude": 2
+    },
+    {
+      "x": -190,
+      "y": -421,
+      "z": 110,
+      "magnitude": 2
+    },
+    {
+      "x": -38,
+      "y": -407,
+      "z": -187,
+      "magnitude": 2
+    }
+  ],
+  "faceCount": 10,
+  "faceIndices1": [
+    0,
+    0,
+    0,
+    4,
+    4,
+    4,
+    8,
+    8,
+    8,
+    8
+  ],
+  "faceIndices2": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+  ],
+  "faceIndices3": [
+    2,
+    3,
+    1,
+    6,
+    7,
+    5,
+    10,
+    11,
+    12,
+    9
+  ],
+  "faceColors": [
+    4899,
+    4899,
+    4899,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892,
+    4892
+  ],
+  "numTextureFaces": 0,
+  "faceTextureUCoordinates": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "faceTextureVCoordinates": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "priority": 0,
+  "maxPriority": 0
+}
