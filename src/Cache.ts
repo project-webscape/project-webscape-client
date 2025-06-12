@@ -20,31 +20,28 @@ export class Cache {
   static modelDefinitions: Map<number, number[]> = new Map();
 
   static async initModelDefinitions() {
-    for (const modelDef of modelDefs) {
-      try {
-        const response = await fetch(
-          "/model-definitions/" + modelDef + ".json"
-        );
+    await Promise.all(
+      modelDefs.map(async (modelDef) => {
+        try {
+          const response = await fetch(
+            "/model-definitions/" + modelDef + ".json"
+          );
 
-        if (!response.ok) {
-          throw new Error(
-            `Failed to fetch model definition for id ${modelDef}: ${response.statusText}`
+          if (!response.ok) {
+            throw new Error(
+              `Failed to fetch model definition for id ${modelDef}: ${response.statusText}`
+            );
+          }
+
+          const data = await response.json();
+          this.modelDefinitions.set(modelDef, data);
+        } catch (e) {
+          console.error(
+            `Error initializing model definition for id ${modelDef}:`,
+            e
           );
         }
-
-        const data = await response.json();
-
-        this.modelDefinitions.set(modelDef, data);
-      } catch (e) {
-        console.error(
-          `Error initializing model definition for id ${modelDef}:`,
-          e
-        );
-      }
-    }
-
-    console.log(
-      `Initialized model definitions for ${this.modelDefinitions.size} models.`
+      })
     );
   }
 
@@ -71,9 +68,9 @@ export class Cache {
       const indexOfIndex = object.objectTypes.indexOf(type);
       if (indexOfIndex === -1) {
         return {
-            model: object.objectModels[0],
-            def: object,
-        }
+          model: object.objectModels[0],
+          def: object,
+        };
       }
       return {
         model: object.objectModels[indexOfIndex],
