@@ -12,6 +12,9 @@ import { NPC } from "./Npc";
 import { tileDataForCoordinate } from "./map/RemoveLater";
 import { SceneBuilder } from "./SceneBuilder";
 
+const DRAW_LOCS = false;
+const DRAW_GRID = true;
+
 const modelHandler = new ModelHandler();
 
 await modelHandler.loadModels();
@@ -31,6 +34,9 @@ const camera = new THREE.PerspectiveCamera(
 
 /* camera.position.set(0, 5, 5);
 camera.lookAt(0, 0, 0); */
+
+await Cache.initModelDefinitions();
+
 
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(GAME_WIDTH, GAME_HEIGHT); // Fixed size
@@ -57,16 +63,13 @@ player.render(scene);
 player.playAnimation(1);
 const playerLoc = player.getLocation();
 
-const trainingDummy = new WorldObject(modelHandler, 25177)
-  .setLocation({ x: 0, y: 0, z: playerLoc.z + 5 })
-  .render(scene);
-
 const uiScene = new THREE.Scene();
 const uiCamera = new THREE.OrthographicCamera(0, 900, 600, 0, -1, 1);
 
 const uiHandler = new UIHandler(uiScene);
+const sceneBuilder = new SceneBuilder(modelHandler);
 
-await uiHandler.loadInventory();
+// await uiHandler.loadInventory();
 
 const GAME_TILES_X = 64;
 const GAME_TILES_Y = 64;
@@ -112,45 +115,51 @@ for (let x = 0; x < GAME_TILES_X; x++) {
     tile.name = `tile_${x}_${y}`;
     scene.add(tile);
 
-    const outlineGeometry = new THREE.EdgesGeometry(tileGeometry);
-    const outlineMaterial = new THREE.LineBasicMaterial({
-      color: 0x000000,
-      linewidth: 2,
-      depthTest: false, // Always render on top
-    });
-    const outline = new THREE.LineSegments(outlineGeometry, outlineMaterial);
-    outline.position.copy(tile.position);
-    outline.rotation.copy(tile.rotation);
-    outline.renderOrder = 999; // Ensure it's rendered last
-    scene.add(outline);
+    if (DRAW_GRID) {
+      const outlineGeometry = new THREE.EdgesGeometry(tileGeometry);
+      const outlineMaterial = new THREE.LineBasicMaterial({
+        color: 0x000000,
+        linewidth: 2,
+        depthTest: false, // Always render on top
+      });
+      const outline = new THREE.LineSegments(outlineGeometry, outlineMaterial);
+      outline.position.copy(tile.position);
+      outline.rotation.copy(tile.rotation);
+      outline.renderOrder = 999; // Ensure it's rendered last
+      scene.add(outline);
+    }
 
-    const canvas = document.createElement("canvas");
-    canvas.width = 64;
-    canvas.height = 64;
-    const ctx = canvas.getContext("2d")!;
-    ctx.font = "bold 24px Arial";
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.fillStyle = "#fff";
-    ctx.strokeStyle = "#000";
-    ctx.lineWidth = 4;
-    const label = `(${x}, ${y})`;
-    ctx.strokeText(label.toString(), 32, 32);
-    ctx.fillText(label.toString(), 32, 32);
+    if (DRAW_LOCS) {
+      const canvas = document.createElement("canvas");
+      canvas.width = 64;
+      canvas.height = 64;
+      const ctx = canvas.getContext("2d")!;
+      ctx.font = "bold 24px Arial";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillStyle = "#fff";
+      ctx.strokeStyle = "#000";
+      ctx.lineWidth = 4;
+      const label = `(${x}, ${y})`;
+      ctx.strokeText(label.toString(), 32, 32);
+      ctx.fillText(label.toString(), 32, 32);
 
-    const texture = new THREE.CanvasTexture(canvas);
-    const spriteMaterial = new THREE.SpriteMaterial({
-      map: texture,
-      transparent: true,
-    });
-    const sprite = new THREE.Sprite(spriteMaterial);
-    sprite.scale.set(0.2, 0.2, 0.2);
-    sprite.position.set(tile.position.x, tile.position.y + 2, tile.position.z);
-    scene.add(sprite);
+      const texture = new THREE.CanvasTexture(canvas);
+      const spriteMaterial = new THREE.SpriteMaterial({
+        map: texture,
+        transparent: true,
+      });
+      const sprite = new THREE.Sprite(spriteMaterial);
+      sprite.scale.set(0.2, 0.2, 0.2);
+      sprite.position.set(
+        tile.position.x,
+        tile.position.y + 2,
+        tile.position.z
+      );
+      scene.add(sprite);
+    }
   }
 }
-
-const sceneBuilder = new SceneBuilder(modelHandler);
 
 for (const object of objects) {
   let objectId = object.id;
@@ -172,7 +181,7 @@ for (const worldObject of worldObjects) {
 
 const spawnedNPCs: NPC[] = [];
 
-for (const npc of npcs) {
+/* for (const npc of npcs) {
   const spawnedNpc = new NPC(modelHandler, npc.id, {
     x: npc.x - 3200,
     y: 0,
@@ -183,7 +192,7 @@ for (const npc of npcs) {
 
   spawnedNPCs.push(spawnedNpc);
 }
-
+ */
 /**
  * Camera stuff, TODO: Move to Camera class, support multiple cameras (ie. cinematic camera)
  */
@@ -266,31 +275,17 @@ canvas.addEventListener("mousemove", (e) => {
       true
     );
     if (intersectsPlayer.length > 0) {
-      hoveringPlayer = true;
-      document.body.style.cursor = "pointer";
-      const tooltip = document.getElementById("tooltip");
-      if (tooltip) {
-        tooltip.innerText = "Weeehhooooo";
-        tooltip.style.display = "block";
-        tooltip.style.left = `${e.clientX + 12}px`;
-        tooltip.style.top = `${e.clientY + 12}px`;
-      }
     } else if (intersectsObject.length > 0) {
       hoveringObject = true;
-      document.body.style.cursor = "pointer";
       const tooltip = document.getElementById("tooltip");
       if (tooltip) {
         const target = worldObjects.find(
           (wo) => wo.getInstanceId() === intersectsObject[0].object.parent?.id
         );
-        tooltip.innerText = `Model ID: ${target?.getModelId()}, X: ${target?.instance?.position.x.toFixed(
-          2
-        )}, Y: ${target?.instance?.position.y.toFixed(
-          2
-        )}, Z: ${target?.instance?.position.z.toFixed(2)}`;
+        tooltip.innerText = `Object ID: ${target?.getObjectId()}, Model ID: ${target?.getModelId()}, Loc: ${target?.getNormalizedLocation()}, Walltype: ${
+          target?.getWallType() || "N/A"
+        }`;
         tooltip.style.display = "block";
-        tooltip.style.left = `${e.clientX + 12}px`;
-        tooltip.style.top = `${e.clientY + 12}px`;
       }
     } else {
       hoveringPlayer = false;
@@ -388,12 +383,7 @@ canvas.addEventListener("click", (e) => {
     true
   );
 
-  const intersectsDummy = raycaster.intersectObject(
-    trainingDummy.instance!,
-    true
-  );
-
-  if (intersectsDummy.length > 0) {
+  /*  if (intersectsDummy.length > 0) {
     const playerLocation = player.instance!.position;
 
     const wave = new EarthWave(modelHandler)
@@ -433,7 +423,7 @@ canvas.addEventListener("click", (e) => {
 
     actionClickEffects.push({ sprite, frame: 0, time: 0 });
     return;
-  }
+  } */
 
   if (intersects.length > 0) {
     const tile = intersects[0].object as THREE.Mesh;

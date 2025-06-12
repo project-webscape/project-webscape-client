@@ -1,6 +1,10 @@
+import { Group } from "three";
 import { Cache } from "./Cache";
 import { ModelHandler } from "./ModelHandler";
 import { WorldObject } from "./WorldObject";
+import { Loc } from "./Loc";
+import { NewWorldObject } from "./NewWorldObject";
+import { Model } from "./Model";
 
 enum LocType {
   CENTREPIECE = 10,
@@ -12,7 +16,8 @@ enum LocType {
 }
 
 export class SceneBuilder {
-  protected worldObjects: WorldObject[] = [];
+  protected worldObjects: (WorldObject | NewWorldObject)[] = [];
+  protected locs: Group[] = [];
   protected modelHandler: ModelHandler;
 
   constructor(modelHandler: ModelHandler) {
@@ -29,64 +34,58 @@ export class SceneBuilder {
     const info = (rotation << 6) + type;
 
     switch (type) {
+      case LocType.WALL_L:
+        /*         const l1 = new Loc(id, this.modelHandler, x, 0, z);
+
+        const w1 = new NewWorldObject(l1, type, 4 + rotation);
+        const w2 = new NewWorldObject(l1, type, (rotation + 1) & 0x3);
+        this.worldObjects.push(w1);
+        this.worldObjects.push(w2); */
+        break;
       case LocType.WALL_STRAIGHT:
       case LocType.WALL_CORNER_DIAGONAL:
-      case LocType.WALL_L:
       case LocType.WALL_SQUARE_CORNER:
       case LocType.WALL_DIAGONAL:
         this.setWall(id, x, z, rotation, type);
         break;
       default:
-        const wo = new WorldObject(this.modelHandler, id);
-        wo.setLocation({
-          x: x,
-          y: 0,
-          z: z,
-        });
-        wo.setRotation(rotation);
 
-        this.worldObjects.push(wo); 
+        const l1 = new Loc(id, this.modelHandler, x, 0, z);
+        this.addRegularObject(l1, type, rotation);
+        /*         if (id === 10820 || id === 879) {
+            console.log(id);
+
+        } else {
+          const wo = new WorldObject(this.modelHandler, id, undefined);
+          wo.setLocation({
+            x: x,
+            y: 0,
+            z: z,
+          });
+          wo.setRotation(rotation);
+
+          this.worldObjects.push(wo);
+        } */
+
         break;
     }
 
     return this;
   }
 
-  getWorldObjects(): WorldObject[] {
+  getWorldObjects(): (WorldObject | NewWorldObject)[] {
     return this.worldObjects;
   }
 
   setWall(id: number, x: number, z: number, rotation: number, type: number) {
-    const loc = Cache.getObjectById(id);
+    const loc = Cache.getModelById(id, type);
 
     if (!loc) {
-      console.warn(`Object with id ${id} not found in cache.`);
+      console.warn(`Model with id ${id} and type ${type} not found.`);
       return;
     }
 
-    let objectId = id;
-
-    if(loc.objectTypes) {
-        const indexOfIndex = loc.objectTypes.indexOf(type);
-        if (indexOfIndex === -1) {
-          console.warn(
-            `LocType ${LocType.WALL_STRAIGHT} not found in objectTypes.`
-          );
-          return;
-        }
-    
-        objectId = loc.objectModels[indexOfIndex];
-    }
-
-
-    if (!objectId) {
-      console.warn(
-        `Object ID for LocType ${LocType.WALL_STRAIGHT} not found. Rotation ${rotation}`
-      );
-      return;
-    }
-
-    const wo = new WorldObject(this.modelHandler, objectId, type);
+    const wo = new WorldObject(this.modelHandler, id, type);
     wo.setLocation({
       x: x,
       y: 0,
@@ -95,5 +94,31 @@ export class SceneBuilder {
     wo.setRotation(rotation);
 
     this.worldObjects.push(wo);
+  }
+
+  private addRegularObject(loc: Loc, type: number, rotation: number) {
+    const locDefModel = loc.getModel(type, rotation);
+    if (!locDefModel) {
+      return;
+    }
+
+    const { model, isGltf} = locDefModel;
+
+    if (!isGltf) {
+      const wo = new NewWorldObject(loc, type, rotation, model);
+      this.worldObjects.push(wo);
+    } else {
+      const wo = new WorldObject(this.modelHandler, loc.getObjectId(), type);
+      wo.setLocation(loc.getLocation());
+      wo.setRotation(rotation);
+      this.worldObjects.push(wo);
+    }
+  }
+
+  private addWallL(loc: Loc, type: number, rotation: number) {
+/*     const w1 = new NewWorldObject(loc, type, 4 + rotation);
+    const w2 = new NewWorldObject(loc, type, (rotation + 1) & 0x3);
+    this.worldObjects.push(w1);
+    this.worldObjects.push(w2); */
   }
 }

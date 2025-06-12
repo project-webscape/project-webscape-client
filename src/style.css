@@ -15,4 +15,18 @@ canvas {
   height: 600px !important;
   box-shadow: 0 0 16px #0008;
   background: #111;
+  position: relative;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 10;
+  top: 5px;
+  left: 5px;
 }

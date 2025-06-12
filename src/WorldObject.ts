@@ -1,12 +1,24 @@
 import { GLTF } from "three/examples/jsm/loaders/GLTFLoader";
 import { ModelHandler } from "./ModelHandler";
-import { Group, Scene } from "three";
+import {
+  BufferGeometry,
+  DoubleSide,
+  Float32BufferAttribute,
+  Group,
+  Mesh,
+  MeshBasicMaterial,
+  Scene,
+  TextureLoader,
+} from "three";
 import { Location } from "./types";
+import { Cache } from "./Cache";
 
 export class WorldObject {
+  protected objectId: number = -1;
   protected modelId: number = -1;
   protected modelHandler: ModelHandler;
   protected model?: GLTF;
+  protected actualModelId: number = -1;
   protected location?: Location;
   protected wallType?: number;
   protected instanceId?: number;
@@ -20,12 +32,28 @@ export class WorldObject {
   ) {
     this.modelHandler = modelHandler;
 
-    this.modelId = modelId;
-
     this.wallType = wallType;
 
     if (modelId !== -1) {
-      this.model = this.modelHandler.getModel(modelId);
+      const actualModel = Cache.getModelById(modelId, wallType);
+      if (!actualModel) {
+        console.warn(`Model with ID ${modelId} not found in cache.`);
+        return;
+      }
+
+      const model = this.modelHandler.getModel(actualModel.model);
+
+      if (!model) {
+        console.warn(`Model with ID ${actualModel} not found in ModelHandler.`);
+        return;
+      }
+
+      this.model = model;
+
+      this.actualModelId = actualModel.model;
+      this.modelId = this.actualModelId;
+      this.objectId = modelId;
+
       this.instance = this.model.scene.clone(true);
       this.instanceId = this.instance?.id;
     }
@@ -37,11 +65,12 @@ export class WorldObject {
     }
 
     if (this.instance) {
-      this.instance.scale.set(0.008, 0.008, 0.008);
+      this.instance.scale.set(1 / 128, 1 / 128, 1 / 128);
+
       scene.add(this.instance);
       this.instance.position.y += 0.2;
 
-      if (this.modelId === 596) {
+      if (this.modelId === 1276) {
         // sizeX = 2
         // table, TODO: fix bigger objects automatically
         this.instance.position.z -= 1.5;
@@ -103,7 +132,30 @@ export class WorldObject {
     return this.modelId;
   }
 
+  getObjectId(): number {
+    return this.objectId;
+  }
+
   getInstanceId(): number | undefined {
     return this.instanceId;
+  }
+
+  getNormalizedLocation() {
+    const x = this.location?.x ?? 0;
+    const y = this.location?.y ?? 0;
+    const z = this.location?.z ? 64 - 1 - this.location.z : 0;
+
+    return {
+      x,
+      y,
+      z,
+      toString: () => {
+        return `X: ${x}, Y: ${y}, Z: ${z}`;
+      }
+    }
+  }
+
+  getWallType(): number | undefined {
+    return this.wallType;
   }
 }
