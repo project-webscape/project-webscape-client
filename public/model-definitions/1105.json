@@ -1,0 +1,58 @@
+{
+  "id": 1105,
+  "vertexCount": 4,
+  "vertexX": [
+    32,
+    32,
+    32,
+    32
+  ],
+  "vertexY": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "vertexZ": [
+    32,
+    32,
+    32,
+    32
+  ],
+  "vertexNormals": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "magnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "magnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "magnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "magnitude": 0
+    }
+  ],
+  "faceCount": 0,
+  "faceIndices1": [],
+  "faceIndices2": [],
+  "faceIndices3": [],
+  "faceColors": [],
+  "numTextureFaces": 0,
+  "faceTextureUCoordinates": [],
+  "faceTextureVCoordinates": [],
+  "priority": 0,
+  "maxPriority": 0
+}

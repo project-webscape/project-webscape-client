@@ -21,10 +21,10 @@ export class Player extends Animatable {
     super();
 
     // Earth warrior champion
-    this.model = modelHandler.getModel(3328);
+    this.model = modelHandler.getModel(3328)!;
     
     this.instance = this.model.scene.clone(true);
-    this.instance.scale.set(0.008, 0.008, 0.008);
+    this.instance.scale.set(1/128, 1/128, 1/128);
     this.instance.position.set(
       this.location.x,
       this.location.y,

@@ -1,5 +1,21 @@
-import { Box3, Box3Helper, BufferGeometry, ClampToEdgeWrapping, Color, DoubleSide, Float32BufferAttribute, Group, Material, Mesh, MeshBasicMaterial, RepeatWrapping, TextureLoader, Triangle, Vector2, Vector3 } from "three";
-
+import {
+  Box3,
+  Box3Helper,
+  BufferGeometry,
+  ClampToEdgeWrapping,
+  Color,
+  DoubleSide,
+  Float32BufferAttribute,
+  Group,
+  Material,
+  Mesh,
+  MeshBasicMaterial,
+  RepeatWrapping,
+  TextureLoader,
+  Triangle,
+  Vector2,
+  Vector3,
+} from "three";
 
 function hslToRgb(h: number, s: number, l: number): [number, number, number] {
   h /= 360;
@@ -32,7 +48,8 @@ function decodeRSColor(value: number): [number, number, number] {
   return hslToRgb(h, s, l);
 }
 
-import exampleFile from '../public/model-definitions/1148.json';
+import exampleFile from "../public/model-definitions/1148.json";
+import exampleObject from "../../object-defs/634.json";
 
 function pmnToUV(
   a: Vector3,
@@ -72,6 +89,15 @@ function pmnToUV(
   ];
 }
 
+function applyRetexture(
+  textureId: number,
+  find: number[],
+  replace: number[]
+): number {
+  const index = find.indexOf(textureId);
+  return index !== -1 && index < replace.length ? replace[index] : textureId;
+}
+
 const textureLoader = new TextureLoader();
 
 function getTextureMaterial(textureId: number): Material {
@@ -106,27 +132,25 @@ function applyRecolor(
   const index = find.indexOf(color);
   const newColor =
     index !== -1 && index < replace.length ? replace[index] : color;
+
   return decodeRSColor(newColor);
 }
 
 export class Model {
   protected modelDef: typeof exampleFile;
+  protected objectDef: typeof exampleObject;
 
-  constructor(modelDef: any) {
+  constructor(modelDef: any, objectDef: any) {
     this.modelDef = modelDef;
+    this.objectDef = objectDef;
   }
 
   constructModel(rotation: number): Group {
     const model = new Group();
 
-    if (
-      this.modelDef &&
-      this.modelDef.vertexX &&
-      this.modelDef.faceIndices1
-    ) {
+    if (this.modelDef && this.modelDef.vertexX && this.modelDef.faceIndices1) {
       const vertexCountOk =
-        this.modelDef.vertexX.length ===
-          this.modelDef.vertexY.length &&
+        this.modelDef.vertexX.length === this.modelDef.vertexY.length &&
         this.modelDef.vertexY.length === this.modelDef.vertexZ.length;
 
       if (!vertexCountOk) {
@@ -177,7 +201,12 @@ export class Model {
 
         positions.push(...v1.toArray(), ...v3.toArray(), ...v2.toArray());
 
-        const textureId = this.modelDef.faceTextures?.[i] ?? -1;
+        let textureId = this.modelDef.faceTextures?.[i] ?? -1;
+        textureId = applyRetexture(
+          textureId,
+          this.objectDef?.retextureToFind ?? [],
+          this.objectDef?.textureToReplace ?? []
+        );
 
         if (
           textureId !== -1 &&
@@ -210,8 +239,8 @@ export class Model {
         const [r, g, b] = applyRecolor(
           colorValue,
           // TODO: FIX
-          this.modelDef?.recolorToFind ?? [],
-          this.modelDef?.recolorToReplace ?? []
+          this.objectDef?.recolorToFind ?? [],
+          this.objectDef?.recolorToReplace ?? []
         );
         colors.push(r, g, b, r, g, b, r, g, b);
 
@@ -221,15 +250,27 @@ export class Model {
         vertexOffset += 3;
       }
 
+      const contrast = Math.min(this.objectDef.contrast ?? 0, 127) / 127;
+      const ambient = Math.min(this.objectDef.ambient ?? 0, 127) / 255;
+
+      /*       for (let i = 0; i < colors.length; i += 3) {
+        colors[i] = Math.min(1, Math.max(0, colors[i] * contrast + ambient));
+        colors[i + 1] = Math.min(
+          1,
+          Math.max(0, colors[i + 1] * contrast + ambient)
+        );
+        colors[i + 2] = Math.min(
+          1,
+          Math.max(0, colors[i + 2] * contrast + ambient)
+        );
+      } */
+
       geometry.setAttribute(
         "position",
         new Float32BufferAttribute(positions, 3)
       );
       geometry.setAttribute("uv", new Float32BufferAttribute(uvs, 2));
-      geometry.setAttribute(
-        "color",
-        new Float32BufferAttribute(colors, 3)
-      );
+      geometry.setAttribute("color", new Float32BufferAttribute(colors, 3));
 
       geometry.computeVertexNormals();
       geometry.computeBoundingBox();
@@ -253,7 +294,7 @@ export class Model {
 
       const box = new Box3().setFromObject(mesh);
       // TODO: add back with keybind
-     /*  const helper = new Box3Helper(box, new Color(0xff0000)); */
+      /*  const helper = new Box3Helper(box, new Color(0xff0000)); */
 
       const dotGeometry = new BufferGeometry();
       dotGeometry.setAttribute(
@@ -261,13 +302,51 @@ export class Model {
         new Float32BufferAttribute(positions, 3)
       );
 
-
-      while(rotation-- > 0) {
+      while (rotation-- > 0) {
         mesh.rotateY(Math.PI / 2);
         /* helper.rotateY(Math.PI / 2); */
       }
 
-    /*   model.add(helper); */
+      /*   model.add(helper); */
+
+      // TODO: Fix bug with negative ambient, need to figure this out...
+      if (this.objectDef.ambient && this.objectDef.ambient > 0) {
+        mesh.material.forEach((material) => {
+          if (material instanceof MeshBasicMaterial) {
+            material.color.setRGB(ambient, ambient, ambient);
+            material.side = DoubleSide;
+          }
+        });
+      }
+
+      
+      if( this.objectDef.contrast && this.objectDef.contrast > 0) {
+
+          mesh.material.forEach((material) => {
+            if (material instanceof MeshBasicMaterial) {
+              material.color.r = Math.min(
+                1,
+                Math.max(0, material.color.r * contrast + ambient)
+              );
+              material.color.g = Math.min(
+                1,
+                Math.max(0, material.color.g * contrast + ambient)
+              );
+              material.color.b = Math.min(
+                1,
+                Math.max(0, material.color.b * contrast + ambient)
+              );
+            }
+          });
+      }
+
+
+      mesh.geometry.attributes.position.needsUpdate = true;
+      mesh.geometry.attributes.uv.needsUpdate = true;
+      mesh.geometry.attributes.color.needsUpdate = true;
+      mesh.geometry.computeBoundingBox();
+      mesh.geometry.computeBoundingSphere();
+
       model.add(mesh);
       model.rotation.x = Math.PI;
     }

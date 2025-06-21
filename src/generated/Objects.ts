@@ -8910,13 +8910,22 @@ export const objects = [
     "_id": 990
   },
   {
+    "id": 1548,
+    "type": 0,
+    "x": 1,
+    "y": 18,
+    "z": 0,
+    "direction": 3,
+    "_id": 991
+  },
+  {
     "id": 1602,
     "type": 3,
     "x": 21,
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 991
+    "_id": 992
   },
   {
     "id": 1602,
@@ -8925,7 +8934,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 1,
-    "_id": 992
+    "_id": 993
   },
   {
     "id": 1602,
@@ -8934,7 +8943,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 0,
-    "_id": 993
+    "_id": 994
   },
   {
     "id": 1602,
@@ -8943,7 +8952,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 994
+    "_id": 995
   },
   {
     "id": 1602,
@@ -8952,7 +8961,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 995
+    "_id": 996
   },
   {
     "id": 1602,
@@ -8961,7 +8970,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 996
+    "_id": 997
   },
   {
     "id": 1602,
@@ -8970,7 +8979,16 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 997
+    "_id": 998
+  },
+  {
+    "id": 1619,
+    "type": 10,
+    "x": 41,
+    "y": 25,
+    "z": 0,
+    "direction": 0,
+    "_id": 999
   },
   {
     "id": 1624,
@@ -8979,7 +8997,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 2,
-    "_id": 998
+    "_id": 1000
   },
   {
     "id": 1624,
@@ -8988,7 +9006,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 999
+    "_id": 1001
   },
   {
     "id": 1624,
@@ -8997,7 +9015,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1000
+    "_id": 1002
   },
   {
     "id": 1625,
@@ -9006,7 +9024,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 2,
-    "_id": 1001
+    "_id": 1003
   },
   {
     "id": 1625,
@@ -9015,7 +9033,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 2,
-    "_id": 1002
+    "_id": 1004
   },
   {
     "id": 1626,
@@ -9024,7 +9042,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 1003
+    "_id": 1005
   },
   {
     "id": 1626,
@@ -9033,7 +9051,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 1,
-    "_id": 1004
+    "_id": 1006
   },
   {
     "id": 1626,
@@ -9042,7 +9060,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 1005
+    "_id": 1007
   },
   {
     "id": 1626,
@@ -9051,7 +9069,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 2,
-    "_id": 1006
+    "_id": 1008
   },
   {
     "id": 1631,
@@ -9060,7 +9078,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 1007
+    "_id": 1009
   },
   {
     "id": 1631,
@@ -9069,7 +9087,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 0,
-    "_id": 1008
+    "_id": 1010
   },
   {
     "id": 1631,
@@ -9078,7 +9096,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 0,
-    "_id": 1009
+    "_id": 1011
   },
   {
     "id": 1631,
@@ -9087,7 +9105,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 0,
-    "_id": 1010
+    "_id": 1012
   },
   {
     "id": 1631,
@@ -9096,30 +9114,12 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 1011
-  },
-  {
-    "id": 1631,
-    "type": 0,
-    "x": 44,
-    "y": 44,
-    "z": 0,
-    "direction": 3,
-    "_id": 1012
-  },
-  {
-    "id": 1631,
-    "type": 0,
-    "x": 44,
-    "y": 48,
-    "z": 0,
-    "direction": 1,
     "_id": 1013
   },
   {
     "id": 1631,
     "type": 0,
-    "x": 45,
+    "x": 44,
     "y": 44,
     "z": 0,
     "direction": 3,
@@ -9128,7 +9128,7 @@ export const objects = [
   {
     "id": 1631,
     "type": 0,
-    "x": 45,
+    "x": 44,
     "y": 48,
     "z": 0,
     "direction": 1,
@@ -9137,11 +9137,29 @@ export const objects = [
   {
     "id": 1631,
     "type": 0,
+    "x": 45,
+    "y": 44,
+    "z": 0,
+    "direction": 3,
+    "_id": 1016
+  },
+  {
+    "id": 1631,
+    "type": 0,
+    "x": 45,
+    "y": 48,
+    "z": 0,
+    "direction": 1,
+    "_id": 1017
+  },
+  {
+    "id": 1631,
+    "type": 0,
     "x": 46,
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1016
+    "_id": 1018
   },
   {
     "id": 1631,
@@ -9150,7 +9168,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 1017
+    "_id": 1019
   },
   {
     "id": 1631,
@@ -9159,7 +9177,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1018
+    "_id": 1020
   },
   {
     "id": 1631,
@@ -9168,7 +9186,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 1019
+    "_id": 1021
   },
   {
     "id": 1631,
@@ -9177,31 +9195,13 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1020
-  },
-  {
-    "id": 1646,
-    "type": 5,
-    "x": 1,
-    "y": 5,
-    "z": 0,
-    "direction": 0,
-    "_id": 1021
-  },
-  {
-    "id": 1646,
-    "type": 5,
-    "x": 1,
-    "y": 8,
-    "z": 0,
-    "direction": 0,
     "_id": 1022
   },
   {
     "id": 1646,
     "type": 5,
     "x": 1,
-    "y": 12,
+    "y": 5,
     "z": 0,
     "direction": 0,
     "_id": 1023
@@ -9210,7 +9210,7 @@ export const objects = [
     "id": 1646,
     "type": 5,
     "x": 1,
-    "y": 15,
+    "y": 8,
     "z": 0,
     "direction": 0,
     "_id": 1024
@@ -9219,7 +9219,7 @@ export const objects = [
     "id": 1646,
     "type": 5,
     "x": 1,
-    "y": 21,
+    "y": 12,
     "z": 0,
     "direction": 0,
     "_id": 1025
@@ -9228,7 +9228,7 @@ export const objects = [
     "id": 1646,
     "type": 5,
     "x": 1,
-    "y": 24,
+    "y": 15,
     "z": 0,
     "direction": 0,
     "_id": 1026
@@ -9237,7 +9237,7 @@ export const objects = [
     "id": 1646,
     "type": 5,
     "x": 1,
-    "y": 28,
+    "y": 21,
     "z": 0,
     "direction": 0,
     "_id": 1027
@@ -9246,7 +9246,7 @@ export const objects = [
     "id": 1646,
     "type": 5,
     "x": 1,
-    "y": 32,
+    "y": 24,
     "z": 0,
     "direction": 0,
     "_id": 1028
@@ -9254,25 +9254,25 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 5,
-    "y": 1,
+    "x": 1,
+    "y": 28,
     "z": 0,
-    "direction": 3,
+    "direction": 0,
     "_id": 1029
   },
   {
     "id": 1646,
     "type": 5,
-    "x": 5,
-    "y": 36,
+    "x": 1,
+    "y": 32,
     "z": 0,
-    "direction": 1,
+    "direction": 0,
     "_id": 1030
   },
   {
     "id": 1646,
     "type": 5,
-    "x": 8,
+    "x": 5,
     "y": 1,
     "z": 0,
     "direction": 3,
@@ -9281,7 +9281,7 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 8,
+    "x": 5,
     "y": 36,
     "z": 0,
     "direction": 1,
@@ -9290,7 +9290,7 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 11,
+    "x": 8,
     "y": 1,
     "z": 0,
     "direction": 3,
@@ -9299,7 +9299,7 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 11,
+    "x": 8,
     "y": 36,
     "z": 0,
     "direction": 1,
@@ -9308,8 +9308,8 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 16,
-    "y": 3,
+    "x": 11,
+    "y": 1,
     "z": 0,
     "direction": 3,
     "_id": 1035
@@ -9317,8 +9317,8 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 16,
-    "y": 34,
+    "x": 11,
+    "y": 36,
     "z": 0,
     "direction": 1,
     "_id": 1036
@@ -9326,7 +9326,7 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 19,
+    "x": 16,
     "y": 3,
     "z": 0,
     "direction": 3,
@@ -9335,7 +9335,7 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
-    "x": 19,
+    "x": 16,
     "y": 34,
     "z": 0,
     "direction": 1,
@@ -9344,11 +9344,29 @@ export const objects = [
   {
     "id": 1646,
     "type": 5,
+    "x": 19,
+    "y": 3,
+    "z": 0,
+    "direction": 3,
+    "_id": 1039
+  },
+  {
+    "id": 1646,
+    "type": 5,
+    "x": 19,
+    "y": 34,
+    "z": 0,
+    "direction": 1,
+    "_id": 1040
+  },
+  {
+    "id": 1646,
+    "type": 5,
     "x": 26,
     "y": 10,
     "z": 0,
     "direction": 2,
-    "_id": 1039
+    "_id": 1041
   },
   {
     "id": 1646,
@@ -9357,34 +9375,34 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 2,
-    "_id": 1040
-  },
-  {
-    "id": 1821,
-    "type": 5,
-    "x": 7,
-    "y": 44,
-    "z": 0,
-    "direction": 2,
-    "_id": 1041
-  },
-  {
-    "id": 1821,
-    "type": 5,
-    "x": 7,
-    "y": 48,
-    "z": 0,
-    "direction": 2,
     "_id": 1042
   },
   {
     "id": 1821,
+    "type": 5,
+    "x": 7,
+    "y": 44,
+    "z": 0,
+    "direction": 2,
+    "_id": 1043
+  },
+  {
+    "id": 1821,
+    "type": 5,
+    "x": 7,
+    "y": 48,
+    "z": 0,
+    "direction": 2,
+    "_id": 1044
+  },
+  {
+    "id": 1821,
     "type": 4,
     "x": 8,
     "y": 44,
     "z": 0,
     "direction": 0,
-    "_id": 1043
+    "_id": 1045
   },
   {
     "id": 1821,
@@ -9393,43 +9411,43 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 1044
+    "_id": 1046
   },
   {
     "id": 1821,
     "type": 5,
     "x": 10,
     "y": 41,
-    "z": 0,
-    "direction": 1,
-    "_id": 1045
-  },
-  {
-    "id": 1821,
-    "type": 4,
-    "x": 10,
-    "y": 42,
-    "z": 0,
-    "direction": 3,
-    "_id": 1046
-  },
-  {
-    "id": 1821,
-    "type": 4,
-    "x": 10,
-    "y": 51,
     "z": 0,
     "direction": 1,
     "_id": 1047
   },
   {
     "id": 1821,
+    "type": 4,
+    "x": 10,
+    "y": 42,
+    "z": 0,
+    "direction": 3,
+    "_id": 1048
+  },
+  {
+    "id": 1821,
+    "type": 4,
+    "x": 10,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1049
+  },
+  {
+    "id": 1821,
     "type": 5,
     "x": 10,
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 1048
+    "_id": 1050
   },
   {
     "id": 1821,
@@ -9438,31 +9456,13 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 1049
+    "_id": 1051
   },
   {
     "id": 1821,
     "type": 4,
     "x": 12,
     "y": 42,
-    "z": 0,
-    "direction": 3,
-    "_id": 1050
-  },
-  {
-    "id": 1821,
-    "type": 4,
-    "x": 12,
-    "y": 51,
-    "z": 0,
-    "direction": 1,
-    "_id": 1051
-  },
-  {
-    "id": 1821,
-    "type": 5,
-    "x": 12,
-    "y": 52,
     "z": 0,
     "direction": 3,
     "_id": 1052
@@ -9470,11 +9470,29 @@ export const objects = [
   {
     "id": 1821,
     "type": 4,
+    "x": 12,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1053
+  },
+  {
+    "id": 1821,
+    "type": 5,
+    "x": 12,
+    "y": 52,
+    "z": 0,
+    "direction": 3,
+    "_id": 1054
+  },
+  {
+    "id": 1821,
+    "type": 4,
     "x": 14,
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 1053
+    "_id": 1055
   },
   {
     "id": 1821,
@@ -9483,7 +9501,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 2,
-    "_id": 1054
+    "_id": 1056
   },
   {
     "id": 1821,
@@ -9492,7 +9510,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 0,
-    "_id": 1055
+    "_id": 1057
   },
   {
     "id": 1821,
@@ -9501,7 +9519,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 0,
-    "_id": 1056
+    "_id": 1058
   },
   {
     "id": 1821,
@@ -9510,7 +9528,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 2,
-    "_id": 1057
+    "_id": 1059
   },
   {
     "id": 1821,
@@ -9519,7 +9537,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 0,
-    "_id": 1058
+    "_id": 1060
   },
   {
     "id": 1821,
@@ -9528,7 +9546,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 1059
+    "_id": 1061
   },
   {
     "id": 1821,
@@ -9537,7 +9555,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 1060
+    "_id": 1062
   },
   {
     "id": 1821,
@@ -9546,7 +9564,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 1061
+    "_id": 1063
   },
   {
     "id": 1821,
@@ -9555,43 +9573,43 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 1062
+    "_id": 1064
   },
   {
     "id": 1821,
     "type": 5,
     "x": 29,
     "y": 0,
-    "z": 0,
-    "direction": 1,
-    "_id": 1063
-  },
-  {
-    "id": 1821,
-    "type": 4,
-    "x": 29,
-    "y": 1,
-    "z": 0,
-    "direction": 3,
-    "_id": 1064
-  },
-  {
-    "id": 1821,
-    "type": 4,
-    "x": 30,
-    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1065
   },
   {
     "id": 1821,
+    "type": 4,
+    "x": 29,
+    "y": 1,
+    "z": 0,
+    "direction": 3,
+    "_id": 1066
+  },
+  {
+    "id": 1821,
+    "type": 4,
+    "x": 30,
+    "y": 8,
+    "z": 0,
+    "direction": 1,
+    "_id": 1067
+  },
+  {
+    "id": 1821,
     "type": 5,
     "x": 30,
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1066
+    "_id": 1068
   },
   {
     "id": 1821,
@@ -9600,7 +9618,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1067
+    "_id": 1069
   },
   {
     "id": 1821,
@@ -9609,7 +9627,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 1068
+    "_id": 1070
   },
   {
     "id": 1821,
@@ -9618,7 +9636,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1069
+    "_id": 1071
   },
   {
     "id": 1821,
@@ -9627,7 +9645,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1070
+    "_id": 1072
   },
   {
     "id": 1821,
@@ -9636,7 +9654,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 1,
-    "_id": 1071
+    "_id": 1073
   },
   {
     "id": 1821,
@@ -9645,7 +9663,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 1072
+    "_id": 1074
   },
   {
     "id": 1821,
@@ -9654,7 +9672,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 1073
+    "_id": 1075
   },
   {
     "id": 1821,
@@ -9663,7 +9681,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 1074
+    "_id": 1076
   },
   {
     "id": 1821,
@@ -9672,7 +9690,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 2,
-    "_id": 1075
+    "_id": 1077
   },
   {
     "id": 1821,
@@ -9681,7 +9699,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 0,
-    "_id": 1076
+    "_id": 1078
   },
   {
     "id": 1821,
@@ -9690,7 +9708,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 1077
+    "_id": 1079
   },
   {
     "id": 1821,
@@ -9699,7 +9717,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 0,
-    "_id": 1078
+    "_id": 1080
   },
   {
     "id": 1838,
@@ -9708,7 +9726,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 0,
-    "_id": 1079
+    "_id": 1081
   },
   {
     "id": 1838,
@@ -9717,7 +9735,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 1080
+    "_id": 1082
   },
   {
     "id": 1838,
@@ -9726,7 +9744,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 1081
+    "_id": 1083
   },
   {
     "id": 1838,
@@ -9735,7 +9753,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 1082
+    "_id": 1084
   },
   {
     "id": 1838,
@@ -9744,31 +9762,13 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 1083
+    "_id": 1085
   },
   {
     "id": 1838,
     "type": 5,
     "x": 23,
     "y": 58,
-    "z": 0,
-    "direction": 3,
-    "_id": 1084
-  },
-  {
-    "id": 1838,
-    "type": 5,
-    "x": 27,
-    "y": 51,
-    "z": 0,
-    "direction": 1,
-    "_id": 1085
-  },
-  {
-    "id": 1838,
-    "type": 4,
-    "x": 27,
-    "y": 52,
     "z": 0,
     "direction": 3,
     "_id": 1086
@@ -9777,10 +9777,28 @@ export const objects = [
     "id": 1838,
     "type": 5,
     "x": 27,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1087
+  },
+  {
+    "id": 1838,
+    "type": 4,
+    "x": 27,
+    "y": 52,
+    "z": 0,
+    "direction": 3,
+    "_id": 1088
+  },
+  {
+    "id": 1838,
+    "type": 5,
+    "x": 27,
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 1087
+    "_id": 1089
   },
   {
     "id": 1843,
@@ -9789,7 +9807,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1088
+    "_id": 1090
   },
   {
     "id": 1843,
@@ -9798,7 +9816,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 3,
-    "_id": 1089
+    "_id": 1091
   },
   {
     "id": 1843,
@@ -9807,7 +9825,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 1,
-    "_id": 1090
+    "_id": 1092
   },
   {
     "id": 1843,
@@ -9816,7 +9834,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 1091
+    "_id": 1093
   },
   {
     "id": 1843,
@@ -9825,7 +9843,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1092
+    "_id": 1094
   },
   {
     "id": 1843,
@@ -9834,7 +9852,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 3,
-    "_id": 1093
+    "_id": 1095
   },
   {
     "id": 1844,
@@ -9843,7 +9861,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 1094
+    "_id": 1096
   },
   {
     "id": 1844,
@@ -9852,31 +9870,13 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 2,
-    "_id": 1095
+    "_id": 1097
   },
   {
     "id": 1872,
     "type": 7,
     "x": 8,
     "y": 43,
-    "z": 0,
-    "direction": 1,
-    "_id": 1096
-  },
-  {
-    "id": 1872,
-    "type": 7,
-    "x": 8,
-    "y": 50,
-    "z": 0,
-    "direction": 2,
-    "_id": 1097
-  },
-  {
-    "id": 1872,
-    "type": 7,
-    "x": 9,
-    "y": 42,
     "z": 0,
     "direction": 1,
     "_id": 1098
@@ -9884,11 +9884,29 @@ export const objects = [
   {
     "id": 1872,
     "type": 7,
+    "x": 8,
+    "y": 50,
+    "z": 0,
+    "direction": 2,
+    "_id": 1099
+  },
+  {
+    "id": 1872,
+    "type": 7,
+    "x": 9,
+    "y": 42,
+    "z": 0,
+    "direction": 1,
+    "_id": 1100
+  },
+  {
+    "id": 1872,
+    "type": 7,
     "x": 9,
     "y": 51,
     "z": 0,
     "direction": 2,
-    "_id": 1099
+    "_id": 1101
   },
   {
     "id": 1872,
@@ -9897,7 +9915,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 0,
-    "_id": 1100
+    "_id": 1102
   },
   {
     "id": 1872,
@@ -9906,7 +9924,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 3,
-    "_id": 1101
+    "_id": 1103
   },
   {
     "id": 1872,
@@ -9915,7 +9933,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 0,
-    "_id": 1102
+    "_id": 1104
   },
   {
     "id": 1872,
@@ -9924,7 +9942,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 3,
-    "_id": 1103
+    "_id": 1105
   },
   {
     "id": 1873,
@@ -9933,7 +9951,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1104
+    "_id": 1106
   },
   {
     "id": 1873,
@@ -9942,7 +9960,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1105
+    "_id": 1107
   },
   {
     "id": 1873,
@@ -9951,7 +9969,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1106
+    "_id": 1108
   },
   {
     "id": 1902,
@@ -9960,31 +9978,13 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 1,
-    "_id": 1107
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 7,
-    "y": 44,
-    "z": 0,
-    "direction": 2,
-    "_id": 1108
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 7,
-    "y": 45,
-    "z": 0,
-    "direction": 2,
     "_id": 1109
   },
   {
     "id": 1902,
     "type": 0,
     "x": 7,
-    "y": 46,
+    "y": 44,
     "z": 0,
     "direction": 2,
     "_id": 1110
@@ -9993,7 +9993,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 7,
-    "y": 47,
+    "y": 45,
     "z": 0,
     "direction": 2,
     "_id": 1111
@@ -10002,7 +10002,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 7,
-    "y": 48,
+    "y": 46,
     "z": 0,
     "direction": 2,
     "_id": 1112
@@ -10011,10 +10011,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 7,
-    "y": 49,
+    "y": 47,
     "z": 0,
     "direction": 2,
     "_id": 1113
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 7,
+    "y": 48,
+    "z": 0,
+    "direction": 2,
+    "_id": 1114
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 7,
+    "y": 49,
+    "z": 0,
+    "direction": 2,
+    "_id": 1115
   },
   {
     "id": 1902,
@@ -10023,7 +10041,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 2,
-    "_id": 1114
+    "_id": 1116
   },
   {
     "id": 1902,
@@ -10032,7 +10050,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 1115
+    "_id": 1117
   },
   {
     "id": 1902,
@@ -10041,7 +10059,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 1,
-    "_id": 1116
+    "_id": 1118
   },
   {
     "id": 1902,
@@ -10050,7 +10068,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 2,
-    "_id": 1117
+    "_id": 1119
   },
   {
     "id": 1902,
@@ -10059,7 +10077,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 2,
-    "_id": 1118
+    "_id": 1120
   },
   {
     "id": 1902,
@@ -10068,7 +10086,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 1119
+    "_id": 1121
   },
   {
     "id": 1902,
@@ -10077,7 +10095,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 1120
+    "_id": 1122
   },
   {
     "id": 1902,
@@ -10086,7 +10104,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 2,
-    "_id": 1121
+    "_id": 1123
   },
   {
     "id": 1902,
@@ -10095,30 +10113,12 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 2,
-    "_id": 1122
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 10,
-    "y": 41,
-    "z": 0,
-    "direction": 1,
-    "_id": 1123
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 10,
-    "y": 52,
-    "z": 0,
-    "direction": 3,
     "_id": 1124
   },
   {
     "id": 1902,
     "type": 0,
-    "x": 11,
+    "x": 10,
     "y": 41,
     "z": 0,
     "direction": 1,
@@ -10127,7 +10127,7 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 11,
+    "x": 10,
     "y": 52,
     "z": 0,
     "direction": 3,
@@ -10136,7 +10136,7 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 12,
+    "x": 11,
     "y": 41,
     "z": 0,
     "direction": 1,
@@ -10145,11 +10145,29 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 12,
+    "x": 11,
     "y": 52,
     "z": 0,
     "direction": 3,
     "_id": 1128
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 12,
+    "y": 41,
+    "z": 0,
+    "direction": 1,
+    "_id": 1129
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 12,
+    "y": 52,
+    "z": 0,
+    "direction": 3,
+    "_id": 1130
   },
   {
     "id": 1902,
@@ -10158,7 +10176,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 0,
-    "_id": 1129
+    "_id": 1131
   },
   {
     "id": 1902,
@@ -10167,7 +10185,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 0,
-    "_id": 1130
+    "_id": 1132
   },
   {
     "id": 1902,
@@ -10176,7 +10194,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 3,
-    "_id": 1131
+    "_id": 1133
   },
   {
     "id": 1902,
@@ -10185,7 +10203,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 1132
+    "_id": 1134
   },
   {
     "id": 1902,
@@ -10194,7 +10212,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 0,
-    "_id": 1133
+    "_id": 1135
   },
   {
     "id": 1902,
@@ -10203,7 +10221,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 0,
-    "_id": 1134
+    "_id": 1136
   },
   {
     "id": 1902,
@@ -10212,7 +10230,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 3,
-    "_id": 1135
+    "_id": 1137
   },
   {
     "id": 1902,
@@ -10221,31 +10239,13 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 3,
-    "_id": 1136
+    "_id": 1138
   },
   {
     "id": 1902,
     "type": 1,
     "x": 15,
     "y": 43,
-    "z": 0,
-    "direction": 0,
-    "_id": 1137
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 15,
-    "y": 44,
-    "z": 0,
-    "direction": 0,
-    "_id": 1138
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 15,
-    "y": 46,
     "z": 0,
     "direction": 0,
     "_id": 1139
@@ -10254,7 +10254,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 15,
-    "y": 47,
+    "y": 44,
     "z": 0,
     "direction": 0,
     "_id": 1140
@@ -10263,7 +10263,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 15,
-    "y": 48,
+    "y": 46,
     "z": 0,
     "direction": 0,
     "_id": 1141
@@ -10272,10 +10272,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 15,
-    "y": 49,
+    "y": 47,
     "z": 0,
     "direction": 0,
     "_id": 1142
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 15,
+    "y": 48,
+    "z": 0,
+    "direction": 0,
+    "_id": 1143
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 15,
+    "y": 49,
+    "z": 0,
+    "direction": 0,
+    "_id": 1144
   },
   {
     "id": 1902,
@@ -10284,7 +10302,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 3,
-    "_id": 1143
+    "_id": 1145
   },
   {
     "id": 1902,
@@ -10293,31 +10311,13 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 1144
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 21,
-    "y": 52,
-    "z": 0,
-    "direction": 2,
-    "_id": 1145
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 21,
-    "y": 53,
-    "z": 0,
-    "direction": 2,
     "_id": 1146
   },
   {
     "id": 1902,
     "type": 0,
     "x": 21,
-    "y": 56,
+    "y": 52,
     "z": 0,
     "direction": 2,
     "_id": 1147
@@ -10326,10 +10326,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 21,
-    "y": 57,
+    "y": 53,
     "z": 0,
     "direction": 2,
     "_id": 1148
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 21,
+    "y": 56,
+    "z": 0,
+    "direction": 2,
+    "_id": 1149
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 21,
+    "y": 57,
+    "z": 0,
+    "direction": 2,
+    "_id": 1150
   },
   {
     "id": 1902,
@@ -10338,30 +10356,12 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 1149
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 22,
-    "y": 51,
-    "z": 0,
-    "direction": 1,
-    "_id": 1150
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 22,
-    "y": 58,
-    "z": 0,
-    "direction": 3,
     "_id": 1151
   },
   {
     "id": 1902,
     "type": 0,
-    "x": 23,
+    "x": 22,
     "y": 51,
     "z": 0,
     "direction": 1,
@@ -10370,7 +10370,7 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 23,
+    "x": 22,
     "y": 58,
     "z": 0,
     "direction": 3,
@@ -10379,7 +10379,7 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 24,
+    "x": 23,
     "y": 51,
     "z": 0,
     "direction": 1,
@@ -10388,11 +10388,29 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 24,
+    "x": 23,
     "y": 58,
     "z": 0,
     "direction": 3,
     "_id": 1155
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 24,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1156
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 24,
+    "y": 58,
+    "z": 0,
+    "direction": 3,
+    "_id": 1157
   },
   {
     "id": 1902,
@@ -10401,7 +10419,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 1,
-    "_id": 1156
+    "_id": 1158
   },
   {
     "id": 1902,
@@ -10410,31 +10428,13 @@ export const objects = [
     "y": 39,
     "z": 0,
     "direction": 2,
-    "_id": 1157
+    "_id": 1159
   },
   {
     "id": 1902,
     "type": 0,
     "x": 25,
     "y": 41,
-    "z": 0,
-    "direction": 2,
-    "_id": 1158
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 25,
-    "y": 42,
-    "z": 0,
-    "direction": 2,
-    "_id": 1159
-  },
-  {
-    "id": 1902,
-    "type": 3,
-    "x": 25,
-    "y": 43,
     "z": 0,
     "direction": 2,
     "_id": 1160
@@ -10443,16 +10443,16 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 25,
-    "y": 58,
+    "y": 42,
     "z": 0,
-    "direction": 3,
+    "direction": 2,
     "_id": 1161
   },
   {
     "id": 1902,
-    "type": 0,
-    "x": 26,
-    "y": 2,
+    "type": 3,
+    "x": 25,
+    "y": 43,
     "z": 0,
     "direction": 2,
     "_id": 1162
@@ -10460,17 +10460,17 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 26,
-    "y": 3,
+    "x": 25,
+    "y": 58,
     "z": 0,
-    "direction": 2,
+    "direction": 3,
     "_id": 1163
   },
   {
     "id": 1902,
     "type": 0,
     "x": 26,
-    "y": 4,
+    "y": 2,
     "z": 0,
     "direction": 2,
     "_id": 1164
@@ -10479,10 +10479,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 26,
+    "y": 3,
+    "z": 0,
+    "direction": 2,
+    "_id": 1165
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 26,
+    "y": 4,
+    "z": 0,
+    "direction": 2,
+    "_id": 1166
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 26,
     "y": 38,
     "z": 0,
     "direction": 1,
-    "_id": 1165
+    "_id": 1167
   },
   {
     "id": 1902,
@@ -10491,7 +10509,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 1166
+    "_id": 1168
   },
   {
     "id": 1902,
@@ -10500,7 +10518,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 1167
+    "_id": 1169
   },
   {
     "id": 1902,
@@ -10509,7 +10527,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1168
+    "_id": 1170
   },
   {
     "id": 1902,
@@ -10518,7 +10536,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 1169
+    "_id": 1171
   },
   {
     "id": 1902,
@@ -10527,31 +10545,13 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 3,
-    "_id": 1170
+    "_id": 1172
   },
   {
     "id": 1902,
     "type": 0,
     "x": 27,
     "y": 4,
-    "z": 0,
-    "direction": 1,
-    "_id": 1171
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 27,
-    "y": 5,
-    "z": 0,
-    "direction": 2,
-    "_id": 1172
-  },
-  {
-    "id": 1902,
-    "type": 3,
-    "x": 27,
-    "y": 35,
     "z": 0,
     "direction": 1,
     "_id": 1173
@@ -10560,10 +10560,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 27,
-    "y": 36,
+    "y": 5,
     "z": 0,
     "direction": 2,
     "_id": 1174
+  },
+  {
+    "id": 1902,
+    "type": 3,
+    "x": 27,
+    "y": 35,
+    "z": 0,
+    "direction": 1,
+    "_id": 1175
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 27,
+    "y": 36,
+    "z": 0,
+    "direction": 2,
+    "_id": 1176
   },
   {
     "id": 1902,
@@ -10572,31 +10590,13 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 1175
+    "_id": 1177
   },
   {
     "id": 1902,
     "type": 2,
     "x": 27,
     "y": 38,
-    "z": 0,
-    "direction": 1,
-    "_id": 1176
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 27,
-    "y": 43,
-    "z": 0,
-    "direction": 3,
-    "_id": 1177
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 27,
-    "y": 51,
     "z": 0,
     "direction": 1,
     "_id": 1178
@@ -10605,10 +10605,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 27,
-    "y": 58,
+    "y": 43,
     "z": 0,
     "direction": 3,
     "_id": 1179
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 27,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1180
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 27,
+    "y": 58,
+    "z": 0,
+    "direction": 3,
+    "_id": 1181
   },
   {
     "id": 1902,
@@ -10617,7 +10635,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1180
+    "_id": 1182
   },
   {
     "id": 1902,
@@ -10626,7 +10644,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 1,
-    "_id": 1181
+    "_id": 1183
   },
   {
     "id": 1902,
@@ -10635,31 +10653,13 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1182
+    "_id": 1184
   },
   {
     "id": 1902,
     "type": 0,
     "x": 28,
     "y": 7,
-    "z": 0,
-    "direction": 2,
-    "_id": 1183
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 28,
-    "y": 8,
-    "z": 0,
-    "direction": 2,
-    "_id": 1184
-  },
-  {
-    "id": 1902,
-    "type": 1,
-    "x": 28,
-    "y": 9,
     "z": 0,
     "direction": 2,
     "_id": 1185
@@ -10668,25 +10668,25 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 28,
-    "y": 35,
+    "y": 8,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 1186
   },
   {
     "id": 1902,
-    "type": 0,
+    "type": 1,
     "x": 28,
-    "y": 43,
+    "y": 9,
     "z": 0,
-    "direction": 3,
+    "direction": 2,
     "_id": 1187
   },
   {
     "id": 1902,
     "type": 0,
     "x": 28,
-    "y": 51,
+    "y": 35,
     "z": 0,
     "direction": 1,
     "_id": 1188
@@ -10695,10 +10695,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 28,
-    "y": 58,
+    "y": 43,
     "z": 0,
     "direction": 3,
     "_id": 1189
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 28,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1190
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 28,
+    "y": 58,
+    "z": 0,
+    "direction": 3,
+    "_id": 1191
   },
   {
     "id": 1902,
@@ -10707,31 +10725,13 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1190
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 29,
-    "y": 5,
-    "z": 0,
-    "direction": 1,
-    "_id": 1191
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 29,
-    "y": 9,
-    "z": 0,
-    "direction": 3,
     "_id": 1192
   },
   {
     "id": 1902,
     "type": 0,
     "x": 29,
-    "y": 35,
+    "y": 5,
     "z": 0,
     "direction": 1,
     "_id": 1193
@@ -10740,7 +10740,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 29,
-    "y": 43,
+    "y": 9,
     "z": 0,
     "direction": 3,
     "_id": 1194
@@ -10749,16 +10749,16 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 29,
-    "y": 51,
+    "y": 35,
     "z": 0,
     "direction": 1,
     "_id": 1195
   },
   {
     "id": 1902,
-    "type": 2,
+    "type": 0,
     "x": 29,
-    "y": 55,
+    "y": 43,
     "z": 0,
     "direction": 3,
     "_id": 1196
@@ -10767,10 +10767,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 29,
+    "y": 51,
+    "z": 0,
+    "direction": 1,
+    "_id": 1197
+  },
+  {
+    "id": 1902,
+    "type": 2,
+    "x": 29,
+    "y": 55,
+    "z": 0,
+    "direction": 3,
+    "_id": 1198
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 29,
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 1197
+    "_id": 1199
   },
   {
     "id": 1902,
@@ -10779,7 +10797,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 1198
+    "_id": 1200
   },
   {
     "id": 1902,
@@ -10788,7 +10806,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 1199
+    "_id": 1201
   },
   {
     "id": 1902,
@@ -10797,7 +10815,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1200
+    "_id": 1202
   },
   {
     "id": 1902,
@@ -10806,7 +10824,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 1,
-    "_id": 1201
+    "_id": 1203
   },
   {
     "id": 1902,
@@ -10815,7 +10833,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1202
+    "_id": 1204
   },
   {
     "id": 1902,
@@ -10824,31 +10842,13 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 1203
+    "_id": 1205
   },
   {
     "id": 1902,
     "type": 1,
     "x": 30,
     "y": 51,
-    "z": 0,
-    "direction": 0,
-    "_id": 1204
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 30,
-    "y": 52,
-    "z": 0,
-    "direction": 0,
-    "_id": 1205
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 30,
-    "y": 53,
     "z": 0,
     "direction": 0,
     "_id": 1206
@@ -10857,10 +10857,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 30,
-    "y": 54,
+    "y": 52,
     "z": 0,
     "direction": 0,
     "_id": 1207
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 30,
+    "y": 53,
+    "z": 0,
+    "direction": 0,
+    "_id": 1208
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 30,
+    "y": 54,
+    "z": 0,
+    "direction": 0,
+    "_id": 1209
   },
   {
     "id": 1902,
@@ -10869,7 +10887,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 3,
-    "_id": 1208
+    "_id": 1210
   },
   {
     "id": 1902,
@@ -10878,31 +10896,13 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1209
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 31,
-    "y": 5,
-    "z": 0,
-    "direction": 1,
-    "_id": 1210
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 31,
-    "y": 9,
-    "z": 0,
-    "direction": 3,
     "_id": 1211
   },
   {
     "id": 1902,
     "type": 0,
     "x": 31,
-    "y": 35,
+    "y": 5,
     "z": 0,
     "direction": 1,
     "_id": 1212
@@ -10911,10 +10911,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 31,
-    "y": 43,
+    "y": 9,
     "z": 0,
     "direction": 3,
     "_id": 1213
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 31,
+    "y": 35,
+    "z": 0,
+    "direction": 1,
+    "_id": 1214
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 31,
+    "y": 43,
+    "z": 0,
+    "direction": 3,
+    "_id": 1215
   },
   {
     "id": 1902,
@@ -10923,31 +10941,13 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1214
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 32,
-    "y": 5,
-    "z": 0,
-    "direction": 1,
-    "_id": 1215
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 32,
-    "y": 9,
-    "z": 0,
-    "direction": 3,
     "_id": 1216
   },
   {
     "id": 1902,
     "type": 0,
     "x": 32,
-    "y": 35,
+    "y": 5,
     "z": 0,
     "direction": 1,
     "_id": 1217
@@ -10956,10 +10956,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 32,
-    "y": 43,
+    "y": 9,
     "z": 0,
     "direction": 3,
     "_id": 1218
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 32,
+    "y": 35,
+    "z": 0,
+    "direction": 1,
+    "_id": 1219
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 32,
+    "y": 43,
+    "z": 0,
+    "direction": 3,
+    "_id": 1220
   },
   {
     "id": 1902,
@@ -10968,31 +10986,13 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1219
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 33,
-    "y": 5,
-    "z": 0,
-    "direction": 1,
-    "_id": 1220
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 33,
-    "y": 9,
-    "z": 0,
-    "direction": 3,
     "_id": 1221
   },
   {
     "id": 1902,
     "type": 0,
     "x": 33,
-    "y": 35,
+    "y": 5,
     "z": 0,
     "direction": 1,
     "_id": 1222
@@ -11001,34 +11001,34 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 33,
-    "y": 43,
+    "y": 9,
     "z": 0,
     "direction": 3,
     "_id": 1223
   },
   {
     "id": 1902,
-    "type": 1,
-    "x": 34,
-    "y": 0,
+    "type": 0,
+    "x": 33,
+    "y": 35,
     "z": 0,
-    "direction": 0,
+    "direction": 1,
     "_id": 1224
   },
   {
     "id": 1902,
     "type": 0,
-    "x": 34,
-    "y": 1,
+    "x": 33,
+    "y": 43,
     "z": 0,
-    "direction": 0,
+    "direction": 3,
     "_id": 1225
   },
   {
     "id": 1902,
-    "type": 0,
+    "type": 1,
     "x": 34,
-    "y": 2,
+    "y": 0,
     "z": 0,
     "direction": 0,
     "_id": 1226
@@ -11037,7 +11037,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 4,
+    "y": 1,
     "z": 0,
     "direction": 0,
     "_id": 1227
@@ -11046,7 +11046,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 5,
+    "y": 2,
     "z": 0,
     "direction": 0,
     "_id": 1228
@@ -11055,7 +11055,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 6,
+    "y": 4,
     "z": 0,
     "direction": 0,
     "_id": 1229
@@ -11064,10 +11064,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 8,
+    "y": 5,
     "z": 0,
     "direction": 0,
     "_id": 1230
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 34,
+    "y": 6,
+    "z": 0,
+    "direction": 0,
+    "_id": 1231
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 34,
+    "y": 8,
+    "z": 0,
+    "direction": 0,
+    "_id": 1232
   },
   {
     "id": 1902,
@@ -11076,31 +11094,13 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1231
+    "_id": 1233
   },
   {
     "id": 1902,
     "type": 3,
     "x": 34,
     "y": 35,
-    "z": 0,
-    "direction": 0,
-    "_id": 1232
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 34,
-    "y": 36,
-    "z": 0,
-    "direction": 0,
-    "_id": 1233
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 34,
-    "y": 37,
     "z": 0,
     "direction": 0,
     "_id": 1234
@@ -11109,7 +11109,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 38,
+    "y": 36,
     "z": 0,
     "direction": 0,
     "_id": 1235
@@ -11118,7 +11118,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 39,
+    "y": 37,
     "z": 0,
     "direction": 0,
     "_id": 1236
@@ -11127,7 +11127,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 40,
+    "y": 38,
     "z": 0,
     "direction": 0,
     "_id": 1237
@@ -11136,7 +11136,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 41,
+    "y": 39,
     "z": 0,
     "direction": 0,
     "_id": 1238
@@ -11145,10 +11145,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 34,
-    "y": 42,
+    "y": 40,
     "z": 0,
     "direction": 0,
     "_id": 1239
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 34,
+    "y": 41,
+    "z": 0,
+    "direction": 0,
+    "_id": 1240
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 34,
+    "y": 42,
+    "z": 0,
+    "direction": 0,
+    "_id": 1241
   },
   {
     "id": 1902,
@@ -11157,7 +11175,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 1240
+    "_id": 1242
   },
   {
     "id": 1902,
@@ -11166,7 +11184,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1241
+    "_id": 1243
   },
   {
     "id": 1902,
@@ -11175,7 +11193,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 1242
+    "_id": 1244
   },
   {
     "id": 1902,
@@ -11184,7 +11202,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 1243
+    "_id": 1245
   },
   {
     "id": 1902,
@@ -11193,7 +11211,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 3,
-    "_id": 1244
+    "_id": 1246
   },
   {
     "id": 1902,
@@ -11202,7 +11220,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1245
+    "_id": 1247
   },
   {
     "id": 1902,
@@ -11211,7 +11229,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1246
+    "_id": 1248
   },
   {
     "id": 1902,
@@ -11220,7 +11238,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1247
+    "_id": 1249
   },
   {
     "id": 1902,
@@ -11229,7 +11247,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 2,
-    "_id": 1248
+    "_id": 1250
   },
   {
     "id": 1902,
@@ -11238,7 +11256,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 2,
-    "_id": 1249
+    "_id": 1251
   },
   {
     "id": 1902,
@@ -11247,7 +11265,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 2,
-    "_id": 1250
+    "_id": 1252
   },
   {
     "id": 1902,
@@ -11256,30 +11274,12 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 1251
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 40,
-    "y": 15,
-    "z": 0,
-    "direction": 1,
-    "_id": 1252
-  },
-  {
-    "id": 1902,
-    "type": 0,
-    "x": 42,
-    "y": 15,
-    "z": 0,
-    "direction": 1,
     "_id": 1253
   },
   {
     "id": 1902,
     "type": 0,
-    "x": 45,
+    "x": 40,
     "y": 15,
     "z": 0,
     "direction": 1,
@@ -11288,16 +11288,16 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 47,
-    "y": 4,
+    "x": 42,
+    "y": 15,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 1255
   },
   {
     "id": 1902,
     "type": 0,
-    "x": 47,
+    "x": 45,
     "y": 15,
     "z": 0,
     "direction": 1,
@@ -11306,26 +11306,26 @@ export const objects = [
   {
     "id": 1902,
     "type": 0,
-    "x": 48,
+    "x": 47,
     "y": 4,
     "z": 0,
-    "direction": 0,
+    "direction": 3,
     "_id": 1257
   },
   {
     "id": 1902,
     "type": 0,
-    "x": 48,
-    "y": 6,
+    "x": 47,
+    "y": 15,
     "z": 0,
-    "direction": 0,
+    "direction": 1,
     "_id": 1258
   },
   {
     "id": 1902,
     "type": 0,
     "x": 48,
-    "y": 8,
+    "y": 4,
     "z": 0,
     "direction": 0,
     "_id": 1259
@@ -11334,7 +11334,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 48,
-    "y": 10,
+    "y": 6,
     "z": 0,
     "direction": 0,
     "_id": 1260
@@ -11343,7 +11343,7 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 48,
-    "y": 12,
+    "y": 8,
     "z": 0,
     "direction": 0,
     "_id": 1261
@@ -11352,10 +11352,28 @@ export const objects = [
     "id": 1902,
     "type": 0,
     "x": 48,
-    "y": 14,
+    "y": 10,
     "z": 0,
     "direction": 0,
     "_id": 1262
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 48,
+    "y": 12,
+    "z": 0,
+    "direction": 0,
+    "_id": 1263
+  },
+  {
+    "id": 1902,
+    "type": 0,
+    "x": 48,
+    "y": 14,
+    "z": 0,
+    "direction": 0,
+    "_id": 1264
   },
   {
     "id": 1902,
@@ -11364,7 +11382,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1263
+    "_id": 1265
   },
   {
     "id": 1911,
@@ -11373,7 +11391,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1264
+    "_id": 1266
   },
   {
     "id": 1911,
@@ -11382,7 +11400,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1265
+    "_id": 1267
   },
   {
     "id": 1911,
@@ -11391,7 +11409,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 1,
-    "_id": 1266
+    "_id": 1268
   },
   {
     "id": 1911,
@@ -11400,7 +11418,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 1,
-    "_id": 1267
+    "_id": 1269
   },
   {
     "id": 1911,
@@ -11409,7 +11427,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 3,
-    "_id": 1268
+    "_id": 1270
   },
   {
     "id": 1911,
@@ -11418,7 +11436,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 2,
-    "_id": 1269
+    "_id": 1271
   },
   {
     "id": 1911,
@@ -11427,7 +11445,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 2,
-    "_id": 1270
+    "_id": 1272
   },
   {
     "id": 1911,
@@ -11436,7 +11454,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 1,
-    "_id": 1271
+    "_id": 1273
   },
   {
     "id": 1911,
@@ -11445,31 +11463,13 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1272
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 1,
-    "y": 4,
-    "z": 0,
-    "direction": 0,
-    "_id": 1273
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 1,
-    "y": 5,
-    "z": 0,
-    "direction": 0,
     "_id": 1274
   },
   {
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 6,
+    "y": 4,
     "z": 0,
     "direction": 0,
     "_id": 1275
@@ -11478,7 +11478,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 7,
+    "y": 5,
     "z": 0,
     "direction": 0,
     "_id": 1276
@@ -11487,7 +11487,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 8,
+    "y": 6,
     "z": 0,
     "direction": 0,
     "_id": 1277
@@ -11496,7 +11496,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 9,
+    "y": 7,
     "z": 0,
     "direction": 0,
     "_id": 1278
@@ -11505,7 +11505,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 10,
+    "y": 8,
     "z": 0,
     "direction": 0,
     "_id": 1279
@@ -11514,7 +11514,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 11,
+    "y": 9,
     "z": 0,
     "direction": 0,
     "_id": 1280
@@ -11523,7 +11523,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 12,
+    "y": 10,
     "z": 0,
     "direction": 0,
     "_id": 1281
@@ -11532,7 +11532,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 13,
+    "y": 11,
     "z": 0,
     "direction": 0,
     "_id": 1282
@@ -11541,7 +11541,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 14,
+    "y": 12,
     "z": 0,
     "direction": 0,
     "_id": 1283
@@ -11550,7 +11550,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 15,
+    "y": 13,
     "z": 0,
     "direction": 0,
     "_id": 1284
@@ -11559,7 +11559,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 16,
+    "y": 14,
     "z": 0,
     "direction": 0,
     "_id": 1285
@@ -11568,7 +11568,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 17,
+    "y": 15,
     "z": 0,
     "direction": 0,
     "_id": 1286
@@ -11577,7 +11577,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 19,
+    "y": 16,
     "z": 0,
     "direction": 0,
     "_id": 1287
@@ -11586,7 +11586,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 20,
+    "y": 17,
     "z": 0,
     "direction": 0,
     "_id": 1288
@@ -11595,7 +11595,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 21,
+    "y": 19,
     "z": 0,
     "direction": 0,
     "_id": 1289
@@ -11604,7 +11604,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 22,
+    "y": 20,
     "z": 0,
     "direction": 0,
     "_id": 1290
@@ -11613,7 +11613,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 23,
+    "y": 21,
     "z": 0,
     "direction": 0,
     "_id": 1291
@@ -11622,7 +11622,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 24,
+    "y": 22,
     "z": 0,
     "direction": 0,
     "_id": 1292
@@ -11631,7 +11631,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 25,
+    "y": 23,
     "z": 0,
     "direction": 0,
     "_id": 1293
@@ -11640,7 +11640,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 26,
+    "y": 24,
     "z": 0,
     "direction": 0,
     "_id": 1294
@@ -11649,7 +11649,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 27,
+    "y": 25,
     "z": 0,
     "direction": 0,
     "_id": 1295
@@ -11658,7 +11658,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 28,
+    "y": 26,
     "z": 0,
     "direction": 0,
     "_id": 1296
@@ -11667,7 +11667,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 29,
+    "y": 27,
     "z": 0,
     "direction": 0,
     "_id": 1297
@@ -11676,7 +11676,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 30,
+    "y": 28,
     "z": 0,
     "direction": 0,
     "_id": 1298
@@ -11685,7 +11685,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 31,
+    "y": 29,
     "z": 0,
     "direction": 0,
     "_id": 1299
@@ -11694,7 +11694,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 32,
+    "y": 30,
     "z": 0,
     "direction": 0,
     "_id": 1300
@@ -11703,10 +11703,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 1,
-    "y": 33,
+    "y": 31,
     "z": 0,
     "direction": 0,
     "_id": 1301
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 1,
+    "y": 32,
+    "z": 0,
+    "direction": 0,
+    "_id": 1302
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 1,
+    "y": 33,
+    "z": 0,
+    "direction": 0,
+    "_id": 1303
   },
   {
     "id": 1911,
@@ -11715,7 +11733,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 0,
-    "_id": 1302
+    "_id": 1304
   },
   {
     "id": 1911,
@@ -11724,7 +11742,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 3,
-    "_id": 1303
+    "_id": 1305
   },
   {
     "id": 1911,
@@ -11733,7 +11751,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1304
+    "_id": 1306
   },
   {
     "id": 1911,
@@ -11742,7 +11760,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 0,
-    "_id": 1305
+    "_id": 1307
   },
   {
     "id": 1911,
@@ -11751,7 +11769,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 0,
-    "_id": 1306
+    "_id": 1308
   },
   {
     "id": 1911,
@@ -11760,7 +11778,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 1307
+    "_id": 1309
   },
   {
     "id": 1911,
@@ -11769,7 +11787,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 3,
-    "_id": 1308
+    "_id": 1310
   },
   {
     "id": 1911,
@@ -11778,7 +11796,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 1309
+    "_id": 1311
   },
   {
     "id": 1911,
@@ -11787,7 +11805,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1310
+    "_id": 1312
   },
   {
     "id": 1911,
@@ -11796,7 +11814,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 1311
+    "_id": 1313
   },
   {
     "id": 1911,
@@ -11805,7 +11823,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 2,
-    "_id": 1312
+    "_id": 1314
   },
   {
     "id": 1911,
@@ -11814,7 +11832,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 1,
-    "_id": 1313
+    "_id": 1315
   },
   {
     "id": 1911,
@@ -11823,7 +11841,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 2,
-    "_id": 1314
+    "_id": 1316
   },
   {
     "id": 1911,
@@ -11832,7 +11850,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 2,
-    "_id": 1315
+    "_id": 1317
   },
   {
     "id": 1911,
@@ -11841,7 +11859,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 2,
-    "_id": 1316
+    "_id": 1318
   },
   {
     "id": 1911,
@@ -11850,7 +11868,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 0,
-    "_id": 1317
+    "_id": 1319
   },
   {
     "id": 1911,
@@ -11859,7 +11877,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 1318
+    "_id": 1320
   },
   {
     "id": 1911,
@@ -11868,7 +11886,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 0,
-    "_id": 1319
+    "_id": 1321
   },
   {
     "id": 1911,
@@ -11877,7 +11895,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 1320
+    "_id": 1322
   },
   {
     "id": 1911,
@@ -11886,31 +11904,13 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 1321
+    "_id": 1323
   },
   {
     "id": 1911,
     "type": 9,
     "x": 4,
     "y": 9,
-    "z": 0,
-    "direction": 2,
-    "_id": 1322
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 4,
-    "y": 10,
-    "z": 0,
-    "direction": 2,
-    "_id": 1323
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 4,
-    "y": 11,
     "z": 0,
     "direction": 2,
     "_id": 1324
@@ -11919,7 +11919,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 12,
+    "y": 10,
     "z": 0,
     "direction": 2,
     "_id": 1325
@@ -11928,7 +11928,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 13,
+    "y": 11,
     "z": 0,
     "direction": 2,
     "_id": 1326
@@ -11937,7 +11937,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 15,
+    "y": 12,
     "z": 0,
     "direction": 2,
     "_id": 1327
@@ -11946,7 +11946,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 16,
+    "y": 13,
     "z": 0,
     "direction": 2,
     "_id": 1328
@@ -11955,7 +11955,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 17,
+    "y": 15,
     "z": 0,
     "direction": 2,
     "_id": 1329
@@ -11964,7 +11964,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 18,
+    "y": 16,
     "z": 0,
     "direction": 2,
     "_id": 1330
@@ -11973,7 +11973,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 19,
+    "y": 17,
     "z": 0,
     "direction": 2,
     "_id": 1331
@@ -11982,7 +11982,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 20,
+    "y": 18,
     "z": 0,
     "direction": 2,
     "_id": 1332
@@ -11991,7 +11991,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 21,
+    "y": 19,
     "z": 0,
     "direction": 2,
     "_id": 1333
@@ -12000,7 +12000,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 22,
+    "y": 20,
     "z": 0,
     "direction": 2,
     "_id": 1334
@@ -12009,7 +12009,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 23,
+    "y": 21,
     "z": 0,
     "direction": 2,
     "_id": 1335
@@ -12018,7 +12018,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 24,
+    "y": 22,
     "z": 0,
     "direction": 2,
     "_id": 1336
@@ -12027,7 +12027,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 25,
+    "y": 23,
     "z": 0,
     "direction": 2,
     "_id": 1337
@@ -12036,7 +12036,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 26,
+    "y": 24,
     "z": 0,
     "direction": 2,
     "_id": 1338
@@ -12045,10 +12045,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 4,
-    "y": 27,
+    "y": 25,
     "z": 0,
     "direction": 2,
     "_id": 1339
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 4,
+    "y": 26,
+    "z": 0,
+    "direction": 2,
+    "_id": 1340
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 4,
+    "y": 27,
+    "z": 0,
+    "direction": 2,
+    "_id": 1341
   },
   {
     "id": 1911,
@@ -12057,7 +12075,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 1,
-    "_id": 1340
+    "_id": 1342
   },
   {
     "id": 1911,
@@ -12066,7 +12084,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 1341
+    "_id": 1343
   },
   {
     "id": 1911,
@@ -12075,7 +12093,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1342
+    "_id": 1344
   },
   {
     "id": 1911,
@@ -12084,31 +12102,13 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 1343
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 5,
-    "y": 1,
-    "z": 0,
-    "direction": 3,
-    "_id": 1344
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 5,
-    "y": 6,
-    "z": 0,
-    "direction": 1,
     "_id": 1345
   },
   {
     "id": 1911,
     "type": 0,
     "x": 5,
-    "y": 10,
+    "y": 1,
     "z": 0,
     "direction": 3,
     "_id": 1346
@@ -12117,7 +12117,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 5,
-    "y": 11,
+    "y": 6,
     "z": 0,
     "direction": 1,
     "_id": 1347
@@ -12126,10 +12126,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 5,
+    "y": 10,
+    "z": 0,
+    "direction": 3,
+    "_id": 1348
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 5,
+    "y": 11,
+    "z": 0,
+    "direction": 1,
+    "_id": 1349
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 5,
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 1348
+    "_id": 1350
   },
   {
     "id": 1911,
@@ -12138,7 +12156,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 3,
-    "_id": 1349
+    "_id": 1351
   },
   {
     "id": 1911,
@@ -12147,7 +12165,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 1350
+    "_id": 1352
   },
   {
     "id": 1911,
@@ -12156,7 +12174,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 1,
-    "_id": 1351
+    "_id": 1353
   },
   {
     "id": 1911,
@@ -12165,7 +12183,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 1352
+    "_id": 1354
   },
   {
     "id": 1911,
@@ -12174,7 +12192,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1353
+    "_id": 1355
   },
   {
     "id": 1911,
@@ -12183,7 +12201,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 1354
+    "_id": 1356
   },
   {
     "id": 1911,
@@ -12192,7 +12210,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 0,
-    "_id": 1355
+    "_id": 1357
   },
   {
     "id": 1911,
@@ -12201,7 +12219,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1356
+    "_id": 1358
   },
   {
     "id": 1911,
@@ -12210,7 +12228,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1357
+    "_id": 1359
   },
   {
     "id": 1911,
@@ -12219,7 +12237,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 1358
+    "_id": 1360
   },
   {
     "id": 1911,
@@ -12228,7 +12246,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 1359
+    "_id": 1361
   },
   {
     "id": 1911,
@@ -12237,7 +12255,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 3,
-    "_id": 1360
+    "_id": 1362
   },
   {
     "id": 1911,
@@ -12246,7 +12264,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 1361
+    "_id": 1363
   },
   {
     "id": 1911,
@@ -12255,7 +12273,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1362
+    "_id": 1364
   },
   {
     "id": 1911,
@@ -12264,7 +12282,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 1363
+    "_id": 1365
   },
   {
     "id": 1911,
@@ -12273,7 +12291,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1364
+    "_id": 1366
   },
   {
     "id": 1911,
@@ -12282,7 +12300,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 1365
+    "_id": 1367
   },
   {
     "id": 1911,
@@ -12291,7 +12309,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1366
+    "_id": 1368
   },
   {
     "id": 1911,
@@ -12300,7 +12318,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 1367
+    "_id": 1369
   },
   {
     "id": 1911,
@@ -12309,7 +12327,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1368
+    "_id": 1370
   },
   {
     "id": 1911,
@@ -12318,7 +12336,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 3,
-    "_id": 1369
+    "_id": 1371
   },
   {
     "id": 1911,
@@ -12327,31 +12345,13 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1370
+    "_id": 1372
   },
   {
     "id": 1911,
     "type": 3,
     "x": 8,
     "y": 0,
-    "z": 0,
-    "direction": 1,
-    "_id": 1371
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 8,
-    "y": 1,
-    "z": 0,
-    "direction": 3,
-    "_id": 1372
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 8,
-    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1373
@@ -12360,16 +12360,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 8,
-    "y": 17,
+    "y": 1,
     "z": 0,
-    "direction": 1,
+    "direction": 3,
     "_id": 1374
   },
   {
     "id": 1911,
     "type": 0,
     "x": 8,
-    "y": 26,
+    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1375
@@ -12378,10 +12378,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 8,
+    "y": 17,
+    "z": 0,
+    "direction": 1,
+    "_id": 1376
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 8,
+    "y": 26,
+    "z": 0,
+    "direction": 1,
+    "_id": 1377
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 8,
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1376
+    "_id": 1378
   },
   {
     "id": 1911,
@@ -12390,7 +12408,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1377
+    "_id": 1379
   },
   {
     "id": 1911,
@@ -12399,7 +12417,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 1378
+    "_id": 1380
   },
   {
     "id": 1911,
@@ -12408,31 +12426,13 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 1379
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 9,
-    "y": 8,
-    "z": 0,
-    "direction": 1,
-    "_id": 1380
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 9,
-    "y": 11,
-    "z": 0,
-    "direction": 1,
     "_id": 1381
   },
   {
     "id": 1911,
     "type": 0,
     "x": 9,
-    "y": 17,
+    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1382
@@ -12441,7 +12441,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 9,
-    "y": 26,
+    "y": 11,
     "z": 0,
     "direction": 1,
     "_id": 1383
@@ -12450,16 +12450,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 9,
-    "y": 29,
+    "y": 17,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 1384
   },
   {
     "id": 1911,
     "type": 0,
     "x": 9,
-    "y": 36,
+    "y": 26,
     "z": 0,
     "direction": 1,
     "_id": 1385
@@ -12467,8 +12467,8 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 10,
-    "y": 1,
+    "x": 9,
+    "y": 29,
     "z": 0,
     "direction": 3,
     "_id": 1386
@@ -12476,8 +12476,8 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 10,
-    "y": 8,
+    "x": 9,
+    "y": 36,
     "z": 0,
     "direction": 1,
     "_id": 1387
@@ -12486,16 +12486,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 10,
-    "y": 11,
+    "y": 1,
     "z": 0,
-    "direction": 1,
+    "direction": 3,
     "_id": 1388
   },
   {
     "id": 1911,
     "type": 0,
     "x": 10,
-    "y": 17,
+    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1389
@@ -12504,7 +12504,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 10,
-    "y": 26,
+    "y": 11,
     "z": 0,
     "direction": 1,
     "_id": 1390
@@ -12513,16 +12513,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 10,
-    "y": 29,
+    "y": 17,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 1391
   },
   {
     "id": 1911,
     "type": 0,
     "x": 10,
-    "y": 36,
+    "y": 26,
     "z": 0,
     "direction": 1,
     "_id": 1392
@@ -12530,8 +12530,8 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 11,
-    "y": 1,
+    "x": 10,
+    "y": 29,
     "z": 0,
     "direction": 3,
     "_id": 1393
@@ -12539,8 +12539,8 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 11,
-    "y": 8,
+    "x": 10,
+    "y": 36,
     "z": 0,
     "direction": 1,
     "_id": 1394
@@ -12549,16 +12549,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 11,
-    "y": 11,
+    "y": 1,
     "z": 0,
-    "direction": 1,
+    "direction": 3,
     "_id": 1395
   },
   {
     "id": 1911,
     "type": 0,
     "x": 11,
-    "y": 17,
+    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1396
@@ -12567,7 +12567,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 11,
-    "y": 26,
+    "y": 11,
     "z": 0,
     "direction": 1,
     "_id": 1397
@@ -12576,10 +12576,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 11,
+    "y": 17,
+    "z": 0,
+    "direction": 1,
+    "_id": 1398
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 11,
+    "y": 26,
+    "z": 0,
+    "direction": 1,
+    "_id": 1399
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 11,
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1398
+    "_id": 1400
   },
   {
     "id": 1911,
@@ -12588,31 +12606,13 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1399
+    "_id": 1401
   },
   {
     "id": 1911,
     "type": 3,
     "x": 12,
     "y": 0,
-    "z": 0,
-    "direction": 1,
-    "_id": 1400
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 12,
-    "y": 1,
-    "z": 0,
-    "direction": 3,
-    "_id": 1401
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 12,
-    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1402
@@ -12621,16 +12621,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 12,
-    "y": 11,
+    "y": 1,
     "z": 0,
-    "direction": 1,
+    "direction": 3,
     "_id": 1403
   },
   {
     "id": 1911,
     "type": 0,
     "x": 12,
-    "y": 17,
+    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1404
@@ -12639,7 +12639,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 12,
-    "y": 26,
+    "y": 11,
     "z": 0,
     "direction": 1,
     "_id": 1405
@@ -12648,10 +12648,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 12,
+    "y": 17,
+    "z": 0,
+    "direction": 1,
+    "_id": 1406
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 12,
+    "y": 26,
+    "z": 0,
+    "direction": 1,
+    "_id": 1407
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 12,
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1406
+    "_id": 1408
   },
   {
     "id": 1911,
@@ -12660,7 +12678,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1407
+    "_id": 1409
   },
   {
     "id": 1911,
@@ -12669,7 +12687,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 1408
+    "_id": 1410
   },
   {
     "id": 1911,
@@ -12678,7 +12696,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 1409
+    "_id": 1411
   },
   {
     "id": 1911,
@@ -12687,7 +12705,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 2,
-    "_id": 1410
+    "_id": 1412
   },
   {
     "id": 1911,
@@ -12696,7 +12714,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1411
+    "_id": 1413
   },
   {
     "id": 1911,
@@ -12705,31 +12723,13 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1412
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 13,
-    "y": 12,
-    "z": 0,
-    "direction": 0,
-    "_id": 1413
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 13,
-    "y": 13,
-    "z": 0,
-    "direction": 0,
     "_id": 1414
   },
   {
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 14,
+    "y": 12,
     "z": 0,
     "direction": 0,
     "_id": 1415
@@ -12738,7 +12738,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 15,
+    "y": 13,
     "z": 0,
     "direction": 0,
     "_id": 1416
@@ -12747,7 +12747,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 16,
+    "y": 14,
     "z": 0,
     "direction": 0,
     "_id": 1417
@@ -12756,7 +12756,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 17,
+    "y": 15,
     "z": 0,
     "direction": 0,
     "_id": 1418
@@ -12765,7 +12765,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 18,
+    "y": 16,
     "z": 0,
     "direction": 0,
     "_id": 1419
@@ -12774,7 +12774,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 19,
+    "y": 17,
     "z": 0,
     "direction": 0,
     "_id": 1420
@@ -12783,7 +12783,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 20,
+    "y": 18,
     "z": 0,
     "direction": 0,
     "_id": 1421
@@ -12792,7 +12792,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 23,
+    "y": 19,
     "z": 0,
     "direction": 0,
     "_id": 1422
@@ -12801,16 +12801,16 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 24,
+    "y": 20,
     "z": 0,
     "direction": 0,
     "_id": 1423
   },
   {
     "id": 1911,
-    "type": 2,
+    "type": 0,
     "x": 13,
-    "y": 25,
+    "y": 23,
     "z": 0,
     "direction": 0,
     "_id": 1424
@@ -12819,10 +12819,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 13,
-    "y": 26,
+    "y": 24,
     "z": 0,
     "direction": 0,
     "_id": 1425
+  },
+  {
+    "id": 1911,
+    "type": 2,
+    "x": 13,
+    "y": 25,
+    "z": 0,
+    "direction": 0,
+    "_id": 1426
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 13,
+    "y": 26,
+    "z": 0,
+    "direction": 0,
+    "_id": 1427
   },
   {
     "id": 1911,
@@ -12831,7 +12849,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1426
+    "_id": 1428
   },
   {
     "id": 1911,
@@ -12840,7 +12858,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 1,
-    "_id": 1427
+    "_id": 1429
   },
   {
     "id": 1911,
@@ -12849,7 +12867,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 1428
+    "_id": 1430
   },
   {
     "id": 1911,
@@ -12858,7 +12876,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 2,
-    "_id": 1429
+    "_id": 1431
   },
   {
     "id": 1911,
@@ -12867,31 +12885,13 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 2,
-    "_id": 1430
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 14,
-    "y": 8,
-    "z": 0,
-    "direction": 1,
-    "_id": 1431
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 14,
-    "y": 11,
-    "z": 0,
-    "direction": 1,
     "_id": 1432
   },
   {
     "id": 1911,
     "type": 0,
     "x": 14,
-    "y": 25,
+    "y": 8,
     "z": 0,
     "direction": 1,
     "_id": 1433
@@ -12900,10 +12900,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 14,
+    "y": 11,
+    "z": 0,
+    "direction": 1,
+    "_id": 1434
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 14,
+    "y": 25,
+    "z": 0,
+    "direction": 1,
+    "_id": 1435
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 14,
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1434
+    "_id": 1436
   },
   {
     "id": 1911,
@@ -12912,7 +12930,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 1435
+    "_id": 1437
   },
   {
     "id": 1911,
@@ -12921,7 +12939,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 1,
-    "_id": 1436
+    "_id": 1438
   },
   {
     "id": 1911,
@@ -12930,7 +12948,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 1437
+    "_id": 1439
   },
   {
     "id": 1911,
@@ -12939,7 +12957,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1438
+    "_id": 1440
   },
   {
     "id": 1911,
@@ -12948,7 +12966,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 1439
+    "_id": 1441
   },
   {
     "id": 1911,
@@ -12957,7 +12975,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 1440
+    "_id": 1442
   },
   {
     "id": 1911,
@@ -12966,7 +12984,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 3,
-    "_id": 1441
+    "_id": 1443
   },
   {
     "id": 1911,
@@ -12975,7 +12993,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1442
+    "_id": 1444
   },
   {
     "id": 1911,
@@ -12984,7 +13002,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 1443
+    "_id": 1445
   },
   {
     "id": 1911,
@@ -12993,7 +13011,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 3,
-    "_id": 1444
+    "_id": 1446
   },
   {
     "id": 1911,
@@ -13002,7 +13020,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1445
+    "_id": 1447
   },
   {
     "id": 1911,
@@ -13011,7 +13029,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 1446
+    "_id": 1448
   },
   {
     "id": 1911,
@@ -13020,7 +13038,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 0,
-    "_id": 1447
+    "_id": 1449
   },
   {
     "id": 1911,
@@ -13029,7 +13047,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1448
+    "_id": 1450
   },
   {
     "id": 1911,
@@ -13038,7 +13056,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 1,
-    "_id": 1449
+    "_id": 1451
   },
   {
     "id": 1911,
@@ -13047,7 +13065,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 3,
-    "_id": 1450
+    "_id": 1452
   },
   {
     "id": 1911,
@@ -13056,7 +13074,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 3,
-    "_id": 1451
+    "_id": 1453
   },
   {
     "id": 1911,
@@ -13065,7 +13083,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 1452
+    "_id": 1454
   },
   {
     "id": 1911,
@@ -13074,31 +13092,13 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1453
+    "_id": 1455
   },
   {
     "id": 1911,
     "type": 1,
     "x": 17,
     "y": 10,
-    "z": 0,
-    "direction": 0,
-    "_id": 1454
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 17,
-    "y": 11,
-    "z": 0,
-    "direction": 0,
-    "_id": 1455
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 17,
-    "y": 12,
     "z": 0,
     "direction": 0,
     "_id": 1456
@@ -13107,7 +13107,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 13,
+    "y": 11,
     "z": 0,
     "direction": 0,
     "_id": 1457
@@ -13116,7 +13116,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 14,
+    "y": 12,
     "z": 0,
     "direction": 0,
     "_id": 1458
@@ -13125,7 +13125,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 15,
+    "y": 13,
     "z": 0,
     "direction": 0,
     "_id": 1459
@@ -13134,7 +13134,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 16,
+    "y": 14,
     "z": 0,
     "direction": 0,
     "_id": 1460
@@ -13143,7 +13143,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 17,
+    "y": 15,
     "z": 0,
     "direction": 0,
     "_id": 1461
@@ -13152,7 +13152,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 20,
+    "y": 16,
     "z": 0,
     "direction": 0,
     "_id": 1462
@@ -13161,7 +13161,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 21,
+    "y": 17,
     "z": 0,
     "direction": 0,
     "_id": 1463
@@ -13170,7 +13170,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 22,
+    "y": 20,
     "z": 0,
     "direction": 0,
     "_id": 1464
@@ -13179,7 +13179,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 23,
+    "y": 21,
     "z": 0,
     "direction": 0,
     "_id": 1465
@@ -13188,7 +13188,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 24,
+    "y": 22,
     "z": 0,
     "direction": 0,
     "_id": 1466
@@ -13197,7 +13197,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 25,
+    "y": 23,
     "z": 0,
     "direction": 0,
     "_id": 1467
@@ -13206,10 +13206,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 17,
-    "y": 26,
+    "y": 24,
     "z": 0,
     "direction": 0,
     "_id": 1468
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 17,
+    "y": 25,
+    "z": 0,
+    "direction": 0,
+    "_id": 1469
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 17,
+    "y": 26,
+    "z": 0,
+    "direction": 0,
+    "_id": 1470
   },
   {
     "id": 1911,
@@ -13218,30 +13236,12 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 3,
-    "_id": 1469
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 17,
-    "y": 34,
-    "z": 0,
-    "direction": 1,
-    "_id": 1470
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 18,
-    "y": 3,
-    "z": 0,
-    "direction": 3,
     "_id": 1471
   },
   {
     "id": 1911,
     "type": 0,
-    "x": 18,
+    "x": 17,
     "y": 34,
     "z": 0,
     "direction": 1,
@@ -13250,7 +13250,7 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 19,
+    "x": 18,
     "y": 3,
     "z": 0,
     "direction": 3,
@@ -13259,11 +13259,29 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 19,
+    "x": 18,
     "y": 34,
     "z": 0,
     "direction": 1,
     "_id": 1474
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 19,
+    "y": 3,
+    "z": 0,
+    "direction": 3,
+    "_id": 1475
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 19,
+    "y": 34,
+    "z": 0,
+    "direction": 1,
+    "_id": 1476
   },
   {
     "id": 1911,
@@ -13272,7 +13290,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 1475
+    "_id": 1477
   },
   {
     "id": 1911,
@@ -13281,7 +13299,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1476
+    "_id": 1478
   },
   {
     "id": 1911,
@@ -13290,7 +13308,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 1477
+    "_id": 1479
   },
   {
     "id": 1911,
@@ -13299,7 +13317,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 2,
-    "_id": 1478
+    "_id": 1480
   },
   {
     "id": 1911,
@@ -13308,7 +13326,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 2,
-    "_id": 1479
+    "_id": 1481
   },
   {
     "id": 1911,
@@ -13317,7 +13335,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1480
+    "_id": 1482
   },
   {
     "id": 1911,
@@ -13326,7 +13344,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 1,
-    "_id": 1481
+    "_id": 1483
   },
   {
     "id": 1911,
@@ -13335,7 +13353,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 1482
+    "_id": 1484
   },
   {
     "id": 1911,
@@ -13344,7 +13362,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1483
+    "_id": 1485
   },
   {
     "id": 1911,
@@ -13353,7 +13371,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 1484
+    "_id": 1486
   },
   {
     "id": 1911,
@@ -13362,7 +13380,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1485
+    "_id": 1487
   },
   {
     "id": 1911,
@@ -13371,7 +13389,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 1,
-    "_id": 1486
+    "_id": 1488
   },
   {
     "id": 1911,
@@ -13380,7 +13398,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 1487
+    "_id": 1489
   },
   {
     "id": 1911,
@@ -13389,7 +13407,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1488
+    "_id": 1490
   },
   {
     "id": 1911,
@@ -13398,7 +13416,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 1,
-    "_id": 1489
+    "_id": 1491
   },
   {
     "id": 1911,
@@ -13407,7 +13425,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1490
+    "_id": 1492
   },
   {
     "id": 1911,
@@ -13416,7 +13434,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1491
+    "_id": 1493
   },
   {
     "id": 1911,
@@ -13425,7 +13443,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1492
+    "_id": 1494
   },
   {
     "id": 1911,
@@ -13434,7 +13452,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1493
+    "_id": 1495
   },
   {
     "id": 1911,
@@ -13443,7 +13461,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 1,
-    "_id": 1494
+    "_id": 1496
   },
   {
     "id": 1911,
@@ -13452,7 +13470,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1495
+    "_id": 1497
   },
   {
     "id": 1911,
@@ -13461,7 +13479,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 1496
+    "_id": 1498
   },
   {
     "id": 1911,
@@ -13470,7 +13488,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 1497
+    "_id": 1499
   },
   {
     "id": 1911,
@@ -13479,31 +13497,13 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1498
+    "_id": 1500
   },
   {
     "id": 1911,
     "type": 9,
     "x": 26,
     "y": 8,
-    "z": 0,
-    "direction": 2,
-    "_id": 1499
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 26,
-    "y": 9,
-    "z": 0,
-    "direction": 2,
-    "_id": 1500
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 26,
-    "y": 10,
     "z": 0,
     "direction": 2,
     "_id": 1501
@@ -13512,7 +13512,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 11,
+    "y": 9,
     "z": 0,
     "direction": 2,
     "_id": 1502
@@ -13521,7 +13521,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 12,
+    "y": 10,
     "z": 0,
     "direction": 2,
     "_id": 1503
@@ -13530,7 +13530,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 13,
+    "y": 11,
     "z": 0,
     "direction": 2,
     "_id": 1504
@@ -13539,10 +13539,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 15,
+    "y": 12,
     "z": 0,
     "direction": 2,
     "_id": 1505
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 26,
+    "y": 13,
+    "z": 0,
+    "direction": 2,
+    "_id": 1506
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 26,
+    "y": 15,
+    "z": 0,
+    "direction": 2,
+    "_id": 1507
   },
   {
     "id": 1911,
@@ -13551,7 +13569,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 2,
-    "_id": 1506
+    "_id": 1508
   },
   {
     "id": 1911,
@@ -13560,31 +13578,13 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 1,
-    "_id": 1507
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 26,
-    "y": 22,
-    "z": 0,
-    "direction": 2,
-    "_id": 1508
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 26,
-    "y": 24,
-    "z": 0,
-    "direction": 2,
     "_id": 1509
   },
   {
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 25,
+    "y": 22,
     "z": 0,
     "direction": 2,
     "_id": 1510
@@ -13593,7 +13593,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 26,
+    "y": 24,
     "z": 0,
     "direction": 2,
     "_id": 1511
@@ -13602,7 +13602,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 27,
+    "y": 25,
     "z": 0,
     "direction": 2,
     "_id": 1512
@@ -13611,10 +13611,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 26,
-    "y": 28,
+    "y": 26,
     "z": 0,
     "direction": 2,
     "_id": 1513
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 26,
+    "y": 27,
+    "z": 0,
+    "direction": 2,
+    "_id": 1514
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 26,
+    "y": 28,
+    "z": 0,
+    "direction": 2,
+    "_id": 1515
   },
   {
     "id": 1911,
@@ -13623,7 +13641,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 1514
+    "_id": 1516
   },
   {
     "id": 1911,
@@ -13632,7 +13650,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1515
+    "_id": 1517
   },
   {
     "id": 1911,
@@ -13641,7 +13659,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1516
+    "_id": 1518
   },
   {
     "id": 1911,
@@ -13650,7 +13668,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 1,
-    "_id": 1517
+    "_id": 1519
   },
   {
     "id": 1911,
@@ -13659,7 +13677,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 2,
-    "_id": 1518
+    "_id": 1520
   },
   {
     "id": 1911,
@@ -13668,7 +13686,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 2,
-    "_id": 1519
+    "_id": 1521
   },
   {
     "id": 1911,
@@ -13677,7 +13695,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 1,
-    "_id": 1520
+    "_id": 1522
   },
   {
     "id": 1911,
@@ -13686,7 +13704,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 1,
-    "_id": 1521
+    "_id": 1523
   },
   {
     "id": 1911,
@@ -13695,7 +13713,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 2,
-    "_id": 1522
+    "_id": 1524
   },
   {
     "id": 1911,
@@ -13704,7 +13722,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1523
+    "_id": 1525
   },
   {
     "id": 1911,
@@ -13713,31 +13731,13 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 0,
-    "_id": 1524
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 28,
-    "y": 11,
-    "z": 0,
-    "direction": 1,
-    "_id": 1525
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 28,
-    "y": 17,
-    "z": 0,
-    "direction": 3,
     "_id": 1526
   },
   {
     "id": 1911,
     "type": 0,
     "x": 28,
-    "y": 20,
+    "y": 11,
     "z": 0,
     "direction": 1,
     "_id": 1527
@@ -13746,7 +13746,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 28,
-    "y": 26,
+    "y": 17,
     "z": 0,
     "direction": 3,
     "_id": 1528
@@ -13754,8 +13754,8 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 29,
-    "y": 11,
+    "x": 28,
+    "y": 20,
     "z": 0,
     "direction": 1,
     "_id": 1529
@@ -13763,8 +13763,8 @@ export const objects = [
   {
     "id": 1911,
     "type": 0,
-    "x": 29,
-    "y": 17,
+    "x": 28,
+    "y": 26,
     "z": 0,
     "direction": 3,
     "_id": 1530
@@ -13773,7 +13773,7 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 29,
-    "y": 20,
+    "y": 11,
     "z": 0,
     "direction": 1,
     "_id": 1531
@@ -13782,10 +13782,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 29,
-    "y": 26,
+    "y": 17,
     "z": 0,
     "direction": 3,
     "_id": 1532
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 29,
+    "y": 20,
+    "z": 0,
+    "direction": 1,
+    "_id": 1533
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 29,
+    "y": 26,
+    "z": 0,
+    "direction": 3,
+    "_id": 1534
   },
   {
     "id": 1911,
@@ -13794,7 +13812,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 1533
+    "_id": 1535
   },
   {
     "id": 1911,
@@ -13803,7 +13821,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 1534
+    "_id": 1536
   },
   {
     "id": 1911,
@@ -13812,7 +13830,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1535
+    "_id": 1537
   },
   {
     "id": 1911,
@@ -13821,7 +13839,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 1536
+    "_id": 1538
   },
   {
     "id": 1911,
@@ -13830,7 +13848,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 0,
-    "_id": 1537
+    "_id": 1539
   },
   {
     "id": 1911,
@@ -13839,7 +13857,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 0,
-    "_id": 1538
+    "_id": 1540
   },
   {
     "id": 1911,
@@ -13848,7 +13866,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 3,
-    "_id": 1539
+    "_id": 1541
   },
   {
     "id": 1911,
@@ -13857,31 +13875,13 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 3,
-    "_id": 1540
+    "_id": 1542
   },
   {
     "id": 1911,
     "type": 1,
     "x": 31,
     "y": 12,
-    "z": 0,
-    "direction": 0,
-    "_id": 1541
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 31,
-    "y": 13,
-    "z": 0,
-    "direction": 0,
-    "_id": 1542
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 31,
-    "y": 14,
     "z": 0,
     "direction": 0,
     "_id": 1543
@@ -13890,10 +13890,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 31,
-    "y": 15,
+    "y": 13,
     "z": 0,
     "direction": 0,
     "_id": 1544
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 31,
+    "y": 14,
+    "z": 0,
+    "direction": 0,
+    "_id": 1545
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 31,
+    "y": 15,
+    "z": 0,
+    "direction": 0,
+    "_id": 1546
   },
   {
     "id": 1911,
@@ -13902,31 +13920,13 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1545
+    "_id": 1547
   },
   {
     "id": 1911,
     "type": 1,
     "x": 31,
     "y": 21,
-    "z": 0,
-    "direction": 0,
-    "_id": 1546
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 31,
-    "y": 22,
-    "z": 0,
-    "direction": 0,
-    "_id": 1547
-  },
-  {
-    "id": 1911,
-    "type": 0,
-    "x": 31,
-    "y": 23,
     "z": 0,
     "direction": 0,
     "_id": 1548
@@ -13935,10 +13935,28 @@ export const objects = [
     "id": 1911,
     "type": 0,
     "x": 31,
-    "y": 24,
+    "y": 22,
     "z": 0,
     "direction": 0,
     "_id": 1549
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 31,
+    "y": 23,
+    "z": 0,
+    "direction": 0,
+    "_id": 1550
+  },
+  {
+    "id": 1911,
+    "type": 0,
+    "x": 31,
+    "y": 24,
+    "z": 0,
+    "direction": 0,
+    "_id": 1551
   },
   {
     "id": 1911,
@@ -13947,7 +13965,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 3,
-    "_id": 1550
+    "_id": 1552
   },
   {
     "id": 1911,
@@ -13956,7 +13974,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 1551
+    "_id": 1553
   },
   {
     "id": 1911,
@@ -13965,7 +13983,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 1552
+    "_id": 1554
   },
   {
     "id": 1911,
@@ -13974,7 +13992,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 2,
-    "_id": 1553
+    "_id": 1555
   },
   {
     "id": 1911,
@@ -13983,7 +14001,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1554
+    "_id": 1556
   },
   {
     "id": 1912,
@@ -13992,31 +14010,13 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1555
+    "_id": 1557
   },
   {
     "id": 1912,
     "type": 3,
     "x": 47,
     "y": 16,
-    "z": 0,
-    "direction": 2,
-    "_id": 1556
-  },
-  {
-    "id": 1938,
-    "type": 4,
-    "x": 0,
-    "y": 5,
-    "z": 0,
-    "direction": 2,
-    "_id": 1557
-  },
-  {
-    "id": 1938,
-    "type": 4,
-    "x": 0,
-    "y": 8,
     "z": 0,
     "direction": 2,
     "_id": 1558
@@ -14025,7 +14025,7 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 0,
-    "y": 12,
+    "y": 5,
     "z": 0,
     "direction": 2,
     "_id": 1559
@@ -14034,7 +14034,7 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 0,
-    "y": 15,
+    "y": 8,
     "z": 0,
     "direction": 2,
     "_id": 1560
@@ -14043,7 +14043,7 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 0,
-    "y": 21,
+    "y": 12,
     "z": 0,
     "direction": 2,
     "_id": 1561
@@ -14052,7 +14052,7 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 0,
-    "y": 24,
+    "y": 15,
     "z": 0,
     "direction": 2,
     "_id": 1562
@@ -14061,7 +14061,7 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 0,
-    "y": 28,
+    "y": 21,
     "z": 0,
     "direction": 2,
     "_id": 1563
@@ -14070,10 +14070,28 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 0,
-    "y": 32,
+    "y": 24,
     "z": 0,
     "direction": 2,
     "_id": 1564
+  },
+  {
+    "id": 1938,
+    "type": 4,
+    "x": 0,
+    "y": 28,
+    "z": 0,
+    "direction": 2,
+    "_id": 1565
+  },
+  {
+    "id": 1938,
+    "type": 4,
+    "x": 0,
+    "y": 32,
+    "z": 0,
+    "direction": 2,
+    "_id": 1566
   },
   {
     "id": 1938,
@@ -14082,7 +14100,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 1565
+    "_id": 1567
   },
   {
     "id": 1938,
@@ -14091,7 +14109,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 1566
+    "_id": 1568
   },
   {
     "id": 1938,
@@ -14100,7 +14118,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 2,
-    "_id": 1567
+    "_id": 1569
   },
   {
     "id": 1938,
@@ -14109,7 +14127,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 2,
-    "_id": 1568
+    "_id": 1570
   },
   {
     "id": 1938,
@@ -14118,7 +14136,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1569
+    "_id": 1571
   },
   {
     "id": 1938,
@@ -14127,7 +14145,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 1570
+    "_id": 1572
   },
   {
     "id": 1938,
@@ -14136,7 +14154,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1571
+    "_id": 1573
   },
   {
     "id": 1938,
@@ -14145,7 +14163,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 1572
+    "_id": 1574
   },
   {
     "id": 1938,
@@ -14154,7 +14172,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 1573
+    "_id": 1575
   },
   {
     "id": 1938,
@@ -14163,7 +14181,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 1574
+    "_id": 1576
   },
   {
     "id": 1938,
@@ -14172,7 +14190,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1575
+    "_id": 1577
   },
   {
     "id": 1938,
@@ -14181,31 +14199,13 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1576
+    "_id": 1578
   },
   {
     "id": 1938,
     "type": 4,
     "x": 8,
     "y": 9,
-    "z": 0,
-    "direction": 3,
-    "_id": 1577
-  },
-  {
-    "id": 1938,
-    "type": 4,
-    "x": 8,
-    "y": 28,
-    "z": 0,
-    "direction": 1,
-    "_id": 1578
-  },
-  {
-    "id": 1938,
-    "type": 5,
-    "x": 8,
-    "y": 29,
     "z": 0,
     "direction": 3,
     "_id": 1579
@@ -14214,10 +14214,28 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 8,
+    "y": 28,
+    "z": 0,
+    "direction": 1,
+    "_id": 1580
+  },
+  {
+    "id": 1938,
+    "type": 5,
+    "x": 8,
+    "y": 29,
+    "z": 0,
+    "direction": 3,
+    "_id": 1581
+  },
+  {
+    "id": 1938,
+    "type": 4,
+    "x": 8,
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 1580
+    "_id": 1582
   },
   {
     "id": 1938,
@@ -14226,7 +14244,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1581
+    "_id": 1583
   },
   {
     "id": 1938,
@@ -14235,31 +14253,13 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1582
+    "_id": 1584
   },
   {
     "id": 1938,
     "type": 4,
     "x": 11,
     "y": 9,
-    "z": 0,
-    "direction": 3,
-    "_id": 1583
-  },
-  {
-    "id": 1938,
-    "type": 4,
-    "x": 11,
-    "y": 28,
-    "z": 0,
-    "direction": 1,
-    "_id": 1584
-  },
-  {
-    "id": 1938,
-    "type": 5,
-    "x": 11,
-    "y": 29,
     "z": 0,
     "direction": 3,
     "_id": 1585
@@ -14268,10 +14268,28 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 11,
+    "y": 28,
+    "z": 0,
+    "direction": 1,
+    "_id": 1586
+  },
+  {
+    "id": 1938,
+    "type": 5,
+    "x": 11,
+    "y": 29,
+    "z": 0,
+    "direction": 3,
+    "_id": 1587
+  },
+  {
+    "id": 1938,
+    "type": 4,
+    "x": 11,
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 1586
+    "_id": 1588
   },
   {
     "id": 1938,
@@ -14280,7 +14298,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 1587
+    "_id": 1589
   },
   {
     "id": 1938,
@@ -14289,7 +14307,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1588
+    "_id": 1590
   },
   {
     "id": 1938,
@@ -14298,7 +14316,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 1,
-    "_id": 1589
+    "_id": 1591
   },
   {
     "id": 1938,
@@ -14307,7 +14325,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1590
+    "_id": 1592
   },
   {
     "id": 1938,
@@ -14316,31 +14334,13 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 1591
-  },
-  {
-    "id": 1938,
-    "type": 4,
-    "x": 16,
-    "y": 11,
-    "z": 0,
-    "direction": 2,
-    "_id": 1592
-  },
-  {
-    "id": 1938,
-    "type": 4,
-    "x": 16,
-    "y": 14,
-    "z": 0,
-    "direction": 2,
     "_id": 1593
   },
   {
     "id": 1938,
     "type": 4,
     "x": 16,
-    "y": 23,
+    "y": 11,
     "z": 0,
     "direction": 2,
     "_id": 1594
@@ -14349,7 +14349,7 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 16,
-    "y": 26,
+    "y": 14,
     "z": 0,
     "direction": 2,
     "_id": 1595
@@ -14358,34 +14358,34 @@ export const objects = [
     "id": 1938,
     "type": 4,
     "x": 16,
-    "y": 35,
+    "y": 23,
     "z": 0,
-    "direction": 3,
+    "direction": 2,
     "_id": 1596
   },
   {
     "id": 1938,
-    "type": 5,
-    "x": 17,
-    "y": 11,
+    "type": 4,
+    "x": 16,
+    "y": 26,
     "z": 0,
-    "direction": 0,
+    "direction": 2,
     "_id": 1597
   },
   {
     "id": 1938,
-    "type": 5,
-    "x": 17,
-    "y": 14,
+    "type": 4,
+    "x": 16,
+    "y": 35,
     "z": 0,
-    "direction": 0,
+    "direction": 3,
     "_id": 1598
   },
   {
     "id": 1938,
     "type": 5,
     "x": 17,
-    "y": 23,
+    "y": 11,
     "z": 0,
     "direction": 0,
     "_id": 1599
@@ -14394,10 +14394,28 @@ export const objects = [
     "id": 1938,
     "type": 5,
     "x": 17,
-    "y": 26,
+    "y": 14,
     "z": 0,
     "direction": 0,
     "_id": 1600
+  },
+  {
+    "id": 1938,
+    "type": 5,
+    "x": 17,
+    "y": 23,
+    "z": 0,
+    "direction": 0,
+    "_id": 1601
+  },
+  {
+    "id": 1938,
+    "type": 5,
+    "x": 17,
+    "y": 26,
+    "z": 0,
+    "direction": 0,
+    "_id": 1602
   },
   {
     "id": 1938,
@@ -14406,7 +14424,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 1601
+    "_id": 1603
   },
   {
     "id": 1938,
@@ -14415,7 +14433,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 3,
-    "_id": 1602
+    "_id": 1604
   },
   {
     "id": 1938,
@@ -14424,7 +14442,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1603
+    "_id": 1605
   },
   {
     "id": 1938,
@@ -14433,7 +14451,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1604
+    "_id": 1606
   },
   {
     "id": 1938,
@@ -14442,7 +14460,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1605
+    "_id": 1607
   },
   {
     "id": 1938,
@@ -14451,7 +14469,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1606
+    "_id": 1608
   },
   {
     "id": 1938,
@@ -14460,7 +14478,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 0,
-    "_id": 1607
+    "_id": 1609
   },
   {
     "id": 1938,
@@ -14469,7 +14487,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 0,
-    "_id": 1608
+    "_id": 1610
   },
   {
     "id": 2098,
@@ -14478,7 +14496,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 1609
+    "_id": 1611
   },
   {
     "id": 2098,
@@ -14487,7 +14505,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 1610
+    "_id": 1612
   },
   {
     "id": 2099,
@@ -14496,7 +14514,88 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 1611
+    "_id": 1613
+  },
+  {
+    "id": 2238,
+    "type": 22,
+    "x": 28,
+    "y": 37,
+    "z": 0,
+    "direction": 0,
+    "_id": 1614
+  },
+  {
+    "id": 2323,
+    "type": 10,
+    "x": 33,
+    "y": 40,
+    "z": 0,
+    "direction": 0,
+    "_id": 1615
+  },
+  {
+    "id": 2324,
+    "type": 10,
+    "x": 33,
+    "y": 41,
+    "z": 0,
+    "direction": 0,
+    "_id": 1616
+  },
+  {
+    "id": 2325,
+    "type": 10,
+    "x": 33,
+    "y": 39,
+    "z": 0,
+    "direction": 0,
+    "_id": 1617
+  },
+  {
+    "id": 2326,
+    "type": 10,
+    "x": 33,
+    "y": 42,
+    "z": 0,
+    "direction": 0,
+    "_id": 1618
+  },
+  {
+    "id": 2328,
+    "type": 10,
+    "x": 31,
+    "y": 41,
+    "z": 0,
+    "direction": 0,
+    "_id": 1619
+  },
+  {
+    "id": 2329,
+    "type": 10,
+    "x": 31,
+    "y": 40,
+    "z": 0,
+    "direction": 0,
+    "_id": 1620
+  },
+  {
+    "id": 2330,
+    "type": 10,
+    "x": 31,
+    "y": 39,
+    "z": 0,
+    "direction": 0,
+    "_id": 1621
+  },
+  {
+    "id": 2331,
+    "type": 10,
+    "x": 31,
+    "y": 42,
+    "z": 0,
+    "direction": 0,
+    "_id": 1622
   },
   {
     "id": 2333,
@@ -14505,7 +14604,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 0,
-    "_id": 1612
+    "_id": 1623
   },
   {
     "id": 2333,
@@ -14514,7 +14613,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 1613
+    "_id": 1624
   },
   {
     "id": 2333,
@@ -14523,7 +14622,124 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 1614
+    "_id": 1625
+  },
+  {
+    "id": 2639,
+    "type": 0,
+    "x": 38,
+    "y": 41,
+    "z": 0,
+    "direction": 2,
+    "_id": 1626
+  },
+  {
+    "id": 2733,
+    "type": 22,
+    "x": 12,
+    "y": 46,
+    "z": 0,
+    "direction": 0,
+    "_id": 1627
+  },
+  {
+    "id": 2736,
+    "type": 22,
+    "x": 33,
+    "y": 3,
+    "z": 0,
+    "direction": 0,
+    "_id": 1628
+  },
+  {
+    "id": 2742,
+    "type": 22,
+    "x": 27,
+    "y": 57,
+    "z": 0,
+    "direction": 0,
+    "_id": 1629
+  },
+  {
+    "id": 2743,
+    "type": 22,
+    "x": 27,
+    "y": 50,
+    "z": 0,
+    "direction": 0,
+    "_id": 1630
+  },
+  {
+    "id": 2752,
+    "type": 22,
+    "x": 45,
+    "y": 8,
+    "z": 0,
+    "direction": 1,
+    "_id": 1631
+  },
+  {
+    "id": 2759,
+    "type": 22,
+    "x": 38,
+    "y": 53,
+    "z": 0,
+    "direction": 0,
+    "_id": 1632
+  },
+  {
+    "id": 2759,
+    "type": 22,
+    "x": 39,
+    "y": 41,
+    "z": 0,
+    "direction": 0,
+    "_id": 1633
+  },
+  {
+    "id": 2764,
+    "type": 22,
+    "x": 32,
+    "y": 40,
+    "z": 0,
+    "direction": 1,
+    "_id": 1634
+  },
+  {
+    "id": 2767,
+    "type": 22,
+    "x": 50,
+    "y": 2,
+    "z": 0,
+    "direction": 0,
+    "_id": 1635
+  },
+  {
+    "id": 2771,
+    "type": 22,
+    "x": 22,
+    "y": 11,
+    "z": 0,
+    "direction": 0,
+    "_id": 1636
+  },
+  {
+    "id": 2771,
+    "type": 22,
+    "x": 22,
+    "y": 26,
+    "z": 0,
+    "direction": 0,
+    "_id": 1637
+  },
+  {
+    "id": 2771,
+    "type": 22,
+    "x": 29,
+    "y": 6,
+    "z": 0,
+    "direction": 0,
+    "_id": 1638
   },
   {
     "id": 2877,
@@ -14532,7 +14748,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 1615
+    "_id": 1639
   },
   {
     "id": 2877,
@@ -14541,7 +14757,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 1616
+    "_id": 1640
   },
   {
     "id": 2999,
@@ -14550,7 +14766,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 1617
+    "_id": 1641
   },
   {
     "id": 2999,
@@ -14559,7 +14775,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1618
+    "_id": 1642
   },
   {
     "id": 3001,
@@ -14568,7 +14784,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 1619
+    "_id": 1643
   },
   {
     "id": 3001,
@@ -14577,7 +14793,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1620
+    "_id": 1644
   },
   {
     "id": 3002,
@@ -14586,7 +14802,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1621
+    "_id": 1645
   },
   {
     "id": 3002,
@@ -14595,7 +14811,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 1622
+    "_id": 1646
   },
   {
     "id": 3003,
@@ -14604,7 +14820,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 1623
+    "_id": 1647
   },
   {
     "id": 3003,
@@ -14613,7 +14829,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1624
+    "_id": 1648
   },
   {
     "id": 3004,
@@ -14622,7 +14838,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1625
+    "_id": 1649
   },
   {
     "id": 3004,
@@ -14631,7 +14847,16 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 1626
+    "_id": 1650
+  },
+  {
+    "id": 3005,
+    "type": 10,
+    "x": 42,
+    "y": 25,
+    "z": 0,
+    "direction": 0,
+    "_id": 1651
   },
   {
     "id": 3006,
@@ -14640,7 +14865,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 1627
+    "_id": 1652
   },
   {
     "id": 3006,
@@ -14649,7 +14874,52 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 1628
+    "_id": 1653
+  },
+  {
+    "id": 3008,
+    "type": 10,
+    "x": 49,
+    "y": 25,
+    "z": 0,
+    "direction": 0,
+    "_id": 1654
+  },
+  {
+    "id": 3009,
+    "type": 10,
+    "x": 41,
+    "y": 26,
+    "z": 0,
+    "direction": 2,
+    "_id": 1655
+  },
+  {
+    "id": 3011,
+    "type": 10,
+    "x": 50,
+    "y": 25,
+    "z": 0,
+    "direction": 0,
+    "_id": 1656
+  },
+  {
+    "id": 3012,
+    "type": 10,
+    "x": 40,
+    "y": 26,
+    "z": 0,
+    "direction": 2,
+    "_id": 1657
+  },
+  {
+    "id": 3013,
+    "type": 10,
+    "x": 48,
+    "y": 26,
+    "z": 0,
+    "direction": 2,
+    "_id": 1658
   },
   {
     "id": 3457,
@@ -14658,7 +14928,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1629
+    "_id": 1659
   },
   {
     "id": 3457,
@@ -14667,7 +14937,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 2,
-    "_id": 1630
+    "_id": 1660
   },
   {
     "id": 3457,
@@ -14676,7 +14946,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1631
+    "_id": 1661
   },
   {
     "id": 3457,
@@ -14685,7 +14955,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1632
+    "_id": 1662
   },
   {
     "id": 3457,
@@ -14694,7 +14964,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1633
+    "_id": 1663
   },
   {
     "id": 3457,
@@ -14703,7 +14973,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1634
+    "_id": 1664
   },
   {
     "id": 3457,
@@ -14712,7 +14982,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1635
+    "_id": 1665
   },
   {
     "id": 3457,
@@ -14721,7 +14991,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1636
+    "_id": 1666
   },
   {
     "id": 3457,
@@ -14730,7 +15000,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 0,
-    "_id": 1637
+    "_id": 1667
   },
   {
     "id": 3457,
@@ -14739,7 +15009,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 0,
-    "_id": 1638
+    "_id": 1668
   },
   {
     "id": 3457,
@@ -14748,7 +15018,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 1639
+    "_id": 1669
   },
   {
     "id": 3457,
@@ -14757,7 +15027,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 0,
-    "_id": 1640
+    "_id": 1670
   },
   {
     "id": 3474,
@@ -14766,7 +15036,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 1641
+    "_id": 1671
   },
   {
     "id": 3474,
@@ -14775,7 +15045,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1642
+    "_id": 1672
   },
   {
     "id": 3474,
@@ -14784,7 +15054,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 2,
-    "_id": 1643
+    "_id": 1673
   },
   {
     "id": 3474,
@@ -14793,7 +15063,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1644
+    "_id": 1674
   },
   {
     "id": 3474,
@@ -14802,7 +15072,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 1645
+    "_id": 1675
   },
   {
     "id": 3474,
@@ -14811,7 +15081,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 1646
+    "_id": 1676
   },
   {
     "id": 3474,
@@ -14820,7 +15090,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 1647
+    "_id": 1677
   },
   {
     "id": 3474,
@@ -14829,7 +15099,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 1648
+    "_id": 1678
   },
   {
     "id": 3474,
@@ -14838,7 +15108,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 0,
-    "_id": 1649
+    "_id": 1679
   },
   {
     "id": 3474,
@@ -14847,7 +15117,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 1650
+    "_id": 1680
   },
   {
     "id": 3474,
@@ -14856,7 +15126,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 1651
+    "_id": 1681
   },
   {
     "id": 3474,
@@ -14865,7 +15135,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 1652
+    "_id": 1682
   },
   {
     "id": 3474,
@@ -14874,7 +15144,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 1653
+    "_id": 1683
   },
   {
     "id": 3474,
@@ -14883,7 +15153,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1654
+    "_id": 1684
   },
   {
     "id": 3474,
@@ -14892,7 +15162,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 1655
+    "_id": 1685
   },
   {
     "id": 3474,
@@ -14901,7 +15171,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 2,
-    "_id": 1656
+    "_id": 1686
   },
   {
     "id": 3474,
@@ -14910,7 +15180,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 2,
-    "_id": 1657
+    "_id": 1687
   },
   {
     "id": 3474,
@@ -14919,7 +15189,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 2,
-    "_id": 1658
+    "_id": 1688
   },
   {
     "id": 3475,
@@ -14928,7 +15198,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 1659
+    "_id": 1689
   },
   {
     "id": 3475,
@@ -14937,7 +15207,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 0,
-    "_id": 1660
+    "_id": 1690
   },
   {
     "id": 3475,
@@ -14946,7 +15216,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 0,
-    "_id": 1661
+    "_id": 1691
   },
   {
     "id": 3475,
@@ -14955,7 +15225,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1662
+    "_id": 1692
   },
   {
     "id": 3475,
@@ -14964,7 +15234,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 1663
+    "_id": 1693
   },
   {
     "id": 3475,
@@ -14973,7 +15243,16 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 1664
+    "_id": 1694
+  },
+  {
+    "id": 3500,
+    "type": 10,
+    "x": 43,
+    "y": 4,
+    "z": 0,
+    "direction": 2,
+    "_id": 1695
   },
   {
     "id": 3547,
@@ -14982,7 +15261,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 1665
+    "_id": 1696
   },
   {
     "id": 3547,
@@ -14991,7 +15270,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 0,
-    "_id": 1666
+    "_id": 1697
   },
   {
     "id": 3547,
@@ -15000,7 +15279,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 1667
+    "_id": 1698
   },
   {
     "id": 3547,
@@ -15009,7 +15288,7 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 3,
-    "_id": 1668
+    "_id": 1699
   },
   {
     "id": 3547,
@@ -15018,7 +15297,16 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 1669
+    "_id": 1700
+  },
+  {
+    "id": 3548,
+    "type": 22,
+    "x": 37,
+    "y": 40,
+    "z": 0,
+    "direction": 1,
+    "_id": 1701
   },
   {
     "id": 3684,
@@ -15027,7 +15315,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 1,
-    "_id": 1670
+    "_id": 1702
   },
   {
     "id": 3684,
@@ -15036,7 +15324,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 3,
-    "_id": 1671
+    "_id": 1703
   },
   {
     "id": 3684,
@@ -15045,7 +15333,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 3,
-    "_id": 1672
+    "_id": 1704
   },
   {
     "id": 3684,
@@ -15054,7 +15342,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 3,
-    "_id": 1673
+    "_id": 1705
   },
   {
     "id": 3684,
@@ -15063,7 +15351,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 3,
-    "_id": 1674
+    "_id": 1706
   },
   {
     "id": 3684,
@@ -15072,7 +15360,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 3,
-    "_id": 1675
+    "_id": 1707
   },
   {
     "id": 3684,
@@ -15081,7 +15369,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 3,
-    "_id": 1676
+    "_id": 1708
   },
   {
     "id": 3744,
@@ -15090,7 +15378,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 1,
-    "_id": 1677
+    "_id": 1709
   },
   {
     "id": 4641,
@@ -15099,7 +15387,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 2,
-    "_id": 1678
+    "_id": 1710
   },
   {
     "id": 4641,
@@ -15108,7 +15396,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 1679
+    "_id": 1711
   },
   {
     "id": 4641,
@@ -15117,7 +15405,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 2,
-    "_id": 1680
+    "_id": 1712
   },
   {
     "id": 4641,
@@ -15126,7 +15414,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1681
+    "_id": 1713
   },
   {
     "id": 4641,
@@ -15135,7 +15423,16 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 3,
-    "_id": 1682
+    "_id": 1714
+  },
+  {
+    "id": 4731,
+    "type": 22,
+    "x": 32,
+    "y": 60,
+    "z": 0,
+    "direction": 0,
+    "_id": 1715
   },
   {
     "id": 4733,
@@ -15144,7 +15441,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 1683
+    "_id": 1716
   },
   {
     "id": 4733,
@@ -15153,7 +15450,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 1684
+    "_id": 1717
   },
   {
     "id": 4733,
@@ -15162,7 +15459,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 3,
-    "_id": 1685
+    "_id": 1718
   },
   {
     "id": 4733,
@@ -15171,7 +15468,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 1686
+    "_id": 1719
   },
   {
     "id": 4733,
@@ -15180,7 +15477,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 0,
-    "_id": 1687
+    "_id": 1720
   },
   {
     "id": 4733,
@@ -15189,7 +15486,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 1,
-    "_id": 1688
+    "_id": 1721
   },
   {
     "id": 4733,
@@ -15198,7 +15495,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 1689
+    "_id": 1722
   },
   {
     "id": 4733,
@@ -15207,7 +15504,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 1690
+    "_id": 1723
   },
   {
     "id": 4733,
@@ -15216,7 +15513,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 1,
-    "_id": 1691
+    "_id": 1724
   },
   {
     "id": 4734,
@@ -15225,7 +15522,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 2,
-    "_id": 1692
+    "_id": 1725
   },
   {
     "id": 4734,
@@ -15234,7 +15531,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 1693
+    "_id": 1726
   },
   {
     "id": 4734,
@@ -15243,7 +15540,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 1694
+    "_id": 1727
   },
   {
     "id": 4734,
@@ -15252,7 +15549,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 2,
-    "_id": 1695
+    "_id": 1728
   },
   {
     "id": 4734,
@@ -15261,7 +15558,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 1,
-    "_id": 1696
+    "_id": 1729
   },
   {
     "id": 4734,
@@ -15270,7 +15567,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 0,
-    "_id": 1697
+    "_id": 1730
   },
   {
     "id": 4734,
@@ -15279,7 +15576,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 2,
-    "_id": 1698
+    "_id": 1731
   },
   {
     "id": 4734,
@@ -15288,7 +15585,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 1699
+    "_id": 1732
   },
   {
     "id": 4734,
@@ -15297,7 +15594,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 0,
-    "_id": 1700
+    "_id": 1733
   },
   {
     "id": 4734,
@@ -15306,7 +15603,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 1,
-    "_id": 1701
+    "_id": 1734
   },
   {
     "id": 4734,
@@ -15315,7 +15612,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 3,
-    "_id": 1702
+    "_id": 1735
   },
   {
     "id": 4734,
@@ -15324,7 +15621,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 3,
-    "_id": 1703
+    "_id": 1736
   },
   {
     "id": 4734,
@@ -15333,7 +15630,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 1704
+    "_id": 1737
   },
   {
     "id": 4735,
@@ -15342,7 +15639,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1705
+    "_id": 1738
   },
   {
     "id": 4735,
@@ -15351,7 +15648,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 1706
+    "_id": 1739
   },
   {
     "id": 4735,
@@ -15360,7 +15657,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 2,
-    "_id": 1707
+    "_id": 1740
   },
   {
     "id": 4735,
@@ -15369,7 +15666,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1708
+    "_id": 1741
   },
   {
     "id": 4735,
@@ -15378,7 +15675,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 1709
+    "_id": 1742
   },
   {
     "id": 4735,
@@ -15387,7 +15684,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 1710
+    "_id": 1743
   },
   {
     "id": 4735,
@@ -15396,7 +15693,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 1711
+    "_id": 1744
   },
   {
     "id": 4735,
@@ -15405,7 +15702,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 2,
-    "_id": 1712
+    "_id": 1745
   },
   {
     "id": 4735,
@@ -15414,7 +15711,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 2,
-    "_id": 1713
+    "_id": 1746
   },
   {
     "id": 4735,
@@ -15423,7 +15720,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 0,
-    "_id": 1714
+    "_id": 1747
   },
   {
     "id": 4735,
@@ -15432,7 +15729,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 1715
+    "_id": 1748
   },
   {
     "id": 4735,
@@ -15441,7 +15738,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 1716
+    "_id": 1749
   },
   {
     "id": 4735,
@@ -15450,7 +15747,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 1717
+    "_id": 1750
   },
   {
     "id": 4735,
@@ -15459,7 +15756,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 2,
-    "_id": 1718
+    "_id": 1751
   },
   {
     "id": 4735,
@@ -15468,7 +15765,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 1,
-    "_id": 1719
+    "_id": 1752
   },
   {
     "id": 4735,
@@ -15477,7 +15774,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1720
+    "_id": 1753
   },
   {
     "id": 4735,
@@ -15486,7 +15783,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 1721
+    "_id": 1754
   },
   {
     "id": 4735,
@@ -15495,7 +15792,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 1722
+    "_id": 1755
   },
   {
     "id": 4735,
@@ -15504,7 +15801,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 2,
-    "_id": 1723
+    "_id": 1756
   },
   {
     "id": 4735,
@@ -15513,7 +15810,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 1724
+    "_id": 1757
   },
   {
     "id": 4735,
@@ -15522,7 +15819,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 3,
-    "_id": 1725
+    "_id": 1758
   },
   {
     "id": 4735,
@@ -15531,7 +15828,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 1726
+    "_id": 1759
   },
   {
     "id": 4735,
@@ -15540,7 +15837,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 1727
+    "_id": 1760
   },
   {
     "id": 4735,
@@ -15549,7 +15846,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 2,
-    "_id": 1728
+    "_id": 1761
   },
   {
     "id": 4735,
@@ -15558,7 +15855,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 3,
-    "_id": 1729
+    "_id": 1762
   },
   {
     "id": 4735,
@@ -15567,7 +15864,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1730
+    "_id": 1763
   },
   {
     "id": 4735,
@@ -15576,309 +15873,12 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 1731
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 2,
-    "y": 54,
-    "z": 0,
-    "direction": 2,
-    "_id": 1732
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 2,
-    "y": 62,
-    "z": 0,
-    "direction": 2,
-    "_id": 1733
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 2,
-    "y": 63,
-    "z": 0,
-    "direction": 0,
-    "_id": 1734
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 11,
-    "z": 0,
-    "direction": 3,
-    "_id": 1735
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 13,
-    "z": 0,
-    "direction": 3,
-    "_id": 1736
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 16,
-    "z": 0,
-    "direction": 0,
-    "_id": 1737
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 17,
-    "z": 0,
-    "direction": 3,
-    "_id": 1738
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 18,
-    "z": 0,
-    "direction": 3,
-    "_id": 1739
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 20,
-    "z": 0,
-    "direction": 3,
-    "_id": 1740
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 21,
-    "z": 0,
-    "direction": 3,
-    "_id": 1741
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 23,
-    "z": 0,
-    "direction": 2,
-    "_id": 1742
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 24,
-    "z": 0,
-    "direction": 3,
-    "_id": 1743
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 26,
-    "z": 0,
-    "direction": 1,
-    "_id": 1744
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 31,
-    "z": 0,
-    "direction": 0,
-    "_id": 1745
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 44,
-    "z": 0,
-    "direction": 1,
-    "_id": 1746
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 49,
-    "z": 0,
-    "direction": 1,
-    "_id": 1747
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 52,
-    "z": 0,
-    "direction": 1,
-    "_id": 1748
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 59,
-    "z": 0,
-    "direction": 1,
-    "_id": 1749
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 3,
-    "y": 63,
-    "z": 0,
-    "direction": 0,
-    "_id": 1750
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 4,
-    "y": 0,
-    "z": 0,
-    "direction": 2,
-    "_id": 1751
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 4,
-    "y": 3,
-    "z": 0,
-    "direction": 1,
-    "_id": 1752
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 4,
-    "y": 34,
-    "z": 0,
-    "direction": 0,
-    "_id": 1753
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 4,
-    "y": 39,
-    "z": 0,
-    "direction": 1,
-    "_id": 1754
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 4,
-    "y": 55,
-    "z": 0,
-    "direction": 2,
-    "_id": 1755
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 4,
-    "y": 58,
-    "z": 0,
-    "direction": 2,
-    "_id": 1756
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 0,
-    "z": 0,
-    "direction": 2,
-    "_id": 1757
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 34,
-    "z": 0,
-    "direction": 0,
-    "_id": 1758
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 39,
-    "z": 0,
-    "direction": 1,
-    "_id": 1759
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 45,
-    "z": 0,
-    "direction": 3,
-    "_id": 1760
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 47,
-    "z": 0,
-    "direction": 3,
-    "_id": 1761
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 50,
-    "z": 0,
-    "direction": 1,
-    "_id": 1762
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 52,
-    "z": 0,
-    "direction": 1,
-    "_id": 1763
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 5,
-    "y": 53,
-    "z": 0,
-    "direction": 1,
     "_id": 1764
   },
   {
     "id": 4735,
     "type": 22,
-    "x": 5,
+    "x": 2,
     "y": 54,
     "z": 0,
     "direction": 2,
@@ -15887,11 +15887,308 @@ export const objects = [
   {
     "id": 4735,
     "type": 22,
+    "x": 2,
+    "y": 62,
+    "z": 0,
+    "direction": 2,
+    "_id": 1766
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 2,
+    "y": 63,
+    "z": 0,
+    "direction": 0,
+    "_id": 1767
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 11,
+    "z": 0,
+    "direction": 3,
+    "_id": 1768
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 13,
+    "z": 0,
+    "direction": 3,
+    "_id": 1769
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 16,
+    "z": 0,
+    "direction": 0,
+    "_id": 1770
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 17,
+    "z": 0,
+    "direction": 3,
+    "_id": 1771
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 18,
+    "z": 0,
+    "direction": 3,
+    "_id": 1772
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 20,
+    "z": 0,
+    "direction": 3,
+    "_id": 1773
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 21,
+    "z": 0,
+    "direction": 3,
+    "_id": 1774
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 23,
+    "z": 0,
+    "direction": 2,
+    "_id": 1775
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 24,
+    "z": 0,
+    "direction": 3,
+    "_id": 1776
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 26,
+    "z": 0,
+    "direction": 1,
+    "_id": 1777
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 31,
+    "z": 0,
+    "direction": 0,
+    "_id": 1778
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 44,
+    "z": 0,
+    "direction": 1,
+    "_id": 1779
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 49,
+    "z": 0,
+    "direction": 1,
+    "_id": 1780
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 52,
+    "z": 0,
+    "direction": 1,
+    "_id": 1781
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 59,
+    "z": 0,
+    "direction": 1,
+    "_id": 1782
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 3,
+    "y": 63,
+    "z": 0,
+    "direction": 0,
+    "_id": 1783
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 4,
+    "y": 0,
+    "z": 0,
+    "direction": 2,
+    "_id": 1784
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 4,
+    "y": 3,
+    "z": 0,
+    "direction": 1,
+    "_id": 1785
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 4,
+    "y": 34,
+    "z": 0,
+    "direction": 0,
+    "_id": 1786
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 4,
+    "y": 39,
+    "z": 0,
+    "direction": 1,
+    "_id": 1787
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 4,
+    "y": 55,
+    "z": 0,
+    "direction": 2,
+    "_id": 1788
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 4,
+    "y": 58,
+    "z": 0,
+    "direction": 2,
+    "_id": 1789
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 0,
+    "z": 0,
+    "direction": 2,
+    "_id": 1790
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 34,
+    "z": 0,
+    "direction": 0,
+    "_id": 1791
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 39,
+    "z": 0,
+    "direction": 1,
+    "_id": 1792
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 45,
+    "z": 0,
+    "direction": 3,
+    "_id": 1793
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 47,
+    "z": 0,
+    "direction": 3,
+    "_id": 1794
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 50,
+    "z": 0,
+    "direction": 1,
+    "_id": 1795
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 52,
+    "z": 0,
+    "direction": 1,
+    "_id": 1796
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 53,
+    "z": 0,
+    "direction": 1,
+    "_id": 1797
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 5,
+    "y": 54,
+    "z": 0,
+    "direction": 2,
+    "_id": 1798
+  },
+  {
+    "id": 4735,
+    "type": 22,
     "x": 6,
     "y": 33,
     "z": 0,
     "direction": 3,
-    "_id": 1766
+    "_id": 1799
   },
   {
     "id": 4735,
@@ -15900,7 +16197,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 3,
-    "_id": 1767
+    "_id": 1800
   },
   {
     "id": 4735,
@@ -15909,7 +16206,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 3,
-    "_id": 1768
+    "_id": 1801
   },
   {
     "id": 4735,
@@ -15918,7 +16215,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 1,
-    "_id": 1769
+    "_id": 1802
   },
   {
     "id": 4735,
@@ -15927,7 +16224,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1770
+    "_id": 1803
   },
   {
     "id": 4735,
@@ -15936,7 +16233,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 0,
-    "_id": 1771
+    "_id": 1804
   },
   {
     "id": 4735,
@@ -15945,7 +16242,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 2,
-    "_id": 1772
+    "_id": 1805
   },
   {
     "id": 4735,
@@ -15954,7 +16251,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 1773
+    "_id": 1806
   },
   {
     "id": 4735,
@@ -15963,7 +16260,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1774
+    "_id": 1807
   },
   {
     "id": 4735,
@@ -15972,7 +16269,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1775
+    "_id": 1808
   },
   {
     "id": 4735,
@@ -15981,7 +16278,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1776
+    "_id": 1809
   },
   {
     "id": 4735,
@@ -15990,7 +16287,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 3,
-    "_id": 1777
+    "_id": 1810
   },
   {
     "id": 4735,
@@ -15999,7 +16296,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 1,
-    "_id": 1778
+    "_id": 1811
   },
   {
     "id": 4735,
@@ -16008,7 +16305,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 1779
+    "_id": 1812
   },
   {
     "id": 4735,
@@ -16017,7 +16314,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 2,
-    "_id": 1780
+    "_id": 1813
   },
   {
     "id": 4735,
@@ -16026,7 +16323,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 0,
-    "_id": 1781
+    "_id": 1814
   },
   {
     "id": 4735,
@@ -16035,7 +16332,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 0,
-    "_id": 1782
+    "_id": 1815
   },
   {
     "id": 4735,
@@ -16044,7 +16341,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 2,
-    "_id": 1783
+    "_id": 1816
   },
   {
     "id": 4735,
@@ -16053,7 +16350,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 1,
-    "_id": 1784
+    "_id": 1817
   },
   {
     "id": 4735,
@@ -16062,7 +16359,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 1785
+    "_id": 1818
   },
   {
     "id": 4735,
@@ -16071,7 +16368,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 1786
+    "_id": 1819
   },
   {
     "id": 4735,
@@ -16080,7 +16377,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 3,
-    "_id": 1787
+    "_id": 1820
   },
   {
     "id": 4735,
@@ -16089,7 +16386,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1788
+    "_id": 1821
   },
   {
     "id": 4735,
@@ -16098,7 +16395,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1789
+    "_id": 1822
   },
   {
     "id": 4735,
@@ -16107,7 +16404,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 3,
-    "_id": 1790
+    "_id": 1823
   },
   {
     "id": 4735,
@@ -16116,7 +16413,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 1791
+    "_id": 1824
   },
   {
     "id": 4735,
@@ -16125,7 +16422,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 3,
-    "_id": 1792
+    "_id": 1825
   },
   {
     "id": 4735,
@@ -16134,7 +16431,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 1793
+    "_id": 1826
   },
   {
     "id": 4735,
@@ -16143,7 +16440,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 3,
-    "_id": 1794
+    "_id": 1827
   },
   {
     "id": 4735,
@@ -16152,7 +16449,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 0,
-    "_id": 1795
+    "_id": 1828
   },
   {
     "id": 4735,
@@ -16161,7 +16458,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 1796
+    "_id": 1829
   },
   {
     "id": 4735,
@@ -16170,7 +16467,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 2,
-    "_id": 1797
+    "_id": 1830
   },
   {
     "id": 4735,
@@ -16179,7 +16476,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 2,
-    "_id": 1798
+    "_id": 1831
   },
   {
     "id": 4735,
@@ -16188,7 +16485,7 @@ export const objects = [
     "y": 39,
     "z": 0,
     "direction": 3,
-    "_id": 1799
+    "_id": 1832
   },
   {
     "id": 4735,
@@ -16197,7 +16494,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 3,
-    "_id": 1800
+    "_id": 1833
   },
   {
     "id": 4735,
@@ -16206,7 +16503,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 2,
-    "_id": 1801
+    "_id": 1834
   },
   {
     "id": 4735,
@@ -16215,7 +16512,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 1802
+    "_id": 1835
   },
   {
     "id": 4735,
@@ -16224,7 +16521,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 3,
-    "_id": 1803
+    "_id": 1836
   },
   {
     "id": 4735,
@@ -16233,7 +16530,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1804
+    "_id": 1837
   },
   {
     "id": 4735,
@@ -16242,7 +16539,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1805
+    "_id": 1838
   },
   {
     "id": 4735,
@@ -16251,7 +16548,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 0,
-    "_id": 1806
+    "_id": 1839
   },
   {
     "id": 4735,
@@ -16260,7 +16557,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 1807
+    "_id": 1840
   },
   {
     "id": 4735,
@@ -16269,7 +16566,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 1808
+    "_id": 1841
   },
   {
     "id": 4735,
@@ -16278,7 +16575,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 1809
+    "_id": 1842
   },
   {
     "id": 4735,
@@ -16287,7 +16584,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1810
+    "_id": 1843
   },
   {
     "id": 4735,
@@ -16296,7 +16593,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 3,
-    "_id": 1811
+    "_id": 1844
   },
   {
     "id": 4735,
@@ -16305,7 +16602,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 1812
+    "_id": 1845
   },
   {
     "id": 4735,
@@ -16314,7 +16611,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1813
+    "_id": 1846
   },
   {
     "id": 4735,
@@ -16323,7 +16620,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 1814
+    "_id": 1847
   },
   {
     "id": 4735,
@@ -16332,7 +16629,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 1815
+    "_id": 1848
   },
   {
     "id": 4735,
@@ -16341,7 +16638,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1816
+    "_id": 1849
   },
   {
     "id": 4735,
@@ -16350,7 +16647,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 3,
-    "_id": 1817
+    "_id": 1850
   },
   {
     "id": 4735,
@@ -16359,7 +16656,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 3,
-    "_id": 1818
+    "_id": 1851
   },
   {
     "id": 4735,
@@ -16368,7 +16665,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 1819
+    "_id": 1852
   },
   {
     "id": 4735,
@@ -16377,7 +16674,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 1820
+    "_id": 1853
   },
   {
     "id": 4735,
@@ -16386,7 +16683,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 1821
+    "_id": 1854
   },
   {
     "id": 4735,
@@ -16395,7 +16692,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 1822
+    "_id": 1855
   },
   {
     "id": 4735,
@@ -16404,7 +16701,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 1823
+    "_id": 1856
   },
   {
     "id": 4735,
@@ -16413,7 +16710,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 1,
-    "_id": 1824
+    "_id": 1857
   },
   {
     "id": 4735,
@@ -16422,7 +16719,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 1825
+    "_id": 1858
   },
   {
     "id": 4735,
@@ -16431,7 +16728,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 3,
-    "_id": 1826
+    "_id": 1859
   },
   {
     "id": 4735,
@@ -16440,7 +16737,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 2,
-    "_id": 1827
+    "_id": 1860
   },
   {
     "id": 4735,
@@ -16449,7 +16746,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 2,
-    "_id": 1828
+    "_id": 1861
   },
   {
     "id": 4735,
@@ -16458,7 +16755,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 3,
-    "_id": 1829
+    "_id": 1862
   },
   {
     "id": 4735,
@@ -16467,7 +16764,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 1830
+    "_id": 1863
   },
   {
     "id": 4735,
@@ -16476,7 +16773,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 0,
-    "_id": 1831
+    "_id": 1864
   },
   {
     "id": 4735,
@@ -16485,7 +16782,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1832
+    "_id": 1865
   },
   {
     "id": 4735,
@@ -16494,7 +16791,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 1833
+    "_id": 1866
   },
   {
     "id": 4735,
@@ -16503,7 +16800,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 0,
-    "_id": 1834
+    "_id": 1867
   },
   {
     "id": 4735,
@@ -16512,7 +16809,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 1835
+    "_id": 1868
   },
   {
     "id": 4735,
@@ -16521,7 +16818,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 1836
+    "_id": 1869
   },
   {
     "id": 4735,
@@ -16530,7 +16827,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 2,
-    "_id": 1837
+    "_id": 1870
   },
   {
     "id": 4735,
@@ -16539,7 +16836,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 1838
+    "_id": 1871
   },
   {
     "id": 4735,
@@ -16548,7 +16845,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 0,
-    "_id": 1839
+    "_id": 1872
   },
   {
     "id": 4735,
@@ -16557,7 +16854,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 2,
-    "_id": 1840
+    "_id": 1873
   },
   {
     "id": 4735,
@@ -16566,7 +16863,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 3,
-    "_id": 1841
+    "_id": 1874
   },
   {
     "id": 4735,
@@ -16575,7 +16872,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 2,
-    "_id": 1842
+    "_id": 1875
   },
   {
     "id": 4735,
@@ -16584,7 +16881,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 1843
+    "_id": 1876
   },
   {
     "id": 4735,
@@ -16593,7 +16890,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 1844
+    "_id": 1877
   },
   {
     "id": 4735,
@@ -16602,7 +16899,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 1,
-    "_id": 1845
+    "_id": 1878
   },
   {
     "id": 4735,
@@ -16611,7 +16908,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 1846
+    "_id": 1879
   },
   {
     "id": 4735,
@@ -16620,7 +16917,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 1847
+    "_id": 1880
   },
   {
     "id": 4735,
@@ -16629,7 +16926,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 1848
+    "_id": 1881
   },
   {
     "id": 4735,
@@ -16638,7 +16935,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1849
+    "_id": 1882
   },
   {
     "id": 4735,
@@ -16647,7 +16944,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1850
+    "_id": 1883
   },
   {
     "id": 4735,
@@ -16656,7 +16953,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 1851
+    "_id": 1884
   },
   {
     "id": 4735,
@@ -16665,7 +16962,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 1,
-    "_id": 1852
+    "_id": 1885
   },
   {
     "id": 4735,
@@ -16674,7 +16971,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 1853
+    "_id": 1886
   },
   {
     "id": 4735,
@@ -16683,7 +16980,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 1854
+    "_id": 1887
   },
   {
     "id": 4735,
@@ -16692,7 +16989,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 3,
-    "_id": 1855
+    "_id": 1888
   },
   {
     "id": 4735,
@@ -16701,7 +16998,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 3,
-    "_id": 1856
+    "_id": 1889
   },
   {
     "id": 4735,
@@ -16710,7 +17007,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 1857
+    "_id": 1890
   },
   {
     "id": 4735,
@@ -16719,7 +17016,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 3,
-    "_id": 1858
+    "_id": 1891
   },
   {
     "id": 4735,
@@ -16728,7 +17025,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 1859
+    "_id": 1892
   },
   {
     "id": 4735,
@@ -16737,7 +17034,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 2,
-    "_id": 1860
+    "_id": 1893
   },
   {
     "id": 4735,
@@ -16746,7 +17043,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 1861
+    "_id": 1894
   },
   {
     "id": 4735,
@@ -16755,7 +17052,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 1862
+    "_id": 1895
   },
   {
     "id": 4735,
@@ -16764,7 +17061,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 3,
-    "_id": 1863
+    "_id": 1896
   },
   {
     "id": 4735,
@@ -16773,7 +17070,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 1864
+    "_id": 1897
   },
   {
     "id": 4735,
@@ -16782,7 +17079,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1865
+    "_id": 1898
   },
   {
     "id": 4735,
@@ -16791,7 +17088,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 1,
-    "_id": 1866
+    "_id": 1899
   },
   {
     "id": 4735,
@@ -16800,7 +17097,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 1867
+    "_id": 1900
   },
   {
     "id": 4735,
@@ -16809,7 +17106,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 1868
+    "_id": 1901
   },
   {
     "id": 4735,
@@ -16818,7 +17115,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 1869
+    "_id": 1902
   },
   {
     "id": 4735,
@@ -16827,7 +17124,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1870
+    "_id": 1903
   },
   {
     "id": 4735,
@@ -16836,7 +17133,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 1871
+    "_id": 1904
   },
   {
     "id": 4735,
@@ -16845,7 +17142,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 0,
-    "_id": 1872
+    "_id": 1905
   },
   {
     "id": 4735,
@@ -16854,7 +17151,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 0,
-    "_id": 1873
+    "_id": 1906
   },
   {
     "id": 4735,
@@ -16863,7 +17160,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 2,
-    "_id": 1874
+    "_id": 1907
   },
   {
     "id": 4735,
@@ -16872,309 +17169,12 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 0,
-    "_id": 1875
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 22,
-    "y": 59,
-    "z": 0,
-    "direction": 1,
-    "_id": 1876
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 22,
-    "y": 62,
-    "z": 0,
-    "direction": 0,
-    "_id": 1877
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 3,
-    "z": 0,
-    "direction": 0,
-    "_id": 1878
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 7,
-    "z": 0,
-    "direction": 3,
-    "_id": 1879
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 24,
-    "z": 0,
-    "direction": 0,
-    "_id": 1880
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 30,
-    "z": 0,
-    "direction": 0,
-    "_id": 1881
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 33,
-    "z": 0,
-    "direction": 0,
-    "_id": 1882
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 43,
-    "z": 0,
-    "direction": 1,
-    "_id": 1883
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 50,
-    "z": 0,
-    "direction": 1,
-    "_id": 1884
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 23,
-    "y": 61,
-    "z": 0,
-    "direction": 1,
-    "_id": 1885
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 2,
-    "z": 0,
-    "direction": 0,
-    "_id": 1886
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 3,
-    "z": 0,
-    "direction": 0,
-    "_id": 1887
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 4,
-    "z": 0,
-    "direction": 0,
-    "_id": 1888
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 11,
-    "z": 0,
-    "direction": 2,
-    "_id": 1889
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 13,
-    "z": 0,
-    "direction": 1,
-    "_id": 1890
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 15,
-    "z": 0,
-    "direction": 2,
-    "_id": 1891
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 16,
-    "z": 0,
-    "direction": 0,
-    "_id": 1892
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 21,
-    "z": 0,
-    "direction": 0,
-    "_id": 1893
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 22,
-    "z": 0,
-    "direction": 2,
-    "_id": 1894
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 27,
-    "z": 0,
-    "direction": 3,
-    "_id": 1895
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 45,
-    "z": 0,
-    "direction": 1,
-    "_id": 1896
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 59,
-    "z": 0,
-    "direction": 1,
-    "_id": 1897
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 24,
-    "y": 63,
-    "z": 0,
-    "direction": 0,
-    "_id": 1898
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 1,
-    "z": 0,
-    "direction": 0,
-    "_id": 1899
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 2,
-    "z": 0,
-    "direction": 0,
-    "_id": 1900
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 26,
-    "z": 0,
-    "direction": 3,
-    "_id": 1901
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 27,
-    "z": 0,
-    "direction": 0,
-    "_id": 1902
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 28,
-    "z": 0,
-    "direction": 1,
-    "_id": 1903
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 31,
-    "z": 0,
-    "direction": 0,
-    "_id": 1904
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 32,
-    "z": 0,
-    "direction": 1,
-    "_id": 1905
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 25,
-    "y": 50,
-    "z": 0,
-    "direction": 2,
-    "_id": 1906
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 26,
-    "y": 0,
-    "z": 0,
-    "direction": 0,
-    "_id": 1907
-  },
-  {
-    "id": 4735,
-    "type": 22,
-    "x": 26,
-    "y": 21,
-    "z": 0,
-    "direction": 0,
     "_id": 1908
   },
   {
     "id": 4735,
     "type": 22,
-    "x": 26,
+    "x": 22,
     "y": 59,
     "z": 0,
     "direction": 1,
@@ -17183,11 +17183,308 @@ export const objects = [
   {
     "id": 4735,
     "type": 22,
+    "x": 22,
+    "y": 62,
+    "z": 0,
+    "direction": 0,
+    "_id": 1910
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 3,
+    "z": 0,
+    "direction": 0,
+    "_id": 1911
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 7,
+    "z": 0,
+    "direction": 3,
+    "_id": 1912
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 24,
+    "z": 0,
+    "direction": 0,
+    "_id": 1913
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 30,
+    "z": 0,
+    "direction": 0,
+    "_id": 1914
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 33,
+    "z": 0,
+    "direction": 0,
+    "_id": 1915
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 43,
+    "z": 0,
+    "direction": 1,
+    "_id": 1916
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 50,
+    "z": 0,
+    "direction": 1,
+    "_id": 1917
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 23,
+    "y": 61,
+    "z": 0,
+    "direction": 1,
+    "_id": 1918
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 2,
+    "z": 0,
+    "direction": 0,
+    "_id": 1919
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 3,
+    "z": 0,
+    "direction": 0,
+    "_id": 1920
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 4,
+    "z": 0,
+    "direction": 0,
+    "_id": 1921
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 11,
+    "z": 0,
+    "direction": 2,
+    "_id": 1922
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 13,
+    "z": 0,
+    "direction": 1,
+    "_id": 1923
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 15,
+    "z": 0,
+    "direction": 2,
+    "_id": 1924
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 16,
+    "z": 0,
+    "direction": 0,
+    "_id": 1925
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 21,
+    "z": 0,
+    "direction": 0,
+    "_id": 1926
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 22,
+    "z": 0,
+    "direction": 2,
+    "_id": 1927
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 1928
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 45,
+    "z": 0,
+    "direction": 1,
+    "_id": 1929
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 59,
+    "z": 0,
+    "direction": 1,
+    "_id": 1930
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 24,
+    "y": 63,
+    "z": 0,
+    "direction": 0,
+    "_id": 1931
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 1,
+    "z": 0,
+    "direction": 0,
+    "_id": 1932
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 2,
+    "z": 0,
+    "direction": 0,
+    "_id": 1933
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 26,
+    "z": 0,
+    "direction": 3,
+    "_id": 1934
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 27,
+    "z": 0,
+    "direction": 0,
+    "_id": 1935
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 28,
+    "z": 0,
+    "direction": 1,
+    "_id": 1936
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 31,
+    "z": 0,
+    "direction": 0,
+    "_id": 1937
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 32,
+    "z": 0,
+    "direction": 1,
+    "_id": 1938
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 25,
+    "y": 50,
+    "z": 0,
+    "direction": 2,
+    "_id": 1939
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 26,
+    "y": 0,
+    "z": 0,
+    "direction": 0,
+    "_id": 1940
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 26,
+    "y": 21,
+    "z": 0,
+    "direction": 0,
+    "_id": 1941
+  },
+  {
+    "id": 4735,
+    "type": 22,
+    "x": 26,
+    "y": 59,
+    "z": 0,
+    "direction": 1,
+    "_id": 1942
+  },
+  {
+    "id": 4735,
+    "type": 22,
     "x": 26,
     "y": 61,
     "z": 0,
     "direction": 0,
-    "_id": 1910
+    "_id": 1943
   },
   {
     "id": 4735,
@@ -17196,7 +17493,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 1911
+    "_id": 1944
   },
   {
     "id": 4735,
@@ -17205,7 +17502,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 0,
-    "_id": 1912
+    "_id": 1945
   },
   {
     "id": 4735,
@@ -17214,7 +17511,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 1913
+    "_id": 1946
   },
   {
     "id": 4735,
@@ -17223,7 +17520,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 2,
-    "_id": 1914
+    "_id": 1947
   },
   {
     "id": 4735,
@@ -17232,7 +17529,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 1,
-    "_id": 1915
+    "_id": 1948
   },
   {
     "id": 4735,
@@ -17241,7 +17538,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 0,
-    "_id": 1916
+    "_id": 1949
   },
   {
     "id": 4735,
@@ -17250,7 +17547,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 3,
-    "_id": 1917
+    "_id": 1950
   },
   {
     "id": 4735,
@@ -17259,7 +17556,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 2,
-    "_id": 1918
+    "_id": 1951
   },
   {
     "id": 4735,
@@ -17268,7 +17565,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 1919
+    "_id": 1952
   },
   {
     "id": 4735,
@@ -17277,7 +17574,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 0,
-    "_id": 1920
+    "_id": 1953
   },
   {
     "id": 4735,
@@ -17286,7 +17583,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 2,
-    "_id": 1921
+    "_id": 1954
   },
   {
     "id": 4735,
@@ -17295,7 +17592,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 2,
-    "_id": 1922
+    "_id": 1955
   },
   {
     "id": 4735,
@@ -17304,7 +17601,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 1923
+    "_id": 1956
   },
   {
     "id": 4735,
@@ -17313,7 +17610,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 1,
-    "_id": 1924
+    "_id": 1957
   },
   {
     "id": 4735,
@@ -17322,7 +17619,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 3,
-    "_id": 1925
+    "_id": 1958
   },
   {
     "id": 4735,
@@ -17331,7 +17628,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 2,
-    "_id": 1926
+    "_id": 1959
   },
   {
     "id": 4735,
@@ -17340,7 +17637,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 1,
-    "_id": 1927
+    "_id": 1960
   },
   {
     "id": 4735,
@@ -17349,7 +17646,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 1,
-    "_id": 1928
+    "_id": 1961
   },
   {
     "id": 4735,
@@ -17358,7 +17655,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 1929
+    "_id": 1962
   },
   {
     "id": 4735,
@@ -17367,7 +17664,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 1930
+    "_id": 1963
   },
   {
     "id": 4735,
@@ -17376,7 +17673,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 3,
-    "_id": 1931
+    "_id": 1964
   },
   {
     "id": 4735,
@@ -17385,7 +17682,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 1932
+    "_id": 1965
   },
   {
     "id": 4735,
@@ -17394,7 +17691,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 0,
-    "_id": 1933
+    "_id": 1966
   },
   {
     "id": 4735,
@@ -17403,7 +17700,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 0,
-    "_id": 1934
+    "_id": 1967
   },
   {
     "id": 4735,
@@ -17412,7 +17709,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 1935
+    "_id": 1968
   },
   {
     "id": 4735,
@@ -17421,7 +17718,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 1936
+    "_id": 1969
   },
   {
     "id": 4735,
@@ -17430,7 +17727,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 2,
-    "_id": 1937
+    "_id": 1970
   },
   {
     "id": 4735,
@@ -17439,7 +17736,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 1938
+    "_id": 1971
   },
   {
     "id": 4735,
@@ -17448,7 +17745,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 1939
+    "_id": 1972
   },
   {
     "id": 4735,
@@ -17457,7 +17754,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 3,
-    "_id": 1940
+    "_id": 1973
   },
   {
     "id": 4735,
@@ -17466,7 +17763,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 1,
-    "_id": 1941
+    "_id": 1974
   },
   {
     "id": 4735,
@@ -17475,7 +17772,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 1942
+    "_id": 1975
   },
   {
     "id": 4735,
@@ -17484,7 +17781,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 1,
-    "_id": 1943
+    "_id": 1976
   },
   {
     "id": 4735,
@@ -17493,7 +17790,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 0,
-    "_id": 1944
+    "_id": 1977
   },
   {
     "id": 4735,
@@ -17502,7 +17799,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 1945
+    "_id": 1978
   },
   {
     "id": 4735,
@@ -17511,7 +17808,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 0,
-    "_id": 1946
+    "_id": 1979
   },
   {
     "id": 4735,
@@ -17520,7 +17817,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 2,
-    "_id": 1947
+    "_id": 1980
   },
   {
     "id": 4735,
@@ -17529,7 +17826,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 1948
+    "_id": 1981
   },
   {
     "id": 4735,
@@ -17538,7 +17835,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 0,
-    "_id": 1949
+    "_id": 1982
   },
   {
     "id": 4735,
@@ -17547,7 +17844,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 3,
-    "_id": 1950
+    "_id": 1983
   },
   {
     "id": 4735,
@@ -17556,7 +17853,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 0,
-    "_id": 1951
+    "_id": 1984
   },
   {
     "id": 4735,
@@ -17565,7 +17862,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 3,
-    "_id": 1952
+    "_id": 1985
   },
   {
     "id": 4735,
@@ -17574,7 +17871,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 1953
+    "_id": 1986
   },
   {
     "id": 4735,
@@ -17583,7 +17880,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 1954
+    "_id": 1987
   },
   {
     "id": 4735,
@@ -17592,7 +17889,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 3,
-    "_id": 1955
+    "_id": 1988
   },
   {
     "id": 4735,
@@ -17601,7 +17898,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 1956
+    "_id": 1989
   },
   {
     "id": 4735,
@@ -17610,7 +17907,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 2,
-    "_id": 1957
+    "_id": 1990
   },
   {
     "id": 4735,
@@ -17619,7 +17916,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 1958
+    "_id": 1991
   },
   {
     "id": 4735,
@@ -17628,7 +17925,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 1959
+    "_id": 1992
   },
   {
     "id": 4735,
@@ -17637,7 +17934,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 1960
+    "_id": 1993
   },
   {
     "id": 4735,
@@ -17646,7 +17943,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 1961
+    "_id": 1994
   },
   {
     "id": 4735,
@@ -17655,7 +17952,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 1962
+    "_id": 1995
   },
   {
     "id": 4735,
@@ -17664,7 +17961,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 1963
+    "_id": 1996
   },
   {
     "id": 4735,
@@ -17673,7 +17970,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 1,
-    "_id": 1964
+    "_id": 1997
   },
   {
     "id": 4735,
@@ -17682,7 +17979,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 1965
+    "_id": 1998
   },
   {
     "id": 4735,
@@ -17691,7 +17988,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 1966
+    "_id": 1999
   },
   {
     "id": 4735,
@@ -17700,7 +17997,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 0,
-    "_id": 1967
+    "_id": 2000
   },
   {
     "id": 4735,
@@ -17709,7 +18006,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 1968
+    "_id": 2001
   },
   {
     "id": 4735,
@@ -17718,7 +18015,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 1969
+    "_id": 2002
   },
   {
     "id": 4735,
@@ -17727,7 +18024,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 1970
+    "_id": 2003
   },
   {
     "id": 4735,
@@ -17736,7 +18033,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 3,
-    "_id": 1971
+    "_id": 2004
   },
   {
     "id": 4735,
@@ -17745,7 +18042,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 1972
+    "_id": 2005
   },
   {
     "id": 4735,
@@ -17754,7 +18051,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 1,
-    "_id": 1973
+    "_id": 2006
   },
   {
     "id": 4735,
@@ -17763,7 +18060,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 2,
-    "_id": 1974
+    "_id": 2007
   },
   {
     "id": 4735,
@@ -17772,7 +18069,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 1975
+    "_id": 2008
   },
   {
     "id": 4735,
@@ -17781,7 +18078,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 1976
+    "_id": 2009
   },
   {
     "id": 4735,
@@ -17790,7 +18087,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 1977
+    "_id": 2010
   },
   {
     "id": 4735,
@@ -17799,7 +18096,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 1978
+    "_id": 2011
   },
   {
     "id": 4735,
@@ -17808,7 +18105,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 2,
-    "_id": 1979
+    "_id": 2012
   },
   {
     "id": 4735,
@@ -17817,7 +18114,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 2,
-    "_id": 1980
+    "_id": 2013
   },
   {
     "id": 4735,
@@ -17826,7 +18123,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 2,
-    "_id": 1981
+    "_id": 2014
   },
   {
     "id": 4735,
@@ -17835,7 +18132,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 2,
-    "_id": 1982
+    "_id": 2015
   },
   {
     "id": 4735,
@@ -17844,7 +18141,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 1983
+    "_id": 2016
   },
   {
     "id": 4735,
@@ -17853,7 +18150,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 3,
-    "_id": 1984
+    "_id": 2017
   },
   {
     "id": 4735,
@@ -17862,7 +18159,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 1985
+    "_id": 2018
   },
   {
     "id": 4735,
@@ -17871,7 +18168,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 2,
-    "_id": 1986
+    "_id": 2019
   },
   {
     "id": 4735,
@@ -17880,7 +18177,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 0,
-    "_id": 1987
+    "_id": 2020
   },
   {
     "id": 4735,
@@ -17889,7 +18186,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 0,
-    "_id": 1988
+    "_id": 2021
   },
   {
     "id": 4735,
@@ -17898,7 +18195,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1989
+    "_id": 2022
   },
   {
     "id": 4735,
@@ -17907,7 +18204,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 1990
+    "_id": 2023
   },
   {
     "id": 4735,
@@ -17916,7 +18213,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 1991
+    "_id": 2024
   },
   {
     "id": 4735,
@@ -17925,7 +18222,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 1992
+    "_id": 2025
   },
   {
     "id": 4735,
@@ -17934,7 +18231,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 3,
-    "_id": 1993
+    "_id": 2026
   },
   {
     "id": 4735,
@@ -17943,7 +18240,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 1994
+    "_id": 2027
   },
   {
     "id": 4735,
@@ -17952,7 +18249,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 1,
-    "_id": 1995
+    "_id": 2028
   },
   {
     "id": 4735,
@@ -17961,7 +18258,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 1996
+    "_id": 2029
   },
   {
     "id": 4735,
@@ -17970,7 +18267,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 3,
-    "_id": 1997
+    "_id": 2030
   },
   {
     "id": 4735,
@@ -17979,7 +18276,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 1,
-    "_id": 1998
+    "_id": 2031
   },
   {
     "id": 4735,
@@ -17988,7 +18285,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 3,
-    "_id": 1999
+    "_id": 2032
   },
   {
     "id": 4735,
@@ -17997,7 +18294,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 1,
-    "_id": 2000
+    "_id": 2033
   },
   {
     "id": 4735,
@@ -18006,7 +18303,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 1,
-    "_id": 2001
+    "_id": 2034
   },
   {
     "id": 4735,
@@ -18015,7 +18312,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 1,
-    "_id": 2002
+    "_id": 2035
   },
   {
     "id": 4735,
@@ -18024,7 +18321,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 2,
-    "_id": 2003
+    "_id": 2036
   },
   {
     "id": 4735,
@@ -18033,7 +18330,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 0,
-    "_id": 2004
+    "_id": 2037
   },
   {
     "id": 4735,
@@ -18042,7 +18339,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 3,
-    "_id": 2005
+    "_id": 2038
   },
   {
     "id": 4735,
@@ -18051,7 +18348,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 3,
-    "_id": 2006
+    "_id": 2039
   },
   {
     "id": 4735,
@@ -18060,7 +18357,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 2007
+    "_id": 2040
   },
   {
     "id": 4735,
@@ -18069,7 +18366,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 2008
+    "_id": 2041
   },
   {
     "id": 4735,
@@ -18078,7 +18375,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 1,
-    "_id": 2009
+    "_id": 2042
   },
   {
     "id": 4735,
@@ -18087,7 +18384,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2010
+    "_id": 2043
   },
   {
     "id": 4735,
@@ -18096,7 +18393,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 2011
+    "_id": 2044
   },
   {
     "id": 4735,
@@ -18105,7 +18402,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 2012
+    "_id": 2045
   },
   {
     "id": 4735,
@@ -18114,7 +18411,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2013
+    "_id": 2046
   },
   {
     "id": 4735,
@@ -18123,7 +18420,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 3,
-    "_id": 2014
+    "_id": 2047
   },
   {
     "id": 4735,
@@ -18132,7 +18429,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 0,
-    "_id": 2015
+    "_id": 2048
   },
   {
     "id": 4735,
@@ -18141,7 +18438,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2016
+    "_id": 2049
   },
   {
     "id": 4735,
@@ -18150,7 +18447,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 2017
+    "_id": 2050
   },
   {
     "id": 4735,
@@ -18159,7 +18456,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 2018
+    "_id": 2051
   },
   {
     "id": 4735,
@@ -18168,7 +18465,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 2019
+    "_id": 2052
   },
   {
     "id": 4735,
@@ -18177,7 +18474,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 2020
+    "_id": 2053
   },
   {
     "id": 4735,
@@ -18186,7 +18483,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 0,
-    "_id": 2021
+    "_id": 2054
   },
   {
     "id": 4735,
@@ -18195,7 +18492,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 3,
-    "_id": 2022
+    "_id": 2055
   },
   {
     "id": 4735,
@@ -18204,7 +18501,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2023
+    "_id": 2056
   },
   {
     "id": 4735,
@@ -18213,7 +18510,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 2024
+    "_id": 2057
   },
   {
     "id": 4735,
@@ -18222,7 +18519,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 0,
-    "_id": 2025
+    "_id": 2058
   },
   {
     "id": 4735,
@@ -18231,7 +18528,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 2026
+    "_id": 2059
   },
   {
     "id": 4735,
@@ -18240,7 +18537,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 0,
-    "_id": 2027
+    "_id": 2060
   },
   {
     "id": 4735,
@@ -18249,7 +18546,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 1,
-    "_id": 2028
+    "_id": 2061
   },
   {
     "id": 4735,
@@ -18258,7 +18555,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 2029
+    "_id": 2062
   },
   {
     "id": 4735,
@@ -18267,7 +18564,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 2030
+    "_id": 2063
   },
   {
     "id": 4735,
@@ -18276,7 +18573,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 3,
-    "_id": 2031
+    "_id": 2064
   },
   {
     "id": 4735,
@@ -18285,7 +18582,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 2032
+    "_id": 2065
   },
   {
     "id": 4735,
@@ -18294,7 +18591,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 3,
-    "_id": 2033
+    "_id": 2066
   },
   {
     "id": 4735,
@@ -18303,7 +18600,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2034
+    "_id": 2067
   },
   {
     "id": 4735,
@@ -18312,7 +18609,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2035
+    "_id": 2068
   },
   {
     "id": 4735,
@@ -18321,7 +18618,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 2036
+    "_id": 2069
   },
   {
     "id": 4735,
@@ -18330,7 +18627,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2037
+    "_id": 2070
   },
   {
     "id": 4735,
@@ -18339,7 +18636,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 2,
-    "_id": 2038
+    "_id": 2071
   },
   {
     "id": 4735,
@@ -18348,7 +18645,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2039
+    "_id": 2072
   },
   {
     "id": 4735,
@@ -18357,7 +18654,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 2,
-    "_id": 2040
+    "_id": 2073
   },
   {
     "id": 4735,
@@ -18366,7 +18663,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 2041
+    "_id": 2074
   },
   {
     "id": 4735,
@@ -18375,7 +18672,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 2042
+    "_id": 2075
   },
   {
     "id": 4735,
@@ -18384,7 +18681,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 2043
+    "_id": 2076
   },
   {
     "id": 4735,
@@ -18393,7 +18690,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 3,
-    "_id": 2044
+    "_id": 2077
   },
   {
     "id": 4735,
@@ -18402,7 +18699,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 1,
-    "_id": 2045
+    "_id": 2078
   },
   {
     "id": 4735,
@@ -18411,7 +18708,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 2,
-    "_id": 2046
+    "_id": 2079
   },
   {
     "id": 4735,
@@ -18420,7 +18717,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 3,
-    "_id": 2047
+    "_id": 2080
   },
   {
     "id": 4735,
@@ -18429,7 +18726,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 2048
+    "_id": 2081
   },
   {
     "id": 4735,
@@ -18438,7 +18735,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2049
+    "_id": 2082
   },
   {
     "id": 4735,
@@ -18447,7 +18744,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 2050
+    "_id": 2083
   },
   {
     "id": 4735,
@@ -18456,7 +18753,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 3,
-    "_id": 2051
+    "_id": 2084
   },
   {
     "id": 4735,
@@ -18465,7 +18762,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 0,
-    "_id": 2052
+    "_id": 2085
   },
   {
     "id": 4735,
@@ -18474,7 +18771,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 2053
+    "_id": 2086
   },
   {
     "id": 4735,
@@ -18483,7 +18780,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 1,
-    "_id": 2054
+    "_id": 2087
   },
   {
     "id": 4735,
@@ -18492,7 +18789,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 2,
-    "_id": 2055
+    "_id": 2088
   },
   {
     "id": 4735,
@@ -18501,7 +18798,7 @@ export const objects = [
     "y": 39,
     "z": 0,
     "direction": 2,
-    "_id": 2056
+    "_id": 2089
   },
   {
     "id": 4735,
@@ -18510,7 +18807,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 2,
-    "_id": 2057
+    "_id": 2090
   },
   {
     "id": 4735,
@@ -18519,7 +18816,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 2058
+    "_id": 2091
   },
   {
     "id": 4735,
@@ -18528,7 +18825,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 3,
-    "_id": 2059
+    "_id": 2092
   },
   {
     "id": 4735,
@@ -18537,7 +18834,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 2060
+    "_id": 2093
   },
   {
     "id": 4735,
@@ -18546,7 +18843,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 2,
-    "_id": 2061
+    "_id": 2094
   },
   {
     "id": 4735,
@@ -18555,7 +18852,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 0,
-    "_id": 2062
+    "_id": 2095
   },
   {
     "id": 4735,
@@ -18564,7 +18861,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 2063
+    "_id": 2096
   },
   {
     "id": 4735,
@@ -18573,7 +18870,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 3,
-    "_id": 2064
+    "_id": 2097
   },
   {
     "id": 4735,
@@ -18582,7 +18879,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 2,
-    "_id": 2065
+    "_id": 2098
   },
   {
     "id": 4735,
@@ -18591,7 +18888,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 1,
-    "_id": 2066
+    "_id": 2099
   },
   {
     "id": 4735,
@@ -18600,7 +18897,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 0,
-    "_id": 2067
+    "_id": 2100
   },
   {
     "id": 4735,
@@ -18609,7 +18906,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 1,
-    "_id": 2068
+    "_id": 2101
   },
   {
     "id": 4735,
@@ -18618,7 +18915,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 2069
+    "_id": 2102
   },
   {
     "id": 4735,
@@ -18627,7 +18924,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2070
+    "_id": 2103
   },
   {
     "id": 4735,
@@ -18636,7 +18933,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 2071
+    "_id": 2104
   },
   {
     "id": 4735,
@@ -18645,7 +18942,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 0,
-    "_id": 2072
+    "_id": 2105
   },
   {
     "id": 4735,
@@ -18654,7 +18951,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 2073
+    "_id": 2106
   },
   {
     "id": 4735,
@@ -18663,7 +18960,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 1,
-    "_id": 2074
+    "_id": 2107
   },
   {
     "id": 4735,
@@ -18672,7 +18969,7 @@ export const objects = [
     "y": 39,
     "z": 0,
     "direction": 1,
-    "_id": 2075
+    "_id": 2108
   },
   {
     "id": 4735,
@@ -18681,7 +18978,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 2076
+    "_id": 2109
   },
   {
     "id": 4735,
@@ -18690,7 +18987,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 2077
+    "_id": 2110
   },
   {
     "id": 4735,
@@ -18699,7 +18996,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 0,
-    "_id": 2078
+    "_id": 2111
   },
   {
     "id": 4735,
@@ -18708,7 +19005,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 2079
+    "_id": 2112
   },
   {
     "id": 4735,
@@ -18717,7 +19014,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2080
+    "_id": 2113
   },
   {
     "id": 4735,
@@ -18726,7 +19023,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 3,
-    "_id": 2081
+    "_id": 2114
   },
   {
     "id": 4735,
@@ -18735,7 +19032,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 2,
-    "_id": 2082
+    "_id": 2115
   },
   {
     "id": 4735,
@@ -18744,7 +19041,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 3,
-    "_id": 2083
+    "_id": 2116
   },
   {
     "id": 4735,
@@ -18753,7 +19050,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 0,
-    "_id": 2084
+    "_id": 2117
   },
   {
     "id": 4735,
@@ -18762,7 +19059,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 1,
-    "_id": 2085
+    "_id": 2118
   },
   {
     "id": 4735,
@@ -18771,7 +19068,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 1,
-    "_id": 2086
+    "_id": 2119
   },
   {
     "id": 4735,
@@ -18780,7 +19077,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 2087
+    "_id": 2120
   },
   {
     "id": 4735,
@@ -18789,7 +19086,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 1,
-    "_id": 2088
+    "_id": 2121
   },
   {
     "id": 4735,
@@ -18798,7 +19095,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 2089
+    "_id": 2122
   },
   {
     "id": 4735,
@@ -18807,7 +19104,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 2,
-    "_id": 2090
+    "_id": 2123
   },
   {
     "id": 4735,
@@ -18816,7 +19113,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 2091
+    "_id": 2124
   },
   {
     "id": 4735,
@@ -18825,7 +19122,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 3,
-    "_id": 2092
+    "_id": 2125
   },
   {
     "id": 4735,
@@ -18834,7 +19131,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 0,
-    "_id": 2093
+    "_id": 2126
   },
   {
     "id": 4735,
@@ -18843,7 +19140,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 2094
+    "_id": 2127
   },
   {
     "id": 4735,
@@ -18852,7 +19149,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 2,
-    "_id": 2095
+    "_id": 2128
   },
   {
     "id": 4735,
@@ -18861,7 +19158,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 3,
-    "_id": 2096
+    "_id": 2129
   },
   {
     "id": 4735,
@@ -18870,7 +19167,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 2,
-    "_id": 2097
+    "_id": 2130
   },
   {
     "id": 4735,
@@ -18879,7 +19176,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 3,
-    "_id": 2098
+    "_id": 2131
   },
   {
     "id": 4735,
@@ -18888,7 +19185,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2099
+    "_id": 2132
   },
   {
     "id": 4735,
@@ -18897,7 +19194,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2100
+    "_id": 2133
   },
   {
     "id": 4735,
@@ -18906,7 +19203,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2101
+    "_id": 2134
   },
   {
     "id": 4735,
@@ -18915,7 +19212,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 2102
+    "_id": 2135
   },
   {
     "id": 4736,
@@ -18924,7 +19221,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2103
+    "_id": 2136
   },
   {
     "id": 4736,
@@ -18933,7 +19230,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 2104
+    "_id": 2137
   },
   {
     "id": 4736,
@@ -18942,7 +19239,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 3,
-    "_id": 2105
+    "_id": 2138
   },
   {
     "id": 4736,
@@ -18951,7 +19248,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2106
+    "_id": 2139
   },
   {
     "id": 4736,
@@ -18960,7 +19257,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 3,
-    "_id": 2107
+    "_id": 2140
   },
   {
     "id": 4736,
@@ -18969,7 +19266,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 0,
-    "_id": 2108
+    "_id": 2141
   },
   {
     "id": 4736,
@@ -18978,7 +19275,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 3,
-    "_id": 2109
+    "_id": 2142
   },
   {
     "id": 4736,
@@ -18987,7 +19284,7 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 0,
-    "_id": 2110
+    "_id": 2143
   },
   {
     "id": 4736,
@@ -18996,7 +19293,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 3,
-    "_id": 2111
+    "_id": 2144
   },
   {
     "id": 4736,
@@ -19005,7 +19302,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 0,
-    "_id": 2112
+    "_id": 2145
   },
   {
     "id": 4736,
@@ -19014,7 +19311,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 3,
-    "_id": 2113
+    "_id": 2146
   },
   {
     "id": 4736,
@@ -19023,7 +19320,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 0,
-    "_id": 2114
+    "_id": 2147
   },
   {
     "id": 4736,
@@ -19032,7 +19329,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 2115
+    "_id": 2148
   },
   {
     "id": 4736,
@@ -19041,7 +19338,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 0,
-    "_id": 2116
+    "_id": 2149
   },
   {
     "id": 4736,
@@ -19050,7 +19347,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 0,
-    "_id": 2117
+    "_id": 2150
   },
   {
     "id": 4736,
@@ -19059,7 +19356,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 3,
-    "_id": 2118
+    "_id": 2151
   },
   {
     "id": 4736,
@@ -19068,7 +19365,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 0,
-    "_id": 2119
+    "_id": 2152
   },
   {
     "id": 4736,
@@ -19077,7 +19374,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 3,
-    "_id": 2120
+    "_id": 2153
   },
   {
     "id": 4736,
@@ -19086,7 +19383,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 3,
-    "_id": 2121
+    "_id": 2154
   },
   {
     "id": 4736,
@@ -19095,7 +19392,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 2122
+    "_id": 2155
   },
   {
     "id": 4736,
@@ -19104,7 +19401,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 2123
+    "_id": 2156
   },
   {
     "id": 4736,
@@ -19113,7 +19410,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 3,
-    "_id": 2124
+    "_id": 2157
   },
   {
     "id": 4736,
@@ -19122,7 +19419,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 3,
-    "_id": 2125
+    "_id": 2158
   },
   {
     "id": 4736,
@@ -19131,7 +19428,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 3,
-    "_id": 2126
+    "_id": 2159
   },
   {
     "id": 4736,
@@ -19140,7 +19437,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2127
+    "_id": 2160
   },
   {
     "id": 4736,
@@ -19149,7 +19446,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 2128
+    "_id": 2161
   },
   {
     "id": 4736,
@@ -19158,7 +19455,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 2129
+    "_id": 2162
   },
   {
     "id": 4736,
@@ -19167,7 +19464,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2130
+    "_id": 2163
   },
   {
     "id": 4736,
@@ -19176,7 +19473,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2131
+    "_id": 2164
   },
   {
     "id": 4736,
@@ -19185,7 +19482,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 3,
-    "_id": 2132
+    "_id": 2165
   },
   {
     "id": 4736,
@@ -19194,7 +19491,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 2133
+    "_id": 2166
   },
   {
     "id": 4736,
@@ -19203,7 +19500,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 2134
+    "_id": 2167
   },
   {
     "id": 4736,
@@ -19212,7 +19509,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 2135
+    "_id": 2168
   },
   {
     "id": 4736,
@@ -19221,7 +19518,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2136
+    "_id": 2169
   },
   {
     "id": 4736,
@@ -19230,7 +19527,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 2137
+    "_id": 2170
   },
   {
     "id": 4736,
@@ -19239,7 +19536,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 2138
+    "_id": 2171
   },
   {
     "id": 4736,
@@ -19248,7 +19545,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 0,
-    "_id": 2139
+    "_id": 2172
   },
   {
     "id": 4736,
@@ -19257,7 +19554,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2140
+    "_id": 2173
   },
   {
     "id": 4736,
@@ -19266,7 +19563,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 3,
-    "_id": 2141
+    "_id": 2174
   },
   {
     "id": 4736,
@@ -19275,7 +19572,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 0,
-    "_id": 2142
+    "_id": 2175
   },
   {
     "id": 4736,
@@ -19284,7 +19581,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2143
+    "_id": 2176
   },
   {
     "id": 4736,
@@ -19293,7 +19590,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 2144
+    "_id": 2177
   },
   {
     "id": 4736,
@@ -19302,7 +19599,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 1,
-    "_id": 2145
+    "_id": 2178
   },
   {
     "id": 4736,
@@ -19311,7 +19608,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 3,
-    "_id": 2146
+    "_id": 2179
   },
   {
     "id": 4736,
@@ -19320,7 +19617,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 0,
-    "_id": 2147
+    "_id": 2180
   },
   {
     "id": 4736,
@@ -19329,7 +19626,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2148
+    "_id": 2181
   },
   {
     "id": 4736,
@@ -19338,7 +19635,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 3,
-    "_id": 2149
+    "_id": 2182
   },
   {
     "id": 4736,
@@ -19347,7 +19644,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 3,
-    "_id": 2150
+    "_id": 2183
   },
   {
     "id": 4736,
@@ -19356,7 +19653,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2151
+    "_id": 2184
   },
   {
     "id": 4736,
@@ -19365,7 +19662,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 2,
-    "_id": 2152
+    "_id": 2185
   },
   {
     "id": 4736,
@@ -19374,7 +19671,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2153
+    "_id": 2186
   },
   {
     "id": 4736,
@@ -19383,7 +19680,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 2154
+    "_id": 2187
   },
   {
     "id": 4736,
@@ -19392,7 +19689,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 2,
-    "_id": 2155
+    "_id": 2188
   },
   {
     "id": 4736,
@@ -19401,7 +19698,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 1,
-    "_id": 2156
+    "_id": 2189
   },
   {
     "id": 4736,
@@ -19410,7 +19707,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 2,
-    "_id": 2157
+    "_id": 2190
   },
   {
     "id": 4736,
@@ -19419,7 +19716,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2158
+    "_id": 2191
   },
   {
     "id": 4736,
@@ -19428,7 +19725,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2159
+    "_id": 2192
   },
   {
     "id": 4736,
@@ -19437,7 +19734,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 0,
-    "_id": 2160
+    "_id": 2193
   },
   {
     "id": 4736,
@@ -19446,7 +19743,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 1,
-    "_id": 2161
+    "_id": 2194
   },
   {
     "id": 4736,
@@ -19455,7 +19752,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 2,
-    "_id": 2162
+    "_id": 2195
   },
   {
     "id": 4736,
@@ -19464,7 +19761,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 1,
-    "_id": 2163
+    "_id": 2196
   },
   {
     "id": 4736,
@@ -19473,7 +19770,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 2,
-    "_id": 2164
+    "_id": 2197
   },
   {
     "id": 4736,
@@ -19482,7 +19779,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 2165
+    "_id": 2198
   },
   {
     "id": 4736,
@@ -19491,7 +19788,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 2,
-    "_id": 2166
+    "_id": 2199
   },
   {
     "id": 4736,
@@ -19500,7 +19797,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 2167
+    "_id": 2200
   },
   {
     "id": 4736,
@@ -19509,7 +19806,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 2168
+    "_id": 2201
   },
   {
     "id": 4736,
@@ -19518,7 +19815,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 2169
+    "_id": 2202
   },
   {
     "id": 4736,
@@ -19527,7 +19824,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 0,
-    "_id": 2170
+    "_id": 2203
   },
   {
     "id": 4736,
@@ -19536,7 +19833,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 2171
+    "_id": 2204
   },
   {
     "id": 4736,
@@ -19545,7 +19842,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 2,
-    "_id": 2172
+    "_id": 2205
   },
   {
     "id": 4736,
@@ -19554,7 +19851,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 1,
-    "_id": 2173
+    "_id": 2206
   },
   {
     "id": 4736,
@@ -19563,7 +19860,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 1,
-    "_id": 2174
+    "_id": 2207
   },
   {
     "id": 4736,
@@ -19572,7 +19869,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 1,
-    "_id": 2175
+    "_id": 2208
   },
   {
     "id": 4736,
@@ -19581,7 +19878,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 2,
-    "_id": 2176
+    "_id": 2209
   },
   {
     "id": 4736,
@@ -19590,7 +19887,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 2177
+    "_id": 2210
   },
   {
     "id": 4736,
@@ -19599,7 +19896,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 1,
-    "_id": 2178
+    "_id": 2211
   },
   {
     "id": 4736,
@@ -19608,7 +19905,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 3,
-    "_id": 2179
+    "_id": 2212
   },
   {
     "id": 4736,
@@ -19617,7 +19914,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 2180
+    "_id": 2213
   },
   {
     "id": 4736,
@@ -19626,7 +19923,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 2181
+    "_id": 2214
   },
   {
     "id": 4736,
@@ -19635,7 +19932,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 2,
-    "_id": 2182
+    "_id": 2215
   },
   {
     "id": 4736,
@@ -19644,7 +19941,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2183
+    "_id": 2216
   },
   {
     "id": 4736,
@@ -19653,7 +19950,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2184
+    "_id": 2217
   },
   {
     "id": 4736,
@@ -19662,7 +19959,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 1,
-    "_id": 2185
+    "_id": 2218
   },
   {
     "id": 4736,
@@ -19671,7 +19968,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 3,
-    "_id": 2186
+    "_id": 2219
   },
   {
     "id": 4736,
@@ -19680,7 +19977,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2187
+    "_id": 2220
   },
   {
     "id": 4736,
@@ -19689,7 +19986,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 0,
-    "_id": 2188
+    "_id": 2221
   },
   {
     "id": 4736,
@@ -19698,7 +19995,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 1,
-    "_id": 2189
+    "_id": 2222
   },
   {
     "id": 4736,
@@ -19707,7 +20004,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 0,
-    "_id": 2190
+    "_id": 2223
   },
   {
     "id": 4736,
@@ -19716,7 +20013,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 2191
+    "_id": 2224
   },
   {
     "id": 4736,
@@ -19725,7 +20022,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 2192
+    "_id": 2225
   },
   {
     "id": 4736,
@@ -19734,7 +20031,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 0,
-    "_id": 2193
+    "_id": 2226
   },
   {
     "id": 4736,
@@ -19743,7 +20040,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 3,
-    "_id": 2194
+    "_id": 2227
   },
   {
     "id": 4736,
@@ -19752,7 +20049,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 2195
+    "_id": 2228
   },
   {
     "id": 4736,
@@ -19761,7 +20058,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 2196
+    "_id": 2229
   },
   {
     "id": 4736,
@@ -19770,7 +20067,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 2197
+    "_id": 2230
   },
   {
     "id": 4736,
@@ -19779,7 +20076,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 2198
+    "_id": 2231
   },
   {
     "id": 4736,
@@ -19788,7 +20085,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 0,
-    "_id": 2199
+    "_id": 2232
   },
   {
     "id": 4736,
@@ -19797,7 +20094,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 2200
+    "_id": 2233
   },
   {
     "id": 4736,
@@ -19806,7 +20103,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 3,
-    "_id": 2201
+    "_id": 2234
   },
   {
     "id": 4736,
@@ -19815,7 +20112,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 1,
-    "_id": 2202
+    "_id": 2235
   },
   {
     "id": 4736,
@@ -19824,7 +20121,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 0,
-    "_id": 2203
+    "_id": 2236
   },
   {
     "id": 4736,
@@ -19833,7 +20130,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 2204
+    "_id": 2237
   },
   {
     "id": 4736,
@@ -19842,7 +20139,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 2205
+    "_id": 2238
   },
   {
     "id": 4736,
@@ -19851,7 +20148,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 2206
+    "_id": 2239
   },
   {
     "id": 4736,
@@ -19860,7 +20157,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 2,
-    "_id": 2207
+    "_id": 2240
   },
   {
     "id": 4736,
@@ -19869,7 +20166,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 1,
-    "_id": 2208
+    "_id": 2241
   },
   {
     "id": 4736,
@@ -19878,7 +20175,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 3,
-    "_id": 2209
+    "_id": 2242
   },
   {
     "id": 4736,
@@ -19887,7 +20184,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 2,
-    "_id": 2210
+    "_id": 2243
   },
   {
     "id": 4736,
@@ -19896,328 +20193,31 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 1,
-    "_id": 2211
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 33,
-    "y": 10,
-    "z": 0,
-    "direction": 1,
-    "_id": 2212
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 33,
-    "y": 35,
-    "z": 0,
-    "direction": 2,
-    "_id": 2213
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 34,
-    "y": 0,
-    "z": 0,
-    "direction": 2,
-    "_id": 2214
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 34,
-    "y": 9,
-    "z": 0,
-    "direction": 1,
-    "_id": 2215
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 34,
-    "y": 35,
-    "z": 0,
-    "direction": 2,
-    "_id": 2216
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 34,
-    "y": 39,
-    "z": 0,
-    "direction": 1,
-    "_id": 2217
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 35,
-    "y": 10,
-    "z": 0,
-    "direction": 3,
-    "_id": 2218
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 35,
-    "y": 11,
-    "z": 0,
-    "direction": 0,
-    "_id": 2219
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 36,
-    "y": 10,
-    "z": 0,
-    "direction": 2,
-    "_id": 2220
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 36,
-    "y": 11,
-    "z": 0,
-    "direction": 1,
-    "_id": 2221
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 38,
-    "y": 4,
-    "z": 0,
-    "direction": 0,
-    "_id": 2222
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 38,
-    "y": 7,
-    "z": 0,
-    "direction": 3,
-    "_id": 2223
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 38,
-    "y": 13,
-    "z": 0,
-    "direction": 0,
-    "_id": 2224
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 39,
-    "y": 16,
-    "z": 0,
-    "direction": 0,
-    "_id": 2225
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 43,
-    "y": 59,
-    "z": 0,
-    "direction": 0,
-    "_id": 2226
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 46,
-    "y": 56,
-    "z": 0,
-    "direction": 2,
-    "_id": 2227
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 46,
-    "y": 59,
-    "z": 0,
-    "direction": 1,
-    "_id": 2228
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 49,
-    "y": 6,
-    "z": 0,
-    "direction": 2,
-    "_id": 2229
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 49,
-    "y": 8,
-    "z": 0,
-    "direction": 1,
-    "_id": 2230
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 49,
-    "y": 11,
-    "z": 0,
-    "direction": 2,
-    "_id": 2231
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 49,
-    "y": 13,
-    "z": 0,
-    "direction": 1,
-    "_id": 2232
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 50,
-    "y": 10,
-    "z": 0,
-    "direction": 0,
-    "_id": 2233
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 51,
-    "y": 4,
-    "z": 0,
-    "direction": 2,
-    "_id": 2234
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 5,
-    "z": 0,
-    "direction": 2,
-    "_id": 2235
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 10,
-    "z": 0,
-    "direction": 1,
-    "_id": 2236
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 28,
-    "z": 0,
-    "direction": 3,
-    "_id": 2237
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 30,
-    "z": 0,
-    "direction": 0,
-    "_id": 2238
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 54,
-    "z": 0,
-    "direction": 3,
-    "_id": 2239
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 57,
-    "z": 0,
-    "direction": 0,
-    "_id": 2240
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 60,
-    "z": 0,
-    "direction": 3,
-    "_id": 2241
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 52,
-    "y": 62,
-    "z": 0,
-    "direction": 0,
-    "_id": 2242
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 53,
-    "y": 0,
-    "z": 0,
-    "direction": 3,
-    "_id": 2243
-  },
-  {
-    "id": 4736,
-    "type": 22,
-    "x": 53,
-    "y": 3,
-    "z": 0,
-    "direction": 1,
     "_id": 2244
   },
   {
     "id": 4736,
     "type": 22,
-    "x": 53,
-    "y": 4,
+    "x": 33,
+    "y": 10,
     "z": 0,
-    "direction": 2,
+    "direction": 1,
     "_id": 2245
   },
   {
     "id": 4736,
     "type": 22,
-    "x": 53,
-    "y": 6,
+    "x": 33,
+    "y": 35,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 2246
   },
   {
     "id": 4736,
     "type": 22,
-    "x": 53,
-    "y": 7,
+    "x": 34,
+    "y": 0,
     "z": 0,
     "direction": 2,
     "_id": 2247
@@ -20225,7 +20225,7 @@ export const objects = [
   {
     "id": 4736,
     "type": 22,
-    "x": 53,
+    "x": 34,
     "y": 9,
     "z": 0,
     "direction": 1,
@@ -20234,11 +20234,308 @@ export const objects = [
   {
     "id": 4736,
     "type": 22,
+    "x": 34,
+    "y": 35,
+    "z": 0,
+    "direction": 2,
+    "_id": 2249
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 34,
+    "y": 39,
+    "z": 0,
+    "direction": 1,
+    "_id": 2250
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 35,
+    "y": 10,
+    "z": 0,
+    "direction": 3,
+    "_id": 2251
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 35,
+    "y": 11,
+    "z": 0,
+    "direction": 0,
+    "_id": 2252
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 36,
+    "y": 10,
+    "z": 0,
+    "direction": 2,
+    "_id": 2253
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 36,
+    "y": 11,
+    "z": 0,
+    "direction": 1,
+    "_id": 2254
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 38,
+    "y": 4,
+    "z": 0,
+    "direction": 0,
+    "_id": 2255
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 38,
+    "y": 7,
+    "z": 0,
+    "direction": 3,
+    "_id": 2256
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 38,
+    "y": 13,
+    "z": 0,
+    "direction": 0,
+    "_id": 2257
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 39,
+    "y": 16,
+    "z": 0,
+    "direction": 0,
+    "_id": 2258
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 43,
+    "y": 59,
+    "z": 0,
+    "direction": 0,
+    "_id": 2259
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 46,
+    "y": 56,
+    "z": 0,
+    "direction": 2,
+    "_id": 2260
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 46,
+    "y": 59,
+    "z": 0,
+    "direction": 1,
+    "_id": 2261
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 49,
+    "y": 6,
+    "z": 0,
+    "direction": 2,
+    "_id": 2262
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 49,
+    "y": 8,
+    "z": 0,
+    "direction": 1,
+    "_id": 2263
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 49,
+    "y": 11,
+    "z": 0,
+    "direction": 2,
+    "_id": 2264
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 49,
+    "y": 13,
+    "z": 0,
+    "direction": 1,
+    "_id": 2265
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 50,
+    "y": 10,
+    "z": 0,
+    "direction": 0,
+    "_id": 2266
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 51,
+    "y": 4,
+    "z": 0,
+    "direction": 2,
+    "_id": 2267
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 5,
+    "z": 0,
+    "direction": 2,
+    "_id": 2268
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 10,
+    "z": 0,
+    "direction": 1,
+    "_id": 2269
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 28,
+    "z": 0,
+    "direction": 3,
+    "_id": 2270
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 30,
+    "z": 0,
+    "direction": 0,
+    "_id": 2271
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 54,
+    "z": 0,
+    "direction": 3,
+    "_id": 2272
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 57,
+    "z": 0,
+    "direction": 0,
+    "_id": 2273
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 60,
+    "z": 0,
+    "direction": 3,
+    "_id": 2274
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 52,
+    "y": 62,
+    "z": 0,
+    "direction": 0,
+    "_id": 2275
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 53,
+    "y": 0,
+    "z": 0,
+    "direction": 3,
+    "_id": 2276
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 53,
+    "y": 3,
+    "z": 0,
+    "direction": 1,
+    "_id": 2277
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 53,
+    "y": 4,
+    "z": 0,
+    "direction": 2,
+    "_id": 2278
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 53,
+    "y": 6,
+    "z": 0,
+    "direction": 1,
+    "_id": 2279
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 53,
+    "y": 7,
+    "z": 0,
+    "direction": 2,
+    "_id": 2280
+  },
+  {
+    "id": 4736,
+    "type": 22,
+    "x": 53,
+    "y": 9,
+    "z": 0,
+    "direction": 1,
+    "_id": 2281
+  },
+  {
+    "id": 4736,
+    "type": 22,
     "x": 53,
     "y": 53,
     "z": 0,
     "direction": 3,
-    "_id": 2249
+    "_id": 2282
   },
   {
     "id": 4736,
@@ -20247,7 +20544,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 0,
-    "_id": 2250
+    "_id": 2283
   },
   {
     "id": 4736,
@@ -20256,7 +20553,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2251
+    "_id": 2284
   },
   {
     "id": 4736,
@@ -20265,7 +20562,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 0,
-    "_id": 2252
+    "_id": 2285
   },
   {
     "id": 4736,
@@ -20274,7 +20571,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 2253
+    "_id": 2286
   },
   {
     "id": 4736,
@@ -20283,7 +20580,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 2,
-    "_id": 2254
+    "_id": 2287
   },
   {
     "id": 4736,
@@ -20292,7 +20589,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 2255
+    "_id": 2288
   },
   {
     "id": 4736,
@@ -20301,7 +20598,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 2256
+    "_id": 2289
   },
   {
     "id": 4736,
@@ -20310,7 +20607,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2257
+    "_id": 2290
   },
   {
     "id": 4736,
@@ -20319,7 +20616,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 2258
+    "_id": 2291
   },
   {
     "id": 4736,
@@ -20328,7 +20625,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 0,
-    "_id": 2259
+    "_id": 2292
   },
   {
     "id": 4736,
@@ -20337,7 +20634,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2260
+    "_id": 2293
   },
   {
     "id": 4736,
@@ -20346,7 +20643,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 1,
-    "_id": 2261
+    "_id": 2294
   },
   {
     "id": 4736,
@@ -20355,7 +20652,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 3,
-    "_id": 2262
+    "_id": 2295
   },
   {
     "id": 4736,
@@ -20364,7 +20661,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2263
+    "_id": 2296
   },
   {
     "id": 4736,
@@ -20373,7 +20670,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 2264
+    "_id": 2297
   },
   {
     "id": 4736,
@@ -20382,7 +20679,7 @@ export const objects = [
     "y": 34,
     "z": 0,
     "direction": 0,
-    "_id": 2265
+    "_id": 2298
   },
   {
     "id": 4736,
@@ -20391,7 +20688,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 2266
+    "_id": 2299
   },
   {
     "id": 4736,
@@ -20400,7 +20697,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 3,
-    "_id": 2267
+    "_id": 2300
   },
   {
     "id": 4736,
@@ -20409,7 +20706,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 2,
-    "_id": 2268
+    "_id": 2301
   },
   {
     "id": 4736,
@@ -20418,7 +20715,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 3,
-    "_id": 2269
+    "_id": 2302
   },
   {
     "id": 4736,
@@ -20427,7 +20724,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 2,
-    "_id": 2270
+    "_id": 2303
   },
   {
     "id": 4736,
@@ -20436,7 +20733,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 1,
-    "_id": 2271
+    "_id": 2304
   },
   {
     "id": 4736,
@@ -20445,7 +20742,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 3,
-    "_id": 2272
+    "_id": 2305
   },
   {
     "id": 4736,
@@ -20454,7 +20751,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 0,
-    "_id": 2273
+    "_id": 2306
   },
   {
     "id": 4736,
@@ -20463,7 +20760,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 3,
-    "_id": 2274
+    "_id": 2307
   },
   {
     "id": 4736,
@@ -20472,7 +20769,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 2275
+    "_id": 2308
   },
   {
     "id": 4736,
@@ -20481,7 +20778,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2276
+    "_id": 2309
   },
   {
     "id": 4736,
@@ -20490,7 +20787,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2277
+    "_id": 2310
   },
   {
     "id": 4736,
@@ -20499,7 +20796,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 0,
-    "_id": 2278
+    "_id": 2311
   },
   {
     "id": 4736,
@@ -20508,7 +20805,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 2279
+    "_id": 2312
   },
   {
     "id": 4736,
@@ -20517,7 +20814,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 1,
-    "_id": 2280
+    "_id": 2313
   },
   {
     "id": 4736,
@@ -20526,7 +20823,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 2,
-    "_id": 2281
+    "_id": 2314
   },
   {
     "id": 4736,
@@ -20535,7 +20832,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 1,
-    "_id": 2282
+    "_id": 2315
   },
   {
     "id": 4736,
@@ -20544,7 +20841,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 2283
+    "_id": 2316
   },
   {
     "id": 4736,
@@ -20553,7 +20850,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 2,
-    "_id": 2284
+    "_id": 2317
   },
   {
     "id": 4736,
@@ -20562,7 +20859,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 2285
+    "_id": 2318
   },
   {
     "id": 4737,
@@ -20571,7 +20868,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 3,
-    "_id": 2286
+    "_id": 2319
   },
   {
     "id": 4737,
@@ -20580,7 +20877,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 3,
-    "_id": 2287
+    "_id": 2320
   },
   {
     "id": 4737,
@@ -20589,7 +20886,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 3,
-    "_id": 2288
+    "_id": 2321
   },
   {
     "id": 4737,
@@ -20598,7 +20895,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 3,
-    "_id": 2289
+    "_id": 2322
   },
   {
     "id": 4737,
@@ -20607,7 +20904,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 3,
-    "_id": 2290
+    "_id": 2323
   },
   {
     "id": 4737,
@@ -20616,7 +20913,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 3,
-    "_id": 2291
+    "_id": 2324
   },
   {
     "id": 4737,
@@ -20625,7 +20922,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2292
+    "_id": 2325
   },
   {
     "id": 4737,
@@ -20634,7 +20931,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 2293
+    "_id": 2326
   },
   {
     "id": 4737,
@@ -20643,7 +20940,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2294
+    "_id": 2327
   },
   {
     "id": 4737,
@@ -20652,7 +20949,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2295
+    "_id": 2328
   },
   {
     "id": 4737,
@@ -20661,7 +20958,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2296
+    "_id": 2329
   },
   {
     "id": 4737,
@@ -20670,7 +20967,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2297
+    "_id": 2330
   },
   {
     "id": 4737,
@@ -20679,7 +20976,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2298
+    "_id": 2331
   },
   {
     "id": 4737,
@@ -20688,7 +20985,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 0,
-    "_id": 2299
+    "_id": 2332
   },
   {
     "id": 4737,
@@ -20697,7 +20994,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2300
+    "_id": 2333
   },
   {
     "id": 4737,
@@ -20706,7 +21003,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 0,
-    "_id": 2301
+    "_id": 2334
   },
   {
     "id": 4737,
@@ -20715,7 +21012,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 3,
-    "_id": 2302
+    "_id": 2335
   },
   {
     "id": 4737,
@@ -20724,7 +21021,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 0,
-    "_id": 2303
+    "_id": 2336
   },
   {
     "id": 4737,
@@ -20733,7 +21030,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 2,
-    "_id": 2304
+    "_id": 2337
   },
   {
     "id": 4737,
@@ -20742,7 +21039,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 0,
-    "_id": 2305
+    "_id": 2338
   },
   {
     "id": 4737,
@@ -20751,7 +21048,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2306
+    "_id": 2339
   },
   {
     "id": 4737,
@@ -20760,7 +21057,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 0,
-    "_id": 2307
+    "_id": 2340
   },
   {
     "id": 4737,
@@ -20769,7 +21066,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2308
+    "_id": 2341
   },
   {
     "id": 4737,
@@ -20778,7 +21075,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2309
+    "_id": 2342
   },
   {
     "id": 4737,
@@ -20787,7 +21084,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2310
+    "_id": 2343
   },
   {
     "id": 4737,
@@ -20796,7 +21093,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2311
+    "_id": 2344
   },
   {
     "id": 4737,
@@ -20805,7 +21102,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2312
+    "_id": 2345
   },
   {
     "id": 4737,
@@ -20814,7 +21111,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2313
+    "_id": 2346
   },
   {
     "id": 4737,
@@ -20823,7 +21120,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2314
+    "_id": 2347
   },
   {
     "id": 4737,
@@ -20832,7 +21129,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2315
+    "_id": 2348
   },
   {
     "id": 4737,
@@ -20841,7 +21138,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 3,
-    "_id": 2316
+    "_id": 2349
   },
   {
     "id": 4737,
@@ -20850,7 +21147,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 3,
-    "_id": 2317
+    "_id": 2350
   },
   {
     "id": 4737,
@@ -20859,7 +21156,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2318
+    "_id": 2351
   },
   {
     "id": 4737,
@@ -20868,7 +21165,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2319
+    "_id": 2352
   },
   {
     "id": 4737,
@@ -20877,7 +21174,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2320
+    "_id": 2353
   },
   {
     "id": 4737,
@@ -20886,7 +21183,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2321
+    "_id": 2354
   },
   {
     "id": 4737,
@@ -20895,7 +21192,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2322
+    "_id": 2355
   },
   {
     "id": 4737,
@@ -20904,7 +21201,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2323
+    "_id": 2356
   },
   {
     "id": 4737,
@@ -20913,7 +21210,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 3,
-    "_id": 2324
+    "_id": 2357
   },
   {
     "id": 4737,
@@ -20922,7 +21219,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 3,
-    "_id": 2325
+    "_id": 2358
   },
   {
     "id": 4737,
@@ -20931,7 +21228,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 2326
+    "_id": 2359
   },
   {
     "id": 4737,
@@ -20940,7 +21237,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2327
+    "_id": 2360
   },
   {
     "id": 4737,
@@ -20949,7 +21246,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2328
+    "_id": 2361
   },
   {
     "id": 4737,
@@ -20958,7 +21255,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2329
+    "_id": 2362
   },
   {
     "id": 4737,
@@ -20967,7 +21264,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 2330
+    "_id": 2363
   },
   {
     "id": 4737,
@@ -20976,7 +21273,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2331
+    "_id": 2364
   },
   {
     "id": 4737,
@@ -20985,7 +21282,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2332
+    "_id": 2365
   },
   {
     "id": 4737,
@@ -20994,7 +21291,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 2,
-    "_id": 2333
+    "_id": 2366
   },
   {
     "id": 4737,
@@ -21003,7 +21300,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 0,
-    "_id": 2334
+    "_id": 2367
   },
   {
     "id": 4737,
@@ -21012,309 +21309,12 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2335
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 11,
-    "y": 59,
-    "z": 0,
-    "direction": 0,
-    "_id": 2336
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 11,
-    "y": 63,
-    "z": 0,
-    "direction": 3,
-    "_id": 2337
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 12,
-    "y": 60,
-    "z": 0,
-    "direction": 0,
-    "_id": 2338
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 12,
-    "y": 62,
-    "z": 0,
-    "direction": 2,
-    "_id": 2339
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 14,
-    "y": 58,
-    "z": 0,
-    "direction": 1,
-    "_id": 2340
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 16,
-    "y": 36,
-    "z": 0,
-    "direction": 0,
-    "_id": 2341
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 16,
-    "y": 44,
-    "z": 0,
-    "direction": 2,
-    "_id": 2342
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 16,
-    "y": 46,
-    "z": 0,
-    "direction": 0,
-    "_id": 2343
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 16,
-    "y": 47,
-    "z": 0,
-    "direction": 1,
-    "_id": 2344
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 18,
-    "y": 52,
-    "z": 0,
-    "direction": 1,
-    "_id": 2345
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 18,
-    "y": 61,
-    "z": 0,
-    "direction": 1,
-    "_id": 2346
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 19,
-    "y": 2,
-    "z": 0,
-    "direction": 2,
-    "_id": 2347
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 20,
-    "y": 2,
-    "z": 0,
-    "direction": 0,
-    "_id": 2348
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 20,
-    "y": 35,
-    "z": 0,
-    "direction": 0,
-    "_id": 2349
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 22,
-    "y": 50,
-    "z": 0,
-    "direction": 2,
-    "_id": 2350
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 23,
-    "y": 59,
-    "z": 0,
-    "direction": 0,
-    "_id": 2351
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 25,
-    "y": 5,
-    "z": 0,
-    "direction": 3,
-    "_id": 2352
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 25,
-    "y": 59,
-    "z": 0,
-    "direction": 0,
-    "_id": 2353
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 26,
-    "y": 5,
-    "z": 0,
-    "direction": 2,
-    "_id": 2354
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 26,
-    "y": 6,
-    "z": 0,
-    "direction": 1,
-    "_id": 2355
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 27,
-    "y": 0,
-    "z": 0,
-    "direction": 1,
-    "_id": 2356
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 27,
-    "y": 59,
-    "z": 0,
-    "direction": 0,
-    "_id": 2357
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 28,
-    "y": 10,
-    "z": 0,
-    "direction": 0,
-    "_id": 2358
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 30,
-    "y": 10,
-    "z": 0,
-    "direction": 0,
-    "_id": 2359
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 31,
-    "y": 10,
-    "z": 0,
-    "direction": 1,
-    "_id": 2360
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 32,
-    "y": 10,
-    "z": 0,
-    "direction": 2,
-    "_id": 2361
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 32,
-    "y": 34,
-    "z": 0,
-    "direction": 2,
-    "_id": 2362
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 34,
-    "y": 36,
-    "z": 0,
-    "direction": 1,
-    "_id": 2363
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 34,
-    "y": 37,
-    "z": 0,
-    "direction": 1,
-    "_id": 2364
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 34,
-    "y": 38,
-    "z": 0,
-    "direction": 1,
-    "_id": 2365
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 43,
-    "y": 57,
-    "z": 0,
-    "direction": 3,
-    "_id": 2366
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 43,
-    "y": 58,
-    "z": 0,
-    "direction": 3,
-    "_id": 2367
-  },
-  {
-    "id": 4737,
-    "type": 22,
-    "x": 44,
-    "y": 56,
-    "z": 0,
-    "direction": 2,
     "_id": 2368
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 44,
+    "x": 11,
     "y": 59,
     "z": 0,
     "direction": 0,
@@ -21323,17 +21323,17 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 45,
-    "y": 56,
+    "x": 11,
+    "y": 63,
     "z": 0,
-    "direction": 2,
+    "direction": 3,
     "_id": 2370
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 45,
-    "y": 59,
+    "x": 12,
+    "y": 60,
     "z": 0,
     "direction": 0,
     "_id": 2371
@@ -21341,80 +21341,80 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 46,
-    "y": 57,
+    "x": 12,
+    "y": 62,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 2372
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 49,
-    "y": 4,
+    "x": 14,
+    "y": 58,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 2373
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 49,
-    "y": 7,
+    "x": 16,
+    "y": 36,
     "z": 0,
-    "direction": 1,
+    "direction": 0,
     "_id": 2374
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 49,
-    "y": 12,
+    "x": 16,
+    "y": 44,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 2375
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 50,
-    "y": 5,
+    "x": 16,
+    "y": 46,
     "z": 0,
-    "direction": 3,
+    "direction": 0,
     "_id": 2376
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 50,
-    "y": 6,
+    "x": 16,
+    "y": 47,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 2377
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 50,
-    "y": 7,
+    "x": 18,
+    "y": 52,
     "z": 0,
-    "direction": 0,
+    "direction": 1,
     "_id": 2378
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 50,
-    "y": 9,
+    "x": 18,
+    "y": 61,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 2379
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 51,
-    "y": 5,
+    "x": 19,
+    "y": 2,
     "z": 0,
     "direction": 2,
     "_id": 2380
@@ -21422,8 +21422,8 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 51,
-    "y": 10,
+    "x": 20,
+    "y": 2,
     "z": 0,
     "direction": 0,
     "_id": 2381
@@ -21431,17 +21431,17 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 51,
-    "y": 13,
+    "x": 20,
+    "y": 35,
     "z": 0,
-    "direction": 1,
+    "direction": 0,
     "_id": 2382
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 52,
-    "y": 6,
+    "x": 22,
+    "y": 50,
     "z": 0,
     "direction": 2,
     "_id": 2383
@@ -21449,17 +21449,17 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 52,
-    "y": 29,
+    "x": 23,
+    "y": 59,
     "z": 0,
-    "direction": 3,
+    "direction": 0,
     "_id": 2384
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 52,
-    "y": 55,
+    "x": 25,
+    "y": 5,
     "z": 0,
     "direction": 3,
     "_id": 2385
@@ -21467,62 +21467,62 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 52,
-    "y": 56,
+    "x": 25,
+    "y": 59,
     "z": 0,
-    "direction": 3,
+    "direction": 0,
     "_id": 2386
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 52,
-    "y": 61,
+    "x": 26,
+    "y": 5,
     "z": 0,
-    "direction": 3,
+    "direction": 2,
     "_id": 2387
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 1,
+    "x": 26,
+    "y": 6,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 2388
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 2,
+    "x": 27,
+    "y": 0,
     "z": 0,
-    "direction": 3,
+    "direction": 1,
     "_id": 2389
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 8,
+    "x": 27,
+    "y": 59,
     "z": 0,
-    "direction": 1,
+    "direction": 0,
     "_id": 2390
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 28,
+    "x": 28,
+    "y": 10,
     "z": 0,
-    "direction": 2,
+    "direction": 0,
     "_id": 2391
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 30,
+    "x": 30,
+    "y": 10,
     "z": 0,
     "direction": 0,
     "_id": 2392
@@ -21530,35 +21530,35 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 54,
+    "x": 31,
+    "y": 10,
     "z": 0,
-    "direction": 2,
+    "direction": 1,
     "_id": 2393
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 58,
+    "x": 32,
+    "y": 10,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 2394
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 59,
+    "x": 32,
+    "y": 34,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 2395
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 60,
+    "x": 34,
+    "y": 36,
     "z": 0,
     "direction": 1,
     "_id": 2396
@@ -21566,8 +21566,8 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 61,
+    "x": 34,
+    "y": 37,
     "z": 0,
     "direction": 1,
     "_id": 2397
@@ -21575,8 +21575,8 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 62,
+    "x": 34,
+    "y": 38,
     "z": 0,
     "direction": 1,
     "_id": 2398
@@ -21584,61 +21584,61 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
-    "x": 53,
-    "y": 63,
+    "x": 43,
+    "y": 57,
     "z": 0,
-    "direction": 1,
+    "direction": 3,
     "_id": 2399
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 54,
-    "y": 0,
+    "x": 43,
+    "y": 58,
     "z": 0,
-    "direction": 2,
+    "direction": 3,
     "_id": 2400
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 54,
-    "y": 29,
+    "x": 44,
+    "y": 56,
     "z": 0,
-    "direction": 1,
+    "direction": 2,
     "_id": 2401
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 54,
-    "y": 53,
+    "x": 44,
+    "y": 59,
     "z": 0,
-    "direction": 2,
+    "direction": 0,
     "_id": 2402
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 54,
-    "y": 55,
+    "x": 45,
+    "y": 56,
     "z": 0,
-    "direction": 0,
+    "direction": 2,
     "_id": 2403
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 54,
-    "y": 56,
+    "x": 45,
+    "y": 59,
     "z": 0,
-    "direction": 1,
+    "direction": 0,
     "_id": 2404
   },
   {
     "id": 4737,
     "type": 22,
-    "x": 54,
+    "x": 46,
     "y": 57,
     "z": 0,
     "direction": 1,
@@ -21647,11 +21647,308 @@ export const objects = [
   {
     "id": 4737,
     "type": 22,
+    "x": 49,
+    "y": 4,
+    "z": 0,
+    "direction": 3,
+    "_id": 2406
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 49,
+    "y": 7,
+    "z": 0,
+    "direction": 1,
+    "_id": 2407
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 49,
+    "y": 12,
+    "z": 0,
+    "direction": 1,
+    "_id": 2408
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 50,
+    "y": 5,
+    "z": 0,
+    "direction": 3,
+    "_id": 2409
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 50,
+    "y": 6,
+    "z": 0,
+    "direction": 3,
+    "_id": 2410
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 50,
+    "y": 7,
+    "z": 0,
+    "direction": 0,
+    "_id": 2411
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 50,
+    "y": 9,
+    "z": 0,
+    "direction": 3,
+    "_id": 2412
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 51,
+    "y": 5,
+    "z": 0,
+    "direction": 2,
+    "_id": 2413
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 51,
+    "y": 10,
+    "z": 0,
+    "direction": 0,
+    "_id": 2414
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 51,
+    "y": 13,
+    "z": 0,
+    "direction": 1,
+    "_id": 2415
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 52,
+    "y": 6,
+    "z": 0,
+    "direction": 2,
+    "_id": 2416
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 52,
+    "y": 29,
+    "z": 0,
+    "direction": 3,
+    "_id": 2417
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 52,
+    "y": 55,
+    "z": 0,
+    "direction": 3,
+    "_id": 2418
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 52,
+    "y": 56,
+    "z": 0,
+    "direction": 3,
+    "_id": 2419
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 52,
+    "y": 61,
+    "z": 0,
+    "direction": 3,
+    "_id": 2420
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 1,
+    "z": 0,
+    "direction": 3,
+    "_id": 2421
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 2,
+    "z": 0,
+    "direction": 3,
+    "_id": 2422
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 8,
+    "z": 0,
+    "direction": 1,
+    "_id": 2423
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 28,
+    "z": 0,
+    "direction": 2,
+    "_id": 2424
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 30,
+    "z": 0,
+    "direction": 0,
+    "_id": 2425
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 54,
+    "z": 0,
+    "direction": 2,
+    "_id": 2426
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 58,
+    "z": 0,
+    "direction": 1,
+    "_id": 2427
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 59,
+    "z": 0,
+    "direction": 1,
+    "_id": 2428
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 60,
+    "z": 0,
+    "direction": 1,
+    "_id": 2429
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 61,
+    "z": 0,
+    "direction": 1,
+    "_id": 2430
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 62,
+    "z": 0,
+    "direction": 1,
+    "_id": 2431
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 53,
+    "y": 63,
+    "z": 0,
+    "direction": 1,
+    "_id": 2432
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 54,
+    "y": 0,
+    "z": 0,
+    "direction": 2,
+    "_id": 2433
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 54,
+    "y": 29,
+    "z": 0,
+    "direction": 1,
+    "_id": 2434
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 54,
+    "y": 53,
+    "z": 0,
+    "direction": 2,
+    "_id": 2435
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 54,
+    "y": 55,
+    "z": 0,
+    "direction": 0,
+    "_id": 2436
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 54,
+    "y": 56,
+    "z": 0,
+    "direction": 1,
+    "_id": 2437
+  },
+  {
+    "id": 4737,
+    "type": 22,
+    "x": 54,
+    "y": 57,
+    "z": 0,
+    "direction": 1,
+    "_id": 2438
+  },
+  {
+    "id": 4737,
+    "type": 22,
     "x": 55,
     "y": 0,
     "z": 0,
     "direction": 2,
-    "_id": 2406
+    "_id": 2439
   },
   {
     "id": 4737,
@@ -21660,7 +21957,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 0,
-    "_id": 2407
+    "_id": 2440
   },
   {
     "id": 4737,
@@ -21669,7 +21966,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2408
+    "_id": 2441
   },
   {
     "id": 4737,
@@ -21678,7 +21975,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2409
+    "_id": 2442
   },
   {
     "id": 4737,
@@ -21687,7 +21984,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 1,
-    "_id": 2410
+    "_id": 2443
   },
   {
     "id": 4737,
@@ -21696,7 +21993,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 2411
+    "_id": 2444
   },
   {
     "id": 4737,
@@ -21705,7 +22002,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2412
+    "_id": 2445
   },
   {
     "id": 4737,
@@ -21714,7 +22011,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2413
+    "_id": 2446
   },
   {
     "id": 4737,
@@ -21723,7 +22020,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 2414
+    "_id": 2447
   },
   {
     "id": 4737,
@@ -21732,7 +22029,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2415
+    "_id": 2448
   },
   {
     "id": 4737,
@@ -21741,7 +22038,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 2416
+    "_id": 2449
   },
   {
     "id": 4737,
@@ -21750,7 +22047,7 @@ export const objects = [
     "y": 33,
     "z": 0,
     "direction": 3,
-    "_id": 2417
+    "_id": 2450
   },
   {
     "id": 4737,
@@ -21759,7 +22056,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2418
+    "_id": 2451
   },
   {
     "id": 4737,
@@ -21768,7 +22065,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2419
+    "_id": 2452
   },
   {
     "id": 4737,
@@ -21777,7 +22074,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2420
+    "_id": 2453
   },
   {
     "id": 4737,
@@ -21786,7 +22083,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2421
+    "_id": 2454
   },
   {
     "id": 4737,
@@ -21795,7 +22092,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2422
+    "_id": 2455
   },
   {
     "id": 4737,
@@ -21804,7 +22101,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 2423
+    "_id": 2456
   },
   {
     "id": 4737,
@@ -21813,7 +22110,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 2,
-    "_id": 2424
+    "_id": 2457
   },
   {
     "id": 4737,
@@ -21822,7 +22119,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2425
+    "_id": 2458
   },
   {
     "id": 4737,
@@ -21831,7 +22128,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2426
+    "_id": 2459
   },
   {
     "id": 4737,
@@ -21840,7 +22137,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2427
+    "_id": 2460
   },
   {
     "id": 4737,
@@ -21849,7 +22146,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2428
+    "_id": 2461
   },
   {
     "id": 4737,
@@ -21858,7 +22155,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 2,
-    "_id": 2429
+    "_id": 2462
   },
   {
     "id": 4737,
@@ -21867,7 +22164,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2430
+    "_id": 2463
   },
   {
     "id": 4737,
@@ -21876,7 +22173,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 2431
+    "_id": 2464
   },
   {
     "id": 4737,
@@ -21885,7 +22182,7 @@ export const objects = [
     "y": 39,
     "z": 0,
     "direction": 1,
-    "_id": 2432
+    "_id": 2465
   },
   {
     "id": 4737,
@@ -21894,7 +22191,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 2433
+    "_id": 2466
   },
   {
     "id": 4737,
@@ -21903,7 +22200,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 2434
+    "_id": 2467
   },
   {
     "id": 4737,
@@ -21912,7 +22209,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2435
+    "_id": 2468
   },
   {
     "id": 4737,
@@ -21921,7 +22218,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 2436
+    "_id": 2469
   },
   {
     "id": 4737,
@@ -21930,7 +22227,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 2,
-    "_id": 2437
+    "_id": 2470
   },
   {
     "id": 4737,
@@ -21939,7 +22236,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 1,
-    "_id": 2438
+    "_id": 2471
   },
   {
     "id": 4737,
@@ -21948,7 +22245,7 @@ export const objects = [
     "y": 43,
     "z": 0,
     "direction": 2,
-    "_id": 2439
+    "_id": 2472
   },
   {
     "id": 4737,
@@ -21957,7 +22254,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 0,
-    "_id": 2440
+    "_id": 2473
   },
   {
     "id": 4737,
@@ -21966,7 +22263,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 2,
-    "_id": 2441
+    "_id": 2474
   },
   {
     "id": 4737,
@@ -21975,7 +22272,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2442
+    "_id": 2475
   },
   {
     "id": 4737,
@@ -21984,7 +22281,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 2443
+    "_id": 2476
   },
   {
     "id": 4737,
@@ -21993,7 +22290,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 2444
+    "_id": 2477
   },
   {
     "id": 4737,
@@ -22002,7 +22299,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 0,
-    "_id": 2445
+    "_id": 2478
   },
   {
     "id": 4737,
@@ -22011,7 +22308,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 1,
-    "_id": 2446
+    "_id": 2479
   },
   {
     "id": 4737,
@@ -22020,7 +22317,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2447
+    "_id": 2480
   },
   {
     "id": 4737,
@@ -22029,7 +22326,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 2448
+    "_id": 2481
   },
   {
     "id": 4738,
@@ -22038,7 +22335,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 2449
+    "_id": 2482
   },
   {
     "id": 4738,
@@ -22047,7 +22344,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2450
+    "_id": 2483
   },
   {
     "id": 4738,
@@ -22056,7 +22353,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2451
+    "_id": 2484
   },
   {
     "id": 4738,
@@ -22065,7 +22362,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 2452
+    "_id": 2485
   },
   {
     "id": 4738,
@@ -22074,7 +22371,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2453
+    "_id": 2486
   },
   {
     "id": 4738,
@@ -22083,7 +22380,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 3,
-    "_id": 2454
+    "_id": 2487
   },
   {
     "id": 4738,
@@ -22092,7 +22389,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2455
+    "_id": 2488
   },
   {
     "id": 4738,
@@ -22101,7 +22398,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 2456
+    "_id": 2489
   },
   {
     "id": 4738,
@@ -22110,7 +22407,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2457
+    "_id": 2490
   },
   {
     "id": 4738,
@@ -22119,7 +22416,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2458
+    "_id": 2491
   },
   {
     "id": 4738,
@@ -22128,7 +22425,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2459
+    "_id": 2492
   },
   {
     "id": 4738,
@@ -22137,7 +22434,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 2,
-    "_id": 2460
+    "_id": 2493
   },
   {
     "id": 4738,
@@ -22146,7 +22443,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 2461
+    "_id": 2494
   },
   {
     "id": 4738,
@@ -22155,7 +22452,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2462
+    "_id": 2495
   },
   {
     "id": 4738,
@@ -22164,7 +22461,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 2463
+    "_id": 2496
   },
   {
     "id": 4738,
@@ -22173,7 +22470,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 2464
+    "_id": 2497
   },
   {
     "id": 4738,
@@ -22182,7 +22479,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2465
+    "_id": 2498
   },
   {
     "id": 4738,
@@ -22191,7 +22488,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2466
+    "_id": 2499
   },
   {
     "id": 4738,
@@ -22200,7 +22497,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2467
+    "_id": 2500
   },
   {
     "id": 4738,
@@ -22209,7 +22506,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 2468
+    "_id": 2501
   },
   {
     "id": 4738,
@@ -22218,7 +22515,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 2469
+    "_id": 2502
   },
   {
     "id": 4738,
@@ -22227,7 +22524,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 2470
+    "_id": 2503
   },
   {
     "id": 4738,
@@ -22236,7 +22533,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2471
+    "_id": 2504
   },
   {
     "id": 4738,
@@ -22245,7 +22542,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 2472
+    "_id": 2505
   },
   {
     "id": 4738,
@@ -22254,7 +22551,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 2473
+    "_id": 2506
   },
   {
     "id": 4738,
@@ -22263,7 +22560,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 2474
+    "_id": 2507
   },
   {
     "id": 4738,
@@ -22272,7 +22569,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 3,
-    "_id": 2475
+    "_id": 2508
   },
   {
     "id": 4738,
@@ -22281,7 +22578,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 2,
-    "_id": 2476
+    "_id": 2509
   },
   {
     "id": 4738,
@@ -22290,7 +22587,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 2477
+    "_id": 2510
   },
   {
     "id": 4738,
@@ -22299,7 +22596,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 2,
-    "_id": 2478
+    "_id": 2511
   },
   {
     "id": 4738,
@@ -22308,7 +22605,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 1,
-    "_id": 2479
+    "_id": 2512
   },
   {
     "id": 4738,
@@ -22317,7 +22614,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 2,
-    "_id": 2480
+    "_id": 2513
   },
   {
     "id": 4738,
@@ -22326,7 +22623,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2481
+    "_id": 2514
   },
   {
     "id": 4738,
@@ -22335,7 +22632,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2482
+    "_id": 2515
   },
   {
     "id": 4738,
@@ -22344,7 +22641,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 1,
-    "_id": 2483
+    "_id": 2516
   },
   {
     "id": 4738,
@@ -22353,7 +22650,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2484
+    "_id": 2517
   },
   {
     "id": 4738,
@@ -22362,7 +22659,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 3,
-    "_id": 2485
+    "_id": 2518
   },
   {
     "id": 4738,
@@ -22371,309 +22668,12 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 1,
-    "_id": 2486
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 15,
-    "y": 1,
-    "z": 0,
-    "direction": 2,
-    "_id": 2487
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 15,
-    "y": 2,
-    "z": 0,
-    "direction": 0,
-    "_id": 2488
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 16,
-    "y": 2,
-    "z": 0,
-    "direction": 3,
-    "_id": 2489
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 17,
-    "y": 2,
-    "z": 0,
-    "direction": 1,
-    "_id": 2490
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 18,
-    "y": 2,
-    "z": 0,
-    "direction": 2,
-    "_id": 2491
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 25,
-    "y": 3,
-    "z": 0,
-    "direction": 2,
-    "_id": 2492
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 25,
-    "y": 4,
-    "z": 0,
-    "direction": 0,
-    "_id": 2493
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 26,
-    "y": 1,
-    "z": 0,
-    "direction": 2,
-    "_id": 2494
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 26,
-    "y": 37,
-    "z": 0,
-    "direction": 2,
-    "_id": 2495
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 26,
-    "y": 38,
-    "z": 0,
-    "direction": 2,
-    "_id": 2496
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 7,
-    "z": 0,
-    "direction": 2,
-    "_id": 2497
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 8,
-    "z": 0,
-    "direction": 3,
-    "_id": 2498
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 9,
-    "z": 0,
-    "direction": 0,
-    "_id": 2499
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 10,
-    "z": 0,
-    "direction": 1,
-    "_id": 2500
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 11,
-    "z": 0,
-    "direction": 2,
-    "_id": 2501
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 37,
-    "z": 0,
-    "direction": 0,
-    "_id": 2502
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 27,
-    "y": 38,
-    "z": 0,
-    "direction": 3,
-    "_id": 2503
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 44,
-    "y": 57,
-    "z": 0,
-    "direction": 1,
-    "_id": 2504
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 44,
-    "y": 58,
-    "z": 0,
-    "direction": 0,
-    "_id": 2505
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 45,
-    "y": 57,
-    "z": 0,
-    "direction": 2,
-    "_id": 2506
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 45,
-    "y": 58,
-    "z": 0,
-    "direction": 3,
-    "_id": 2507
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 50,
-    "y": 4,
-    "z": 0,
-    "direction": 3,
-    "_id": 2508
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 51,
-    "y": 6,
-    "z": 0,
-    "direction": 0,
-    "_id": 2509
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 51,
-    "y": 7,
-    "z": 0,
-    "direction": 1,
-    "_id": 2510
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 51,
-    "y": 8,
-    "z": 0,
-    "direction": 2,
-    "_id": 2511
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 51,
-    "y": 9,
-    "z": 0,
-    "direction": 3,
-    "_id": 2512
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 52,
-    "y": 7,
-    "z": 0,
-    "direction": 2,
-    "_id": 2513
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 52,
-    "y": 8,
-    "z": 0,
-    "direction": 2,
-    "_id": 2514
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 52,
-    "y": 9,
-    "z": 0,
-    "direction": 1,
-    "_id": 2515
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 53,
-    "y": 29,
-    "z": 0,
-    "direction": 0,
-    "_id": 2516
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 53,
-    "y": 55,
-    "z": 0,
-    "direction": 0,
-    "_id": 2517
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 53,
-    "y": 56,
-    "z": 0,
-    "direction": 3,
-    "_id": 2518
-  },
-  {
-    "id": 4738,
-    "type": 22,
-    "x": 53,
-    "y": 57,
-    "z": 0,
-    "direction": 2,
     "_id": 2519
   },
   {
     "id": 4738,
     "type": 22,
-    "x": 54,
+    "x": 15,
     "y": 1,
     "z": 0,
     "direction": 2,
@@ -22682,11 +22682,308 @@ export const objects = [
   {
     "id": 4738,
     "type": 22,
+    "x": 15,
+    "y": 2,
+    "z": 0,
+    "direction": 0,
+    "_id": 2521
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 16,
+    "y": 2,
+    "z": 0,
+    "direction": 3,
+    "_id": 2522
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 17,
+    "y": 2,
+    "z": 0,
+    "direction": 1,
+    "_id": 2523
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 18,
+    "y": 2,
+    "z": 0,
+    "direction": 2,
+    "_id": 2524
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 25,
+    "y": 3,
+    "z": 0,
+    "direction": 2,
+    "_id": 2525
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 25,
+    "y": 4,
+    "z": 0,
+    "direction": 0,
+    "_id": 2526
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 26,
+    "y": 1,
+    "z": 0,
+    "direction": 2,
+    "_id": 2527
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 26,
+    "y": 37,
+    "z": 0,
+    "direction": 2,
+    "_id": 2528
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 26,
+    "y": 38,
+    "z": 0,
+    "direction": 2,
+    "_id": 2529
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 7,
+    "z": 0,
+    "direction": 2,
+    "_id": 2530
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 8,
+    "z": 0,
+    "direction": 3,
+    "_id": 2531
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 9,
+    "z": 0,
+    "direction": 0,
+    "_id": 2532
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 10,
+    "z": 0,
+    "direction": 1,
+    "_id": 2533
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 11,
+    "z": 0,
+    "direction": 2,
+    "_id": 2534
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 37,
+    "z": 0,
+    "direction": 0,
+    "_id": 2535
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 27,
+    "y": 38,
+    "z": 0,
+    "direction": 3,
+    "_id": 2536
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 44,
+    "y": 57,
+    "z": 0,
+    "direction": 1,
+    "_id": 2537
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 44,
+    "y": 58,
+    "z": 0,
+    "direction": 0,
+    "_id": 2538
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 45,
+    "y": 57,
+    "z": 0,
+    "direction": 2,
+    "_id": 2539
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 45,
+    "y": 58,
+    "z": 0,
+    "direction": 3,
+    "_id": 2540
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 50,
+    "y": 4,
+    "z": 0,
+    "direction": 3,
+    "_id": 2541
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 51,
+    "y": 6,
+    "z": 0,
+    "direction": 0,
+    "_id": 2542
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 51,
+    "y": 7,
+    "z": 0,
+    "direction": 1,
+    "_id": 2543
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 51,
+    "y": 8,
+    "z": 0,
+    "direction": 2,
+    "_id": 2544
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 51,
+    "y": 9,
+    "z": 0,
+    "direction": 3,
+    "_id": 2545
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 52,
+    "y": 7,
+    "z": 0,
+    "direction": 2,
+    "_id": 2546
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 52,
+    "y": 8,
+    "z": 0,
+    "direction": 2,
+    "_id": 2547
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 52,
+    "y": 9,
+    "z": 0,
+    "direction": 1,
+    "_id": 2548
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 53,
+    "y": 29,
+    "z": 0,
+    "direction": 0,
+    "_id": 2549
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 53,
+    "y": 55,
+    "z": 0,
+    "direction": 0,
+    "_id": 2550
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 53,
+    "y": 56,
+    "z": 0,
+    "direction": 3,
+    "_id": 2551
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 53,
+    "y": 57,
+    "z": 0,
+    "direction": 2,
+    "_id": 2552
+  },
+  {
+    "id": 4738,
+    "type": 22,
+    "x": 54,
+    "y": 1,
+    "z": 0,
+    "direction": 2,
+    "_id": 2553
+  },
+  {
+    "id": 4738,
+    "type": 22,
     "x": 54,
     "y": 2,
     "z": 0,
     "direction": 3,
-    "_id": 2521
+    "_id": 2554
   },
   {
     "id": 4738,
@@ -22695,7 +22992,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2522
+    "_id": 2555
   },
   {
     "id": 4738,
@@ -22704,7 +23001,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 1,
-    "_id": 2523
+    "_id": 2556
   },
   {
     "id": 4738,
@@ -22713,7 +23010,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 2524
+    "_id": 2557
   },
   {
     "id": 4738,
@@ -22722,7 +23019,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2525
+    "_id": 2558
   },
   {
     "id": 4738,
@@ -22731,7 +23028,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 3,
-    "_id": 2526
+    "_id": 2559
   },
   {
     "id": 4738,
@@ -22740,7 +23037,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 2527
+    "_id": 2560
   },
   {
     "id": 4738,
@@ -22749,7 +23046,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2528
+    "_id": 2561
   },
   {
     "id": 4738,
@@ -22758,7 +23055,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 2,
-    "_id": 2529
+    "_id": 2562
   },
   {
     "id": 4738,
@@ -22767,7 +23064,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 2530
+    "_id": 2563
   },
   {
     "id": 4738,
@@ -22776,7 +23073,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 1,
-    "_id": 2531
+    "_id": 2564
   },
   {
     "id": 4738,
@@ -22785,7 +23082,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2532
+    "_id": 2565
   },
   {
     "id": 4738,
@@ -22794,7 +23091,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2533
+    "_id": 2566
   },
   {
     "id": 4738,
@@ -22803,7 +23100,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2534
+    "_id": 2567
   },
   {
     "id": 4738,
@@ -22812,7 +23109,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 3,
-    "_id": 2535
+    "_id": 2568
   },
   {
     "id": 4738,
@@ -22821,7 +23118,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 2536
+    "_id": 2569
   },
   {
     "id": 4738,
@@ -22830,7 +23127,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2537
+    "_id": 2570
   },
   {
     "id": 4738,
@@ -22839,7 +23136,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 1,
-    "_id": 2538
+    "_id": 2571
   },
   {
     "id": 4738,
@@ -22848,7 +23145,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 2539
+    "_id": 2572
   },
   {
     "id": 4738,
@@ -22857,7 +23154,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 0,
-    "_id": 2540
+    "_id": 2573
   },
   {
     "id": 4738,
@@ -22866,7 +23163,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 2,
-    "_id": 2541
+    "_id": 2574
   },
   {
     "id": 4738,
@@ -22875,7 +23172,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 1,
-    "_id": 2542
+    "_id": 2575
   },
   {
     "id": 4738,
@@ -22884,7 +23181,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2543
+    "_id": 2576
   },
   {
     "id": 4738,
@@ -22893,7 +23190,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 2,
-    "_id": 2544
+    "_id": 2577
   },
   {
     "id": 4738,
@@ -22902,7 +23199,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 0,
-    "_id": 2545
+    "_id": 2578
   },
   {
     "id": 4738,
@@ -22911,7 +23208,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 2546
+    "_id": 2579
   },
   {
     "id": 4738,
@@ -22920,7 +23217,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 3,
-    "_id": 2547
+    "_id": 2580
   },
   {
     "id": 4738,
@@ -22929,7 +23226,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 2,
-    "_id": 2548
+    "_id": 2581
   },
   {
     "id": 4738,
@@ -22938,7 +23235,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2549
+    "_id": 2582
   },
   {
     "id": 4738,
@@ -22947,7 +23244,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 3,
-    "_id": 2550
+    "_id": 2583
   },
   {
     "id": 4738,
@@ -22956,7 +23253,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2551
+    "_id": 2584
   },
   {
     "id": 4739,
@@ -22965,7 +23262,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2552
+    "_id": 2585
   },
   {
     "id": 4739,
@@ -22974,7 +23271,7 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 2,
-    "_id": 2553
+    "_id": 2586
   },
   {
     "id": 4739,
@@ -22983,7 +23280,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 2554
+    "_id": 2587
   },
   {
     "id": 4739,
@@ -22992,7 +23289,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 2,
-    "_id": 2555
+    "_id": 2588
   },
   {
     "id": 4739,
@@ -23001,7 +23298,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 2,
-    "_id": 2556
+    "_id": 2589
   },
   {
     "id": 4739,
@@ -23010,7 +23307,7 @@ export const objects = [
     "y": 18,
     "z": 0,
     "direction": 2,
-    "_id": 2557
+    "_id": 2590
   },
   {
     "id": 4739,
@@ -23019,7 +23316,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 2,
-    "_id": 2558
+    "_id": 2591
   },
   {
     "id": 4739,
@@ -23028,7 +23325,7 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 2,
-    "_id": 2559
+    "_id": 2592
   },
   {
     "id": 4739,
@@ -23037,7 +23334,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 2,
-    "_id": 2560
+    "_id": 2593
   },
   {
     "id": 4739,
@@ -23046,7 +23343,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 2561
+    "_id": 2594
   },
   {
     "id": 4739,
@@ -23055,7 +23352,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 2562
+    "_id": 2595
   },
   {
     "id": 4739,
@@ -23064,7 +23361,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2563
+    "_id": 2596
   },
   {
     "id": 4739,
@@ -23073,7 +23370,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2564
+    "_id": 2597
   },
   {
     "id": 4739,
@@ -23082,7 +23379,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2565
+    "_id": 2598
   },
   {
     "id": 4739,
@@ -23091,7 +23388,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2566
+    "_id": 2599
   },
   {
     "id": 4739,
@@ -23100,7 +23397,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2567
+    "_id": 2600
   },
   {
     "id": 4739,
@@ -23109,7 +23406,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2568
+    "_id": 2601
   },
   {
     "id": 4739,
@@ -23118,7 +23415,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2569
+    "_id": 2602
   },
   {
     "id": 4739,
@@ -23127,7 +23424,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 0,
-    "_id": 2570
+    "_id": 2603
   },
   {
     "id": 4739,
@@ -23136,7 +23433,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2571
+    "_id": 2604
   },
   {
     "id": 4739,
@@ -23145,7 +23442,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 3,
-    "_id": 2572
+    "_id": 2605
   },
   {
     "id": 4739,
@@ -23154,7 +23451,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 1,
-    "_id": 2573
+    "_id": 2606
   },
   {
     "id": 4739,
@@ -23163,7 +23460,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 3,
-    "_id": 2574
+    "_id": 2607
   },
   {
     "id": 4739,
@@ -23172,7 +23469,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 2575
+    "_id": 2608
   },
   {
     "id": 4739,
@@ -23181,7 +23478,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 3,
-    "_id": 2576
+    "_id": 2609
   },
   {
     "id": 4739,
@@ -23190,7 +23487,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 1,
-    "_id": 2577
+    "_id": 2610
   },
   {
     "id": 4739,
@@ -23199,7 +23496,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 2578
+    "_id": 2611
   },
   {
     "id": 4739,
@@ -23208,7 +23505,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 2579
+    "_id": 2612
   },
   {
     "id": 4739,
@@ -23217,7 +23514,7 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 0,
-    "_id": 2580
+    "_id": 2613
   },
   {
     "id": 4739,
@@ -23226,7 +23523,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 2581
+    "_id": 2614
   },
   {
     "id": 4740,
@@ -23235,7 +23532,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 2582
+    "_id": 2615
   },
   {
     "id": 4740,
@@ -23244,7 +23541,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 2,
-    "_id": 2583
+    "_id": 2616
   },
   {
     "id": 4740,
@@ -23253,7 +23550,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 2,
-    "_id": 2584
+    "_id": 2617
   },
   {
     "id": 4740,
@@ -23262,7 +23559,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 2,
-    "_id": 2585
+    "_id": 2618
   },
   {
     "id": 4740,
@@ -23271,7 +23568,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 2,
-    "_id": 2586
+    "_id": 2619
   },
   {
     "id": 4740,
@@ -23280,7 +23577,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 2,
-    "_id": 2587
+    "_id": 2620
   },
   {
     "id": 4740,
@@ -23289,7 +23586,7 @@ export const objects = [
     "y": 25,
     "z": 0,
     "direction": 2,
-    "_id": 2588
+    "_id": 2621
   },
   {
     "id": 4740,
@@ -23298,7 +23595,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 2,
-    "_id": 2589
+    "_id": 2622
   },
   {
     "id": 4740,
@@ -23307,7 +23604,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 3,
-    "_id": 2590
+    "_id": 2623
   },
   {
     "id": 4740,
@@ -23316,7 +23613,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2591
+    "_id": 2624
   },
   {
     "id": 4740,
@@ -23325,7 +23622,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2592
+    "_id": 2625
   },
   {
     "id": 4740,
@@ -23334,7 +23631,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2593
+    "_id": 2626
   },
   {
     "id": 4740,
@@ -23343,7 +23640,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2594
+    "_id": 2627
   },
   {
     "id": 4740,
@@ -23352,7 +23649,7 @@ export const objects = [
     "y": 3,
     "z": 0,
     "direction": 2,
-    "_id": 2595
+    "_id": 2628
   },
   {
     "id": 4740,
@@ -23361,7 +23658,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 2,
-    "_id": 2596
+    "_id": 2629
   },
   {
     "id": 4740,
@@ -23370,7 +23667,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2597
+    "_id": 2630
   },
   {
     "id": 4740,
@@ -23379,7 +23676,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 0,
-    "_id": 2598
+    "_id": 2631
   },
   {
     "id": 4740,
@@ -23388,7 +23685,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 2599
+    "_id": 2632
   },
   {
     "id": 4740,
@@ -23397,7 +23694,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 2600
+    "_id": 2633
   },
   {
     "id": 4740,
@@ -23406,7 +23703,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 2601
+    "_id": 2634
   },
   {
     "id": 4740,
@@ -23415,7 +23712,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 2602
+    "_id": 2635
   },
   {
     "id": 4740,
@@ -23424,7 +23721,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 3,
-    "_id": 2603
+    "_id": 2636
   },
   {
     "id": 4741,
@@ -23433,7 +23730,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 2,
-    "_id": 2604
+    "_id": 2637
   },
   {
     "id": 4741,
@@ -23442,7 +23739,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2605
+    "_id": 2638
   },
   {
     "id": 4741,
@@ -23451,7 +23748,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 2,
-    "_id": 2606
+    "_id": 2639
   },
   {
     "id": 4741,
@@ -23460,7 +23757,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 2,
-    "_id": 2607
+    "_id": 2640
   },
   {
     "id": 4741,
@@ -23469,7 +23766,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 2,
-    "_id": 2608
+    "_id": 2641
   },
   {
     "id": 4741,
@@ -23478,7 +23775,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 1,
-    "_id": 2609
+    "_id": 2642
   },
   {
     "id": 4741,
@@ -23487,7 +23784,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2610
+    "_id": 2643
   },
   {
     "id": 4741,
@@ -23496,7 +23793,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 3,
-    "_id": 2611
+    "_id": 2644
   },
   {
     "id": 4741,
@@ -23505,7 +23802,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2612
+    "_id": 2645
   },
   {
     "id": 4741,
@@ -23514,7 +23811,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2613
+    "_id": 2646
   },
   {
     "id": 4741,
@@ -23523,7 +23820,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 2,
-    "_id": 2614
+    "_id": 2647
   },
   {
     "id": 4741,
@@ -23532,7 +23829,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 2615
+    "_id": 2648
   },
   {
     "id": 4741,
@@ -23541,7 +23838,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 2616
+    "_id": 2649
   },
   {
     "id": 4741,
@@ -23550,7 +23847,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 3,
-    "_id": 2617
+    "_id": 2650
   },
   {
     "id": 4741,
@@ -23559,7 +23856,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 2618
+    "_id": 2651
   },
   {
     "id": 4742,
@@ -23568,7 +23865,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2619
+    "_id": 2652
   },
   {
     "id": 4742,
@@ -23577,7 +23874,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 0,
-    "_id": 2620
+    "_id": 2653
   },
   {
     "id": 4742,
@@ -23586,7 +23883,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 0,
-    "_id": 2621
+    "_id": 2654
   },
   {
     "id": 5246,
@@ -23595,7 +23892,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 2622
+    "_id": 2655
   },
   {
     "id": 5533,
@@ -23604,7 +23901,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2623
+    "_id": 2656
   },
   {
     "id": 5533,
@@ -23613,7 +23910,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2624
+    "_id": 2657
   },
   {
     "id": 5533,
@@ -23622,7 +23919,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2625
+    "_id": 2658
   },
   {
     "id": 5533,
@@ -23631,7 +23928,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2626
+    "_id": 2659
   },
   {
     "id": 5533,
@@ -23640,7 +23937,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 2,
-    "_id": 2627
+    "_id": 2660
   },
   {
     "id": 5533,
@@ -23649,7 +23946,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 2628
+    "_id": 2661
   },
   {
     "id": 5533,
@@ -23658,7 +23955,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 2,
-    "_id": 2629
+    "_id": 2662
   },
   {
     "id": 5533,
@@ -23667,7 +23964,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 2,
-    "_id": 2630
+    "_id": 2663
   },
   {
     "id": 5533,
@@ -23676,7 +23973,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2631
+    "_id": 2664
   },
   {
     "id": 5533,
@@ -23685,7 +23982,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2632
+    "_id": 2665
   },
   {
     "id": 5533,
@@ -23694,7 +23991,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 2633
+    "_id": 2666
   },
   {
     "id": 5533,
@@ -23703,7 +24000,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 2634
+    "_id": 2667
   },
   {
     "id": 5533,
@@ -23712,7 +24009,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2635
+    "_id": 2668
   },
   {
     "id": 5533,
@@ -23721,7 +24018,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 2636
+    "_id": 2669
   },
   {
     "id": 5533,
@@ -23730,7 +24027,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 2637
+    "_id": 2670
   },
   {
     "id": 5533,
@@ -23739,7 +24036,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2638
+    "_id": 2671
   },
   {
     "id": 5533,
@@ -23748,7 +24045,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2639
+    "_id": 2672
   },
   {
     "id": 5533,
@@ -23757,7 +24054,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2640
+    "_id": 2673
   },
   {
     "id": 5533,
@@ -23766,7 +24063,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 0,
-    "_id": 2641
+    "_id": 2674
   },
   {
     "id": 5533,
@@ -23775,7 +24072,7 @@ export const objects = [
     "y": 49,
     "z": 0,
     "direction": 0,
-    "_id": 2642
+    "_id": 2675
   },
   {
     "id": 5533,
@@ -23784,7 +24081,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 2,
-    "_id": 2643
+    "_id": 2676
   },
   {
     "id": 5533,
@@ -23793,7 +24090,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 2,
-    "_id": 2644
+    "_id": 2677
   },
   {
     "id": 5533,
@@ -23802,7 +24099,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2645
+    "_id": 2678
   },
   {
     "id": 5533,
@@ -23811,7 +24108,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 2646
+    "_id": 2679
   },
   {
     "id": 5533,
@@ -23820,7 +24117,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2647
+    "_id": 2680
   },
   {
     "id": 5533,
@@ -23829,7 +24126,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 2,
-    "_id": 2648
+    "_id": 2681
   },
   {
     "id": 5533,
@@ -23838,7 +24135,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2649
+    "_id": 2682
   },
   {
     "id": 5533,
@@ -23847,7 +24144,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2650
+    "_id": 2683
   },
   {
     "id": 5533,
@@ -23856,7 +24153,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 1,
-    "_id": 2651
+    "_id": 2684
   },
   {
     "id": 5533,
@@ -23865,7 +24162,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 2652
+    "_id": 2685
   },
   {
     "id": 5533,
@@ -23874,7 +24171,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2653
+    "_id": 2686
   },
   {
     "id": 5533,
@@ -23883,7 +24180,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 0,
-    "_id": 2654
+    "_id": 2687
   },
   {
     "id": 5533,
@@ -23892,7 +24189,7 @@ export const objects = [
     "y": 54,
     "z": 0,
     "direction": 0,
-    "_id": 2655
+    "_id": 2688
   },
   {
     "id": 5533,
@@ -23901,7 +24198,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 2656
+    "_id": 2689
   },
   {
     "id": 5533,
@@ -23910,7 +24207,7 @@ export const objects = [
     "y": 35,
     "z": 0,
     "direction": 1,
-    "_id": 2657
+    "_id": 2690
   },
   {
     "id": 5533,
@@ -23919,7 +24216,7 @@ export const objects = [
     "y": 1,
     "z": 0,
     "direction": 0,
-    "_id": 2658
+    "_id": 2691
   },
   {
     "id": 5533,
@@ -23928,7 +24225,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 0,
-    "_id": 2659
+    "_id": 2692
   },
   {
     "id": 5533,
@@ -23937,7 +24234,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 2660
+    "_id": 2693
   },
   {
     "id": 5533,
@@ -23946,7 +24243,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 1,
-    "_id": 2661
+    "_id": 2694
   },
   {
     "id": 5533,
@@ -23955,7 +24252,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 3,
-    "_id": 2662
+    "_id": 2695
   },
   {
     "id": 5533,
@@ -23964,7 +24261,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2663
+    "_id": 2696
   },
   {
     "id": 5533,
@@ -23973,7 +24270,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2664
+    "_id": 2697
   },
   {
     "id": 5533,
@@ -23982,7 +24279,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2665
+    "_id": 2698
   },
   {
     "id": 5533,
@@ -23991,7 +24288,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2666
+    "_id": 2699
   },
   {
     "id": 5533,
@@ -24000,7 +24297,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 2,
-    "_id": 2667
+    "_id": 2700
   },
   {
     "id": 5533,
@@ -24009,7 +24306,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 0,
-    "_id": 2668
+    "_id": 2701
   },
   {
     "id": 5533,
@@ -24018,7 +24315,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 0,
-    "_id": 2669
+    "_id": 2702
   },
   {
     "id": 5533,
@@ -24027,7 +24324,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 2670
+    "_id": 2703
   },
   {
     "id": 5533,
@@ -24036,7 +24333,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 0,
-    "_id": 2671
+    "_id": 2704
   },
   {
     "id": 5534,
@@ -24045,7 +24342,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2672
+    "_id": 2705
   },
   {
     "id": 5534,
@@ -24054,7 +24351,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2673
+    "_id": 2706
   },
   {
     "id": 5534,
@@ -24063,7 +24360,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2674
+    "_id": 2707
   },
   {
     "id": 5534,
@@ -24072,7 +24369,7 @@ export const objects = [
     "y": 45,
     "z": 0,
     "direction": 2,
-    "_id": 2675
+    "_id": 2708
   },
   {
     "id": 5534,
@@ -24081,7 +24378,7 @@ export const objects = [
     "y": 47,
     "z": 0,
     "direction": 2,
-    "_id": 2676
+    "_id": 2709
   },
   {
     "id": 5534,
@@ -24090,7 +24387,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2677
+    "_id": 2710
   },
   {
     "id": 5534,
@@ -24099,7 +24396,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 1,
-    "_id": 2678
+    "_id": 2711
   },
   {
     "id": 5534,
@@ -24108,7 +24405,7 @@ export const objects = [
     "y": 52,
     "z": 0,
     "direction": 3,
-    "_id": 2679
+    "_id": 2712
   },
   {
     "id": 5534,
@@ -24117,7 +24414,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2680
+    "_id": 2713
   },
   {
     "id": 5534,
@@ -24126,7 +24423,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2681
+    "_id": 2714
   },
   {
     "id": 5534,
@@ -24135,7 +24432,7 @@ export const objects = [
     "y": 48,
     "z": 0,
     "direction": 0,
-    "_id": 2682
+    "_id": 2715
   },
   {
     "id": 5534,
@@ -24144,7 +24441,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 1,
-    "_id": 2683
+    "_id": 2716
   },
   {
     "id": 5534,
@@ -24153,7 +24450,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2684
+    "_id": 2717
   },
   {
     "id": 5534,
@@ -24162,7 +24459,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2685
+    "_id": 2718
   },
   {
     "id": 5534,
@@ -24171,7 +24468,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 3,
-    "_id": 2686
+    "_id": 2719
   },
   {
     "id": 5534,
@@ -24180,7 +24477,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 2687
+    "_id": 2720
   },
   {
     "id": 5534,
@@ -24189,7 +24486,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 2688
+    "_id": 2721
   },
   {
     "id": 5534,
@@ -24198,7 +24495,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 2689
+    "_id": 2722
   },
   {
     "id": 5534,
@@ -24207,7 +24504,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 0,
-    "_id": 2690
+    "_id": 2723
   },
   {
     "id": 5534,
@@ -24216,7 +24513,7 @@ export const objects = [
     "y": 0,
     "z": 0,
     "direction": 1,
-    "_id": 2691
+    "_id": 2724
   },
   {
     "id": 5534,
@@ -24225,7 +24522,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 2692
+    "_id": 2725
   },
   {
     "id": 5534,
@@ -24234,7 +24531,7 @@ export const objects = [
     "y": 6,
     "z": 0,
     "direction": 2,
-    "_id": 2693
+    "_id": 2726
   },
   {
     "id": 5534,
@@ -24243,7 +24540,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 2,
-    "_id": 2694
+    "_id": 2727
   },
   {
     "id": 5534,
@@ -24252,7 +24549,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 2695
+    "_id": 2728
   },
   {
     "id": 5534,
@@ -24261,7 +24558,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2696
+    "_id": 2729
   },
   {
     "id": 5535,
@@ -24270,7 +24567,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 0,
-    "_id": 2697
+    "_id": 2730
   },
   {
     "id": 5535,
@@ -24279,7 +24576,7 @@ export const objects = [
     "y": 8,
     "z": 0,
     "direction": 2,
-    "_id": 2698
+    "_id": 2731
   },
   {
     "id": 5535,
@@ -24288,7 +24585,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 3,
-    "_id": 2699
+    "_id": 2732
   },
   {
     "id": 5536,
@@ -24297,7 +24594,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 1,
-    "_id": 2700
+    "_id": 2733
   },
   {
     "id": 5536,
@@ -24306,7 +24603,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 2,
-    "_id": 2701
+    "_id": 2734
   },
   {
     "id": 5536,
@@ -24315,7 +24612,7 @@ export const objects = [
     "y": 44,
     "z": 0,
     "direction": 1,
-    "_id": 2702
+    "_id": 2735
   },
   {
     "id": 5536,
@@ -24324,7 +24621,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 2,
-    "_id": 2703
+    "_id": 2736
   },
   {
     "id": 5536,
@@ -24333,7 +24630,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 0,
-    "_id": 2704
+    "_id": 2737
   },
   {
     "id": 5536,
@@ -24342,7 +24639,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 3,
-    "_id": 2705
+    "_id": 2738
   },
   {
     "id": 5536,
@@ -24351,7 +24648,7 @@ export const objects = [
     "y": 51,
     "z": 0,
     "direction": 2,
-    "_id": 2706
+    "_id": 2739
   },
   {
     "id": 5536,
@@ -24360,7 +24657,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2707
+    "_id": 2740
   },
   {
     "id": 5536,
@@ -24369,7 +24666,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2708
+    "_id": 2741
   },
   {
     "id": 5536,
@@ -24378,7 +24675,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 2,
-    "_id": 2709
+    "_id": 2742
   },
   {
     "id": 5536,
@@ -24387,7 +24684,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 1,
-    "_id": 2710
+    "_id": 2743
   },
   {
     "id": 5536,
@@ -24396,7 +24693,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 1,
-    "_id": 2711
+    "_id": 2744
   },
   {
     "id": 5536,
@@ -24405,7 +24702,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2712
+    "_id": 2745
   },
   {
     "id": 5536,
@@ -24414,7 +24711,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 1,
-    "_id": 2713
+    "_id": 2746
   },
   {
     "id": 5536,
@@ -24423,7 +24720,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2714
+    "_id": 2747
   },
   {
     "id": 5536,
@@ -24432,7 +24729,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 1,
-    "_id": 2715
+    "_id": 2748
   },
   {
     "id": 5536,
@@ -24441,7 +24738,7 @@ export const objects = [
     "y": 10,
     "z": 0,
     "direction": 2,
-    "_id": 2716
+    "_id": 2749
   },
   {
     "id": 5536,
@@ -24450,7 +24747,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 1,
-    "_id": 2717
+    "_id": 2750
   },
   {
     "id": 5555,
@@ -24459,7 +24756,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 0,
-    "_id": 2718
+    "_id": 2751
   },
   {
     "id": 5555,
@@ -24468,7 +24765,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 0,
-    "_id": 2719
+    "_id": 2752
   },
   {
     "id": 5555,
@@ -24477,7 +24774,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 2720
+    "_id": 2753
   },
   {
     "id": 5555,
@@ -24486,7 +24783,7 @@ export const objects = [
     "y": 26,
     "z": 0,
     "direction": 1,
-    "_id": 2721
+    "_id": 2754
   },
   {
     "id": 5556,
@@ -24495,7 +24792,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 3,
-    "_id": 2722
+    "_id": 2755
   },
   {
     "id": 5556,
@@ -24504,7 +24801,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 1,
-    "_id": 2723
+    "_id": 2756
   },
   {
     "id": 5556,
@@ -24513,7 +24810,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 3,
-    "_id": 2724
+    "_id": 2757
   },
   {
     "id": 5556,
@@ -24522,7 +24819,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 1,
-    "_id": 2725
+    "_id": 2758
   },
   {
     "id": 5556,
@@ -24531,7 +24828,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 2726
+    "_id": 2759
   },
   {
     "id": 5556,
@@ -24540,7 +24837,7 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 3,
-    "_id": 2727
+    "_id": 2760
   },
   {
     "id": 5556,
@@ -24549,7 +24846,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 2728
+    "_id": 2761
   },
   {
     "id": 5556,
@@ -24558,7 +24855,7 @@ export const objects = [
     "y": 19,
     "z": 0,
     "direction": 2,
-    "_id": 2729
+    "_id": 2762
   },
   {
     "id": 5556,
@@ -24567,7 +24864,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 2,
-    "_id": 2730
+    "_id": 2763
   },
   {
     "id": 5556,
@@ -24576,7 +24873,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 1,
-    "_id": 2731
+    "_id": 2764
   },
   {
     "id": 5604,
@@ -24585,7 +24882,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 1,
-    "_id": 2732
+    "_id": 2765
   },
   {
     "id": 5604,
@@ -24594,7 +24891,7 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 2,
-    "_id": 2733
+    "_id": 2766
   },
   {
     "id": 5604,
@@ -24603,7 +24900,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 3,
-    "_id": 2734
+    "_id": 2767
   },
   {
     "id": 5605,
@@ -24612,7 +24909,7 @@ export const objects = [
     "y": 50,
     "z": 0,
     "direction": 3,
-    "_id": 2735
+    "_id": 2768
   },
   {
     "id": 5605,
@@ -24621,7 +24918,7 @@ export const objects = [
     "y": 55,
     "z": 0,
     "direction": 2,
-    "_id": 2736
+    "_id": 2769
   },
   {
     "id": 5605,
@@ -24630,7 +24927,7 @@ export const objects = [
     "y": 31,
     "z": 0,
     "direction": 0,
-    "_id": 2737
+    "_id": 2770
   },
   {
     "id": 5605,
@@ -24639,7 +24936,7 @@ export const objects = [
     "y": 29,
     "z": 0,
     "direction": 1,
-    "_id": 2738
+    "_id": 2771
   },
   {
     "id": 5605,
@@ -24648,7 +24945,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 2,
-    "_id": 2739
+    "_id": 2772
   },
   {
     "id": 5605,
@@ -24657,7 +24954,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 3,
-    "_id": 2740
+    "_id": 2773
   },
   {
     "id": 5605,
@@ -24666,7 +24963,7 @@ export const objects = [
     "y": 2,
     "z": 0,
     "direction": 0,
-    "_id": 2741
+    "_id": 2774
   },
   {
     "id": 5606,
@@ -24675,7 +24972,7 @@ export const objects = [
     "y": 41,
     "z": 0,
     "direction": 0,
-    "_id": 2742
+    "_id": 2775
   },
   {
     "id": 5606,
@@ -24684,7 +24981,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 2743
+    "_id": 2776
   },
   {
     "id": 5606,
@@ -24693,7 +24990,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 3,
-    "_id": 2744
+    "_id": 2777
   },
   {
     "id": 5606,
@@ -24702,7 +24999,34 @@ export const objects = [
     "y": 27,
     "z": 0,
     "direction": 1,
-    "_id": 2745
+    "_id": 2778
+  },
+  {
+    "id": 5608,
+    "type": 10,
+    "x": 45,
+    "y": 46,
+    "z": 0,
+    "direction": 3,
+    "_id": 2779
+  },
+  {
+    "id": 5609,
+    "type": 10,
+    "x": 12,
+    "y": 13,
+    "z": 0,
+    "direction": 1,
+    "_id": 2780
+  },
+  {
+    "id": 5610,
+    "type": 10,
+    "x": 12,
+    "y": 14,
+    "z": 0,
+    "direction": 1,
+    "_id": 2781
   },
   {
     "id": 5611,
@@ -24711,7 +25035,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 2746
+    "_id": 2782
   },
   {
     "id": 5611,
@@ -24720,7 +25044,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2747
+    "_id": 2783
   },
   {
     "id": 5611,
@@ -24729,7 +25053,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 2,
-    "_id": 2748
+    "_id": 2784
   },
   {
     "id": 5611,
@@ -24738,7 +25062,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 1,
-    "_id": 2749
+    "_id": 2785
   },
   {
     "id": 5611,
@@ -24747,7 +25071,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2750
+    "_id": 2786
   },
   {
     "id": 5611,
@@ -24756,7 +25080,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2751
+    "_id": 2787
   },
   {
     "id": 5611,
@@ -24765,7 +25089,7 @@ export const objects = [
     "y": 61,
     "z": 0,
     "direction": 3,
-    "_id": 2752
+    "_id": 2788
   },
   {
     "id": 5611,
@@ -24774,7 +25098,7 @@ export const objects = [
     "y": 62,
     "z": 0,
     "direction": 0,
-    "_id": 2753
+    "_id": 2789
   },
   {
     "id": 5614,
@@ -24783,7 +25107,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 3,
-    "_id": 2754
+    "_id": 2790
   },
   {
     "id": 5614,
@@ -24792,7 +25116,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 3,
-    "_id": 2755
+    "_id": 2791
   },
   {
     "id": 5614,
@@ -24801,7 +25125,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 3,
-    "_id": 2756
+    "_id": 2792
   },
   {
     "id": 5614,
@@ -24810,7 +25134,7 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 3,
-    "_id": 2757
+    "_id": 2793
   },
   {
     "id": 5614,
@@ -24819,7 +25143,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 1,
-    "_id": 2758
+    "_id": 2794
   },
   {
     "id": 5614,
@@ -24828,7 +25152,7 @@ export const objects = [
     "y": 21,
     "z": 0,
     "direction": 1,
-    "_id": 2759
+    "_id": 2795
   },
   {
     "id": 5614,
@@ -24837,7 +25161,7 @@ export const objects = [
     "y": 22,
     "z": 0,
     "direction": 1,
-    "_id": 2760
+    "_id": 2796
   },
   {
     "id": 5614,
@@ -24846,7 +25170,16 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 1,
-    "_id": 2761
+    "_id": 2797
+  },
+  {
+    "id": 5621,
+    "type": 10,
+    "x": 8,
+    "y": 49,
+    "z": 0,
+    "direction": 2,
+    "_id": 2798
   },
   {
     "id": 5788,
@@ -24855,7 +25188,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 2762
+    "_id": 2799
   },
   {
     "id": 5788,
@@ -24864,7 +25197,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 2763
+    "_id": 2800
   },
   {
     "id": 5788,
@@ -24873,7 +25206,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 0,
-    "_id": 2764
+    "_id": 2801
   },
   {
     "id": 5788,
@@ -24882,7 +25215,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 2765
+    "_id": 2802
   },
   {
     "id": 5788,
@@ -24891,7 +25224,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 2766
+    "_id": 2803
   },
   {
     "id": 5788,
@@ -24900,7 +25233,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 0,
-    "_id": 2767
+    "_id": 2804
   },
   {
     "id": 5791,
@@ -24909,7 +25242,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 3,
-    "_id": 2768
+    "_id": 2805
   },
   {
     "id": 5791,
@@ -24918,7 +25251,7 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 3,
-    "_id": 2769
+    "_id": 2806
   },
   {
     "id": 5791,
@@ -24927,7 +25260,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 3,
-    "_id": 2770
+    "_id": 2807
   },
   {
     "id": 5791,
@@ -24936,7 +25269,7 @@ export const objects = [
     "y": 20,
     "z": 0,
     "direction": 3,
-    "_id": 2771
+    "_id": 2808
   },
   {
     "id": 6955,
@@ -24945,7 +25278,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2772
+    "_id": 2809
   },
   {
     "id": 6956,
@@ -24954,7 +25287,25 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2773
+    "_id": 2810
+  },
+  {
+    "id": 6959,
+    "type": 4,
+    "x": 44,
+    "y": 4,
+    "z": 0,
+    "direction": 3,
+    "_id": 2811
+  },
+  {
+    "id": 6960,
+    "type": 4,
+    "x": 43,
+    "y": 4,
+    "z": 0,
+    "direction": 3,
+    "_id": 2812
   },
   {
     "id": 6963,
@@ -24963,7 +25314,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2774
+    "_id": 2813
   },
   {
     "id": 6963,
@@ -24972,7 +25323,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 2,
-    "_id": 2775
+    "_id": 2814
   },
   {
     "id": 6963,
@@ -24981,7 +25332,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 2776
+    "_id": 2815
   },
   {
     "id": 6963,
@@ -24990,7 +25341,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 2777
+    "_id": 2816
   },
   {
     "id": 6963,
@@ -24999,7 +25350,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 0,
-    "_id": 2778
+    "_id": 2817
   },
   {
     "id": 6964,
@@ -25008,7 +25359,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2779
+    "_id": 2818
   },
   {
     "id": 6964,
@@ -25017,7 +25368,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2780
+    "_id": 2819
   },
   {
     "id": 6964,
@@ -25026,7 +25377,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2781
+    "_id": 2820
   },
   {
     "id": 6964,
@@ -25035,7 +25386,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2782
+    "_id": 2821
   },
   {
     "id": 6964,
@@ -25044,7 +25395,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2783
+    "_id": 2822
   },
   {
     "id": 6964,
@@ -25053,7 +25404,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2784
+    "_id": 2823
   },
   {
     "id": 6964,
@@ -25062,7 +25413,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 2785
+    "_id": 2824
   },
   {
     "id": 6964,
@@ -25071,7 +25422,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 2786
+    "_id": 2825
   },
   {
     "id": 6964,
@@ -25080,7 +25431,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 0,
-    "_id": 2787
+    "_id": 2826
   },
   {
     "id": 6965,
@@ -25089,7 +25440,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2788
+    "_id": 2827
   },
   {
     "id": 6965,
@@ -25098,7 +25449,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2789
+    "_id": 2828
   },
   {
     "id": 6966,
@@ -25107,7 +25458,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 2,
-    "_id": 2790
+    "_id": 2829
   },
   {
     "id": 6966,
@@ -25116,7 +25467,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 2,
-    "_id": 2791
+    "_id": 2830
   },
   {
     "id": 6966,
@@ -25125,7 +25476,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2792
+    "_id": 2831
   },
   {
     "id": 6966,
@@ -25134,7 +25485,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 2,
-    "_id": 2793
+    "_id": 2832
   },
   {
     "id": 6966,
@@ -25143,7 +25494,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2794
+    "_id": 2833
   },
   {
     "id": 6966,
@@ -25152,7 +25503,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2795
+    "_id": 2834
   },
   {
     "id": 6966,
@@ -25161,7 +25512,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 3,
-    "_id": 2796
+    "_id": 2835
   },
   {
     "id": 6966,
@@ -25170,7 +25521,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2797
+    "_id": 2836
   },
   {
     "id": 6966,
@@ -25179,7 +25530,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 2798
+    "_id": 2837
   },
   {
     "id": 6966,
@@ -25188,7 +25539,7 @@ export const objects = [
     "y": 7,
     "z": 0,
     "direction": 0,
-    "_id": 2799
+    "_id": 2838
   },
   {
     "id": 6966,
@@ -25197,7 +25548,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 0,
-    "_id": 2800
+    "_id": 2839
   },
   {
     "id": 6966,
@@ -25206,7 +25557,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 0,
-    "_id": 2801
+    "_id": 2840
   },
   {
     "id": 6966,
@@ -25215,7 +25566,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 0,
-    "_id": 2802
+    "_id": 2841
   },
   {
     "id": 6966,
@@ -25224,7 +25575,25 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 0,
-    "_id": 2803
+    "_id": 2842
+  },
+  {
+    "id": 7389,
+    "type": 22,
+    "x": 17,
+    "y": 35,
+    "z": 0,
+    "direction": 0,
+    "_id": 2843
+  },
+  {
+    "id": 7389,
+    "type": 22,
+    "x": 42,
+    "y": 38,
+    "z": 0,
+    "direction": 0,
+    "_id": 2844
   },
   {
     "id": 9159,
@@ -25233,7 +25602,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2804
+    "_id": 2845
   },
   {
     "id": 9159,
@@ -25242,7 +25611,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2805
+    "_id": 2846
   },
   {
     "id": 9160,
@@ -25251,7 +25620,7 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2806
+    "_id": 2847
   },
   {
     "id": 9160,
@@ -25260,7 +25629,34 @@ export const objects = [
     "y": 4,
     "z": 0,
     "direction": 2,
-    "_id": 2807
+    "_id": 2848
+  },
+  {
+    "id": 9292,
+    "type": 10,
+    "x": 31,
+    "y": 20,
+    "z": 0,
+    "direction": 1,
+    "_id": 2850
+  },
+  {
+    "id": 9484,
+    "type": 22,
+    "x": 25,
+    "y": 42,
+    "z": 0,
+    "direction": 2,
+    "_id": 2851
+  },
+  {
+    "id": 10627,
+    "type": 22,
+    "x": 45,
+    "y": 45,
+    "z": 0,
+    "direction": 0,
+    "_id": 2853
   },
   {
     "id": 10790,
@@ -25269,7 +25665,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2808
+    "_id": 2855
   },
   {
     "id": 10790,
@@ -25278,7 +25674,7 @@ export const objects = [
     "y": 32,
     "z": 0,
     "direction": 3,
-    "_id": 2809
+    "_id": 2856
   },
   {
     "id": 10791,
@@ -25287,7 +25683,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2810
+    "_id": 2857
   },
   {
     "id": 10791,
@@ -25296,7 +25692,25 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 1,
-    "_id": 2811
+    "_id": 2858
+  },
+  {
+    "id": 10819,
+    "type": 10,
+    "x": 33,
+    "y": 44,
+    "z": 0,
+    "direction": 1,
+    "_id": 2860
+  },
+  {
+    "id": 10819,
+    "type": 10,
+    "x": 35,
+    "y": 37,
+    "z": 0,
+    "direction": 0,
+    "_id": 2861
   },
   {
     "id": 10820,
@@ -25305,7 +25719,7 @@ export const objects = [
     "y": 46,
     "z": 0,
     "direction": 1,
-    "_id": 2812
+    "_id": 2862
   },
   {
     "id": 10820,
@@ -25314,7 +25728,7 @@ export const objects = [
     "y": 39,
     "z": 0,
     "direction": 0,
-    "_id": 2813
+    "_id": 2863
   },
   {
     "id": 10820,
@@ -25323,7 +25737,7 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 1,
-    "_id": 2814
+    "_id": 2864
   },
   {
     "id": 10820,
@@ -25332,7 +25746,7 @@ export const objects = [
     "y": 5,
     "z": 0,
     "direction": 0,
-    "_id": 2815
+    "_id": 2865
   },
   {
     "id": 10820,
@@ -25341,7 +25755,7 @@ export const objects = [
     "y": 53,
     "z": 0,
     "direction": 1,
-    "_id": 2816
+    "_id": 2866
   },
   {
     "id": 10820,
@@ -25350,7 +25764,7 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2817
+    "_id": 2867
   },
   {
     "id": 10820,
@@ -25359,7 +25773,43 @@ export const objects = [
     "y": 23,
     "z": 0,
     "direction": 2,
-    "_id": 2818
+    "_id": 2868
+  },
+  {
+    "id": 12348,
+    "type": 0,
+    "x": 7,
+    "y": 17,
+    "z": 0,
+    "direction": 1,
+    "_id": 2871
+  },
+  {
+    "id": 12349,
+    "type": 0,
+    "x": 13,
+    "y": 21,
+    "z": 0,
+    "direction": 0,
+    "_id": 2872
+  },
+  {
+    "id": 12350,
+    "type": 0,
+    "x": 13,
+    "y": 22,
+    "z": 0,
+    "direction": 0,
+    "_id": 2873
+  },
+  {
+    "id": 12442,
+    "type": 10,
+    "x": 48,
+    "y": 44,
+    "z": 0,
+    "direction": 1,
+    "_id": 2875
   },
   {
     "id": 12961,
@@ -25368,7 +25818,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 3,
-    "_id": 2819
+    "_id": 2876
   },
   {
     "id": 12961,
@@ -25377,7 +25827,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 2,
-    "_id": 2820
+    "_id": 2877
   },
   {
     "id": 12961,
@@ -25386,7 +25836,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 2821
+    "_id": 2878
   },
   {
     "id": 12962,
@@ -25395,7 +25845,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 2822
+    "_id": 2879
   },
   {
     "id": 12962,
@@ -25404,7 +25854,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2823
+    "_id": 2880
   },
   {
     "id": 12983,
@@ -25413,7 +25863,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2824
+    "_id": 2881
   },
   {
     "id": 12983,
@@ -25422,7 +25872,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2825
+    "_id": 2882
   },
   {
     "id": 12983,
@@ -25431,7 +25881,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2826
+    "_id": 2883
   },
   {
     "id": 12983,
@@ -25440,7 +25890,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2827
+    "_id": 2884
   },
   {
     "id": 12983,
@@ -25449,7 +25899,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2828
+    "_id": 2885
   },
   {
     "id": 12983,
@@ -25458,7 +25908,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2829
+    "_id": 2886
   },
   {
     "id": 12983,
@@ -25467,7 +25917,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2830
+    "_id": 2887
   },
   {
     "id": 12983,
@@ -25476,7 +25926,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2831
+    "_id": 2888
   },
   {
     "id": 12983,
@@ -25485,7 +25935,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2832
+    "_id": 2889
   },
   {
     "id": 12983,
@@ -25494,7 +25944,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2833
+    "_id": 2890
   },
   {
     "id": 12983,
@@ -25503,7 +25953,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2834
+    "_id": 2891
   },
   {
     "id": 12983,
@@ -25512,7 +25962,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2835
+    "_id": 2892
   },
   {
     "id": 12983,
@@ -25521,7 +25971,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 1,
-    "_id": 2836
+    "_id": 2893
   },
   {
     "id": 12983,
@@ -25530,7 +25980,7 @@ export const objects = [
     "y": 56,
     "z": 0,
     "direction": 0,
-    "_id": 2837
+    "_id": 2894
   },
   {
     "id": 12983,
@@ -25539,7 +25989,7 @@ export const objects = [
     "y": 57,
     "z": 0,
     "direction": 0,
-    "_id": 2838
+    "_id": 2895
   },
   {
     "id": 12983,
@@ -25548,7 +25998,7 @@ export const objects = [
     "y": 58,
     "z": 0,
     "direction": 0,
-    "_id": 2839
+    "_id": 2896
   },
   {
     "id": 12983,
@@ -25557,7 +26007,7 @@ export const objects = [
     "y": 59,
     "z": 0,
     "direction": 0,
-    "_id": 2840
+    "_id": 2897
   },
   {
     "id": 12983,
@@ -25566,7 +26016,7 @@ export const objects = [
     "y": 60,
     "z": 0,
     "direction": 0,
-    "_id": 2841
+    "_id": 2898
   },
   {
     "id": 12983,
@@ -25575,7 +26025,70 @@ export const objects = [
     "y": 63,
     "z": 0,
     "direction": 0,
-    "_id": 2842
+    "_id": 2899
+  },
+  {
+    "id": 12986,
+    "type": 0,
+    "x": 13,
+    "y": 61,
+    "z": 0,
+    "direction": 0,
+    "_id": 2900
+  },
+  {
+    "id": 12987,
+    "type": 0,
+    "x": 13,
+    "y": 62,
+    "z": 0,
+    "direction": 0,
+    "_id": 2901
+  },
+  {
+    "id": 14108,
+    "type": 22,
+    "x": 9,
+    "y": 18,
+    "z": 0,
+    "direction": 0,
+    "_id": 2902
+  },
+  {
+    "id": 14866,
+    "type": 10,
+    "x": 10,
+    "y": 17,
+    "z": 0,
+    "direction": 0,
+    "_id": 2903
+  },
+  {
+    "id": 14867,
+    "type": 10,
+    "x": 12,
+    "y": 17,
+    "z": 0,
+    "direction": 0,
+    "_id": 2904
+  },
+  {
+    "id": 14868,
+    "type": 10,
+    "x": 5,
+    "y": 15,
+    "z": 0,
+    "direction": 0,
+    "_id": 2905
+  },
+  {
+    "id": 14869,
+    "type": 10,
+    "x": 5,
+    "y": 13,
+    "z": 0,
+    "direction": 0,
+    "_id": 2906
   },
   {
     "id": 14870,
@@ -25584,7 +26097,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 2843
+    "_id": 2907
   },
   {
     "id": 14870,
@@ -25593,7 +26106,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 2,
-    "_id": 2844
+    "_id": 2908
   },
   {
     "id": 14870,
@@ -25602,7 +26115,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 2845
+    "_id": 2909
   },
   {
     "id": 14871,
@@ -25611,7 +26124,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 2846
+    "_id": 2910
   },
   {
     "id": 14871,
@@ -25620,7 +26133,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 2847
+    "_id": 2911
   },
   {
     "id": 14872,
@@ -25629,7 +26142,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 2,
-    "_id": 2848
+    "_id": 2912
   },
   {
     "id": 14872,
@@ -25638,7 +26151,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 3,
-    "_id": 2849
+    "_id": 2913
   },
   {
     "id": 14873,
@@ -25647,7 +26160,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 1,
-    "_id": 2850
+    "_id": 2914
   },
   {
     "id": 14873,
@@ -25656,7 +26169,16 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 3,
-    "_id": 2851
+    "_id": 2915
+  },
+  {
+    "id": 14874,
+    "type": 4,
+    "x": 9,
+    "y": 12,
+    "z": 0,
+    "direction": 3,
+    "_id": 2916
   },
   {
     "id": 14875,
@@ -25665,7 +26187,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2852
+    "_id": 2917
   },
   {
     "id": 14875,
@@ -25674,7 +26196,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 0,
-    "_id": 2853
+    "_id": 2918
   },
   {
     "id": 14875,
@@ -25683,7 +26205,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 3,
-    "_id": 2854
+    "_id": 2919
   },
   {
     "id": 14875,
@@ -25692,7 +26214,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 2855
+    "_id": 2920
   },
   {
     "id": 14875,
@@ -25701,7 +26223,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2856
+    "_id": 2921
   },
   {
     "id": 14875,
@@ -25710,7 +26232,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 1,
-    "_id": 2857
+    "_id": 2922
   },
   {
     "id": 14875,
@@ -25719,7 +26241,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 2858
+    "_id": 2923
   },
   {
     "id": 14875,
@@ -25728,7 +26250,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 3,
-    "_id": 2859
+    "_id": 2924
   },
   {
     "id": 14875,
@@ -25737,7 +26259,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 0,
-    "_id": 2860
+    "_id": 2925
   },
   {
     "id": 14875,
@@ -25746,7 +26268,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 2,
-    "_id": 2861
+    "_id": 2926
   },
   {
     "id": 14875,
@@ -25755,7 +26277,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 1,
-    "_id": 2862
+    "_id": 2927
   },
   {
     "id": 14875,
@@ -25764,7 +26286,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 3,
-    "_id": 2863
+    "_id": 2928
   },
   {
     "id": 14876,
@@ -25773,7 +26295,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 1,
-    "_id": 2864
+    "_id": 2929
   },
   {
     "id": 14876,
@@ -25782,7 +26304,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2865
+    "_id": 2930
   },
   {
     "id": 14876,
@@ -25791,7 +26313,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 3,
-    "_id": 2866
+    "_id": 2931
   },
   {
     "id": 14876,
@@ -25800,7 +26322,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 2867
+    "_id": 2932
   },
   {
     "id": 14876,
@@ -25809,7 +26331,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2868
+    "_id": 2933
   },
   {
     "id": 14876,
@@ -25818,7 +26340,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2869
+    "_id": 2934
   },
   {
     "id": 14876,
@@ -25827,7 +26349,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 1,
-    "_id": 2870
+    "_id": 2935
   },
   {
     "id": 14876,
@@ -25836,7 +26358,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 2871
+    "_id": 2936
   },
   {
     "id": 14876,
@@ -25845,7 +26367,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 3,
-    "_id": 2872
+    "_id": 2937
   },
   {
     "id": 14876,
@@ -25854,7 +26376,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 2,
-    "_id": 2873
+    "_id": 2938
   },
   {
     "id": 14876,
@@ -25863,7 +26385,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 0,
-    "_id": 2874
+    "_id": 2939
   },
   {
     "id": 14876,
@@ -25872,7 +26394,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 2,
-    "_id": 2875
+    "_id": 2940
   },
   {
     "id": 14877,
@@ -25881,7 +26403,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 2,
-    "_id": 2876
+    "_id": 2941
   },
   {
     "id": 14877,
@@ -25890,7 +26412,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 1,
-    "_id": 2877
+    "_id": 2942
   },
   {
     "id": 14877,
@@ -25899,7 +26421,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 0,
-    "_id": 2878
+    "_id": 2943
   },
   {
     "id": 14877,
@@ -25908,7 +26430,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 0,
-    "_id": 2879
+    "_id": 2944
   },
   {
     "id": 14877,
@@ -25917,7 +26439,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 3,
-    "_id": 2880
+    "_id": 2945
   },
   {
     "id": 14877,
@@ -25926,7 +26448,7 @@ export const objects = [
     "y": 16,
     "z": 0,
     "direction": 3,
-    "_id": 2881
+    "_id": 2946
   },
   {
     "id": 14877,
@@ -25935,7 +26457,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 2,
-    "_id": 2882
+    "_id": 2947
   },
   {
     "id": 14877,
@@ -25944,7 +26466,7 @@ export const objects = [
     "y": 15,
     "z": 0,
     "direction": 1,
-    "_id": 2883
+    "_id": 2948
   },
   {
     "id": 14877,
@@ -25953,7 +26475,7 @@ export const objects = [
     "y": 12,
     "z": 0,
     "direction": 1,
-    "_id": 2884
+    "_id": 2949
   },
   {
     "id": 14877,
@@ -25962,7 +26484,7 @@ export const objects = [
     "y": 14,
     "z": 0,
     "direction": 0,
-    "_id": 2885
+    "_id": 2950
   },
   {
     "id": 14877,
@@ -25971,7 +26493,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 3,
-    "_id": 2886
+    "_id": 2951
   },
   {
     "id": 14878,
@@ -25980,7 +26502,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2887
+    "_id": 2952
   },
   {
     "id": 14878,
@@ -25989,7 +26511,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2888
+    "_id": 2953
   },
   {
     "id": 14878,
@@ -25998,7 +26520,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2889
+    "_id": 2954
   },
   {
     "id": 14878,
@@ -26007,7 +26529,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2890
+    "_id": 2955
   },
   {
     "id": 14878,
@@ -26016,7 +26538,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2891
+    "_id": 2956
   },
   {
     "id": 14878,
@@ -26025,7 +26547,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2892
+    "_id": 2957
   },
   {
     "id": 14878,
@@ -26034,7 +26556,7 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2893
+    "_id": 2958
   },
   {
     "id": 14878,
@@ -26043,7 +26565,16 @@ export const objects = [
     "y": 17,
     "z": 0,
     "direction": 0,
-    "_id": 2894
+    "_id": 2959
+  },
+  {
+    "id": 14880,
+    "type": 22,
+    "x": 9,
+    "y": 16,
+    "z": 0,
+    "direction": 0,
+    "_id": 2960
   },
   {
     "id": 14881,
@@ -26052,7 +26583,7 @@ export const objects = [
     "y": 9,
     "z": 0,
     "direction": 2,
-    "_id": 2895
+    "_id": 2961
   },
   {
     "id": 14881,
@@ -26061,7 +26592,7 @@ export const objects = [
     "y": 11,
     "z": 0,
     "direction": 2,
-    "_id": 2896
+    "_id": 2962
   },
   {
     "id": 15674,
@@ -26070,7 +26601,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 0,
-    "_id": 2897
+    "_id": 2963
   },
   {
     "id": 15674,
@@ -26079,7 +26610,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 1,
-    "_id": 2898
+    "_id": 2964
   },
   {
     "id": 15674,
@@ -26088,7 +26619,115 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 1,
-    "_id": 2899
+    "_id": 2965
+  },
+  {
+    "id": 16392,
+    "type": 22,
+    "x": 35,
+    "y": 62,
+    "z": 0,
+    "direction": 0,
+    "_id": 2966
+  },
+  {
+    "id": 16392,
+    "type": 22,
+    "x": 43,
+    "y": 29,
+    "z": 0,
+    "direction": 0,
+    "_id": 2967
+  },
+  {
+    "id": 16392,
+    "type": 22,
+    "x": 60,
+    "y": 1,
+    "z": 0,
+    "direction": 0,
+    "_id": 2968
+  },
+  {
+    "id": 16395,
+    "type": 22,
+    "x": 35,
+    "y": 61,
+    "z": 0,
+    "direction": 0,
+    "_id": 2969
+  },
+  {
+    "id": 16395,
+    "type": 22,
+    "x": 45,
+    "y": 24,
+    "z": 0,
+    "direction": 0,
+    "_id": 2970
+  },
+  {
+    "id": 16433,
+    "type": 22,
+    "x": 2,
+    "y": 45,
+    "z": 0,
+    "direction": 0,
+    "_id": 2971
+  },
+  {
+    "id": 16433,
+    "type": 22,
+    "x": 24,
+    "y": 44,
+    "z": 0,
+    "direction": 0,
+    "_id": 2972
+  },
+  {
+    "id": 16433,
+    "type": 22,
+    "x": 46,
+    "y": 55,
+    "z": 0,
+    "direction": 0,
+    "_id": 2973
+  },
+  {
+    "id": 16433,
+    "type": 22,
+    "x": 54,
+    "y": 33,
+    "z": 0,
+    "direction": 0,
+    "_id": 2974
+  },
+  {
+    "id": 16433,
+    "type": 22,
+    "x": 61,
+    "y": 51,
+    "z": 0,
+    "direction": 0,
+    "_id": 2975
+  },
+  {
+    "id": 16438,
+    "type": 22,
+    "x": 7,
+    "y": 55,
+    "z": 0,
+    "direction": 0,
+    "_id": 2976
+  },
+  {
+    "id": 16438,
+    "type": 22,
+    "x": 58,
+    "y": 40,
+    "z": 0,
+    "direction": 0,
+    "_id": 2977
   },
   {
     "id": 16683,
@@ -26097,7 +26736,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 2,
-    "_id": 2900
+    "_id": 2978
   },
   {
     "id": 16683,
@@ -26106,7 +26745,7 @@ export const objects = [
     "y": 13,
     "z": 0,
     "direction": 0,
-    "_id": 2901
+    "_id": 2979
   },
   {
     "id": 16683,
@@ -26115,7 +26754,16 @@ export const objects = [
     "y": 24,
     "z": 0,
     "direction": 0,
-    "_id": 2902
+    "_id": 2980
+  },
+  {
+    "id": 17390,
+    "type": 10,
+    "x": 12,
+    "y": 50,
+    "z": 0,
+    "direction": 1,
+    "_id": 2981
   },
   {
     "id": 18493,
@@ -26124,7 +26772,7 @@ export const objects = [
     "y": 28,
     "z": 0,
     "direction": 0,
-    "_id": 2903
+    "_id": 2982
   },
   {
     "id": 18493,
@@ -26133,7 +26781,52 @@ export const objects = [
     "y": 30,
     "z": 0,
     "direction": 2,
-    "_id": 2904
+    "_id": 2983
+  },
+  {
+    "id": 23590,
+    "type": 22,
+    "x": 34,
+    "y": 14,
+    "z": 0,
+    "direction": 0,
+    "_id": 2984
+  },
+  {
+    "id": 24009,
+    "type": 10,
+    "x": 26,
+    "y": 56,
+    "z": 0,
+    "direction": 1,
+    "_id": 2985
+  },
+  {
+    "id": 24010,
+    "type": 0,
+    "x": 28,
+    "y": 55,
+    "z": 0,
+    "direction": 0,
+    "_id": 2986
+  },
+  {
+    "id": 24011,
+    "type": 0,
+    "x": 26,
+    "y": 55,
+    "z": 0,
+    "direction": 2,
+    "_id": 2987
+  },
+  {
+    "id": 24012,
+    "type": 10,
+    "x": 27,
+    "y": 55,
+    "z": 0,
+    "direction": 1,
+    "_id": 2988
   },
   {
     "id": 24322,
@@ -26142,7 +26835,7 @@ export const objects = [
     "y": 42,
     "z": 0,
     "direction": 0,
-    "_id": 2905
+    "_id": 2989
   },
   {
     "id": 24322,
@@ -26151,7 +26844,7 @@ export const objects = [
     "y": 36,
     "z": 0,
     "direction": 0,
-    "_id": 2906
+    "_id": 2990
   },
   {
     "id": 24322,
@@ -26160,7 +26853,7 @@ export const objects = [
     "y": 38,
     "z": 0,
     "direction": 0,
-    "_id": 2907
+    "_id": 2991
   },
   {
     "id": 24322,
@@ -26169,7 +26862,7 @@ export const objects = [
     "y": 40,
     "z": 0,
     "direction": 0,
-    "_id": 2908
+    "_id": 2992
   },
   {
     "id": 24322,
@@ -26178,6 +26871,1545 @@ export const objects = [
     "y": 37,
     "z": 0,
     "direction": 0,
-    "_id": 2909
+    "_id": 2993
+  },
+  {
+    "id": 24323,
+    "type": 10,
+    "x": 30,
+    "y": 40,
+    "z": 0,
+    "direction": 0,
+    "_id": 2994
+  },
+  {
+    "id": 24323,
+    "type": 10,
+    "x": 30,
+    "y": 42,
+    "z": 0,
+    "direction": 0,
+    "_id": 2995
+  },
+  {
+    "id": 24969,
+    "type": 10,
+    "x": 14,
+    "y": 49,
+    "z": 0,
+    "direction": 2,
+    "_id": 2996
+  },
+  {
+    "id": 24970,
+    "type": 10,
+    "x": 5,
+    "y": 21,
+    "z": 0,
+    "direction": 0,
+    "_id": 2997
+  },
+  {
+    "id": 25637,
+    "type": 0,
+    "x": 8,
+    "y": 11,
+    "z": 0,
+    "direction": 0,
+    "_id": 2998
+  },
+  {
+    "id": 33150,
+    "type": 22,
+    "x": 38,
+    "y": 20,
+    "z": 0,
+    "direction": 0,
+    "_id": 3001
+  },
+  {
+    "id": 33153,
+    "type": 22,
+    "x": 28,
+    "y": 46,
+    "z": 0,
+    "direction": 0,
+    "_id": 3002
+  },
+  {
+    "id": 33157,
+    "type": 22,
+    "x": 26,
+    "y": 54,
+    "z": 0,
+    "direction": 0,
+    "_id": 3003
+  },
+  {
+    "id": 33160,
+    "type": 22,
+    "x": 19,
+    "y": 39,
+    "z": 0,
+    "direction": 0,
+    "_id": 3004
+  },
+  {
+    "id": 33161,
+    "type": 22,
+    "x": 44,
+    "y": 14,
+    "z": 0,
+    "direction": 0,
+    "_id": 3005
+  },
+  {
+    "id": 33162,
+    "type": 22,
+    "x": 32,
+    "y": 23,
+    "z": 0,
+    "direction": 0,
+    "_id": 3006
+  },
+  {
+    "id": 33163,
+    "type": 22,
+    "x": 29,
+    "y": 27,
+    "z": 0,
+    "direction": 0,
+    "_id": 3007
+  },
+  {
+    "id": 33164,
+    "type": 22,
+    "x": 45,
+    "y": 1,
+    "z": 0,
+    "direction": 0,
+    "_id": 3008
+  },
+  {
+    "id": 34659,
+    "type": 10,
+    "x": 26,
+    "y": 37,
+    "z": 0,
+    "direction": 1,
+    "_id": 3009
+  },
+  {
+    "id": 37440,
+    "type": 22,
+    "x": 24,
+    "y": 10,
+    "z": 0,
+    "direction": 0,
+    "_id": 3012
+  },
+  {
+    "id": 38848,
+    "type": 9,
+    "x": 35,
+    "y": 52,
+    "z": 0,
+    "direction": 0,
+    "_id": 3013
+  },
+  {
+    "id": 38848,
+    "type": 9,
+    "x": 35,
+    "y": 55,
+    "z": 0,
+    "direction": 3,
+    "_id": 3014
+  },
+  {
+    "id": 38848,
+    "type": 0,
+    "x": 36,
+    "y": 53,
+    "z": 0,
+    "direction": 0,
+    "_id": 3015
+  },
+  {
+    "id": 38848,
+    "type": 0,
+    "x": 36,
+    "y": 54,
+    "z": 0,
+    "direction": 0,
+    "_id": 3016
+  },
+  {
+    "id": 38848,
+    "type": 9,
+    "x": 58,
+    "y": 7,
+    "z": 0,
+    "direction": 0,
+    "_id": 3017
+  },
+  {
+    "id": 38848,
+    "type": 9,
+    "x": 58,
+    "y": 8,
+    "z": 0,
+    "direction": 3,
+    "_id": 3018
+  },
+  {
+    "id": 39620,
+    "type": 10,
+    "x": 27,
+    "y": 50,
+    "z": 0,
+    "direction": 3,
+    "_id": 3019
+  },
+  {
+    "id": 42521,
+    "type": 22,
+    "x": 5,
+    "y": 15,
+    "z": 0,
+    "direction": 0,
+    "_id": 3020
+  },
+  {
+    "id": 42522,
+    "type": 22,
+    "x": 12,
+    "y": 16,
+    "z": 0,
+    "direction": 2,
+    "_id": 3021
+  },
+  {
+    "id": 42665,
+    "type": 22,
+    "x": 10,
+    "y": 15,
+    "z": 0,
+    "direction": 2,
+    "_id": 3022
+  },
+  {
+    "id": 42755,
+    "type": 22,
+    "x": 7,
+    "y": 13,
+    "z": 0,
+    "direction": 2,
+    "_id": 3023
+  },
+  {
+    "id": 42758,
+    "type": 22,
+    "x": 41,
+    "y": 10,
+    "z": 0,
+    "direction": 0,
+    "_id": 3024
+  },
+  {
+    "id": 42799,
+    "type": 22,
+    "x": 27,
+    "y": 42,
+    "z": 0,
+    "direction": 0,
+    "_id": 3025
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 34,
+    "y": 56,
+    "z": 0,
+    "direction": 3,
+    "_id": 3027
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 34,
+    "y": 57,
+    "z": 0,
+    "direction": 0,
+    "_id": 3028
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 34,
+    "y": 58,
+    "z": 0,
+    "direction": 0,
+    "_id": 3029
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 34,
+    "y": 59,
+    "z": 0,
+    "direction": 0,
+    "_id": 3030
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 34,
+    "y": 60,
+    "z": 0,
+    "direction": 3,
+    "_id": 3031
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 35,
+    "y": 47,
+    "z": 0,
+    "direction": 1,
+    "_id": 3032
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 35,
+    "y": 48,
+    "z": 0,
+    "direction": 0,
+    "_id": 3033
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 35,
+    "y": 49,
+    "z": 0,
+    "direction": 0,
+    "_id": 3034
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 35,
+    "y": 50,
+    "z": 0,
+    "direction": 0,
+    "_id": 3035
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 35,
+    "y": 51,
+    "z": 0,
+    "direction": 0,
+    "_id": 3036
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 35,
+    "y": 60,
+    "z": 0,
+    "direction": 3,
+    "_id": 3037
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 40,
+    "z": 0,
+    "direction": 1,
+    "_id": 3038
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 41,
+    "z": 0,
+    "direction": 0,
+    "_id": 3039
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 42,
+    "z": 0,
+    "direction": 0,
+    "_id": 3040
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 43,
+    "z": 0,
+    "direction": 3,
+    "_id": 3041
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 46,
+    "z": 0,
+    "direction": 1,
+    "_id": 3042
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 47,
+    "z": 0,
+    "direction": 0,
+    "_id": 3043
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 36,
+    "y": 60,
+    "z": 0,
+    "direction": 3,
+    "_id": 3044
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 36,
+    "z": 0,
+    "direction": 1,
+    "_id": 3045
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 37,
+    "z": 0,
+    "direction": 0,
+    "_id": 3046
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 38,
+    "z": 0,
+    "direction": 0,
+    "_id": 3047
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 39,
+    "z": 0,
+    "direction": 0,
+    "_id": 3048
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 40,
+    "z": 0,
+    "direction": 0,
+    "_id": 3049
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 43,
+    "z": 0,
+    "direction": 0,
+    "_id": 3050
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 44,
+    "z": 0,
+    "direction": 0,
+    "_id": 3051
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 45,
+    "z": 0,
+    "direction": 0,
+    "_id": 3052
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 46,
+    "z": 0,
+    "direction": 0,
+    "_id": 3053
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 37,
+    "y": 51,
+    "z": 0,
+    "direction": 3,
+    "_id": 3054
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 52,
+    "z": 0,
+    "direction": 0,
+    "_id": 3055
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 53,
+    "z": 0,
+    "direction": 0,
+    "_id": 3056
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 54,
+    "z": 0,
+    "direction": 0,
+    "_id": 3057
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 37,
+    "y": 56,
+    "z": 0,
+    "direction": 0,
+    "_id": 3058
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 37,
+    "y": 60,
+    "z": 0,
+    "direction": 3,
+    "_id": 3059
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 32,
+    "z": 0,
+    "direction": 1,
+    "_id": 3060
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 33,
+    "z": 0,
+    "direction": 0,
+    "_id": 3061
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 34,
+    "z": 0,
+    "direction": 0,
+    "_id": 3062
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 35,
+    "z": 0,
+    "direction": 0,
+    "_id": 3063
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 36,
+    "z": 0,
+    "direction": 0,
+    "_id": 3064
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 50,
+    "z": 0,
+    "direction": 2,
+    "_id": 3065
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 51,
+    "z": 0,
+    "direction": 3,
+    "_id": 3066
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 56,
+    "z": 0,
+    "direction": 1,
+    "_id": 3067
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 38,
+    "y": 57,
+    "z": 0,
+    "direction": 1,
+    "_id": 3068
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 58,
+    "z": 0,
+    "direction": 0,
+    "_id": 3069
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 38,
+    "y": 59,
+    "z": 0,
+    "direction": 0,
+    "_id": 3070
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 30,
+    "z": 0,
+    "direction": 1,
+    "_id": 3071
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 31,
+    "z": 0,
+    "direction": 0,
+    "_id": 3072
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 32,
+    "z": 0,
+    "direction": 0,
+    "_id": 3073
+  },
+  {
+    "id": 44603,
+    "type": 2,
+    "x": 39,
+    "y": 40,
+    "z": 0,
+    "direction": 3,
+    "_id": 3074
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 39,
+    "y": 42,
+    "z": 0,
+    "direction": 1,
+    "_id": 3075
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 39,
+    "y": 43,
+    "z": 0,
+    "direction": 2,
+    "_id": 3076
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 45,
+    "z": 0,
+    "direction": 2,
+    "_id": 3077
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 46,
+    "z": 0,
+    "direction": 2,
+    "_id": 3078
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 47,
+    "z": 0,
+    "direction": 2,
+    "_id": 3079
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 39,
+    "y": 48,
+    "z": 0,
+    "direction": 2,
+    "_id": 3080
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 39,
+    "y": 49,
+    "z": 0,
+    "direction": 1,
+    "_id": 3081
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 40,
+    "y": 29,
+    "z": 0,
+    "direction": 3,
+    "_id": 3082
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 40,
+    "y": 30,
+    "z": 0,
+    "direction": 0,
+    "_id": 3083
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 40,
+    "y": 40,
+    "z": 0,
+    "direction": 3,
+    "_id": 3084
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 40,
+    "y": 45,
+    "z": 0,
+    "direction": 2,
+    "_id": 3085
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 41,
+    "y": 28,
+    "z": 0,
+    "direction": 3,
+    "_id": 3086
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 42,
+    "y": 22,
+    "z": 0,
+    "direction": 1,
+    "_id": 3087
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 42,
+    "y": 23,
+    "z": 0,
+    "direction": 0,
+    "_id": 3088
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 42,
+    "y": 24,
+    "z": 0,
+    "direction": 0,
+    "_id": 3089
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 42,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 3090
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 42,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 3091
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 43,
+    "y": 20,
+    "z": 0,
+    "direction": 3,
+    "_id": 3092
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 43,
+    "y": 21,
+    "z": 0,
+    "direction": 0,
+    "_id": 3093
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 43,
+    "y": 24,
+    "z": 0,
+    "direction": 1,
+    "_id": 3094
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 43,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 3095
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 43,
+    "y": 34,
+    "z": 0,
+    "direction": 3,
+    "_id": 3096
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 44,
+    "y": 20,
+    "z": 0,
+    "direction": 3,
+    "_id": 3097
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 44,
+    "y": 24,
+    "z": 0,
+    "direction": 1,
+    "_id": 3098
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 44,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 3099
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 44,
+    "y": 31,
+    "z": 0,
+    "direction": 2,
+    "_id": 3100
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 44,
+    "y": 32,
+    "z": 0,
+    "direction": 3,
+    "_id": 3101
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 44,
+    "y": 33,
+    "z": 0,
+    "direction": 0,
+    "_id": 3102
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 45,
+    "y": 19,
+    "z": 0,
+    "direction": 1,
+    "_id": 3103
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 45,
+    "y": 24,
+    "z": 0,
+    "direction": 1,
+    "_id": 3104
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 45,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 3105
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 45,
+    "y": 30,
+    "z": 0,
+    "direction": 3,
+    "_id": 3106
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 46,
+    "y": 19,
+    "z": 0,
+    "direction": 3,
+    "_id": 3107
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 46,
+    "y": 24,
+    "z": 0,
+    "direction": 1,
+    "_id": 3108
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 46,
+    "y": 27,
+    "z": 0,
+    "direction": 3,
+    "_id": 3109
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 46,
+    "y": 29,
+    "z": 0,
+    "direction": 3,
+    "_id": 3110
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 47,
+    "y": 19,
+    "z": 0,
+    "direction": 3,
+    "_id": 3111
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 47,
+    "y": 24,
+    "z": 0,
+    "direction": 1,
+    "_id": 3112
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 47,
+    "y": 27,
+    "z": 0,
+    "direction": 0,
+    "_id": 3113
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 47,
+    "y": 28,
+    "z": 0,
+    "direction": 0,
+    "_id": 3114
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 48,
+    "y": 19,
+    "z": 0,
+    "direction": 3,
+    "_id": 3115
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 48,
+    "y": 24,
+    "z": 0,
+    "direction": 3,
+    "_id": 3116
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 49,
+    "y": 19,
+    "z": 0,
+    "direction": 3,
+    "_id": 3117
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 49,
+    "y": 23,
+    "z": 0,
+    "direction": 3,
+    "_id": 3118
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 50,
+    "y": 19,
+    "z": 0,
+    "direction": 3,
+    "_id": 3119
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 50,
+    "y": 23,
+    "z": 0,
+    "direction": 3,
+    "_id": 3120
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 51,
+    "y": 18,
+    "z": 0,
+    "direction": 1,
+    "_id": 3121
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 51,
+    "y": 23,
+    "z": 0,
+    "direction": 3,
+    "_id": 3122
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 52,
+    "y": 15,
+    "z": 0,
+    "direction": 3,
+    "_id": 3123
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 52,
+    "y": 16,
+    "z": 0,
+    "direction": 0,
+    "_id": 3124
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 52,
+    "y": 17,
+    "z": 0,
+    "direction": 0,
+    "_id": 3125
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 52,
+    "y": 22,
+    "z": 0,
+    "direction": 3,
+    "_id": 3126
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 53,
+    "y": 15,
+    "z": 0,
+    "direction": 3,
+    "_id": 3127
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 53,
+    "y": 22,
+    "z": 0,
+    "direction": 3,
+    "_id": 3128
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 54,
+    "y": 14,
+    "z": 0,
+    "direction": 3,
+    "_id": 3129
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 54,
+    "y": 21,
+    "z": 0,
+    "direction": 3,
+    "_id": 3130
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 55,
+    "y": 13,
+    "z": 0,
+    "direction": 3,
+    "_id": 3131
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 55,
+    "y": 20,
+    "z": 0,
+    "direction": 3,
+    "_id": 3132
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 56,
+    "y": 12,
+    "z": 0,
+    "direction": 3,
+    "_id": 3133
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 56,
+    "y": 19,
+    "z": 0,
+    "direction": 3,
+    "_id": 3134
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 57,
+    "y": 10,
+    "z": 0,
+    "direction": 1,
+    "_id": 3135
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 57,
+    "y": 11,
+    "z": 0,
+    "direction": 0,
+    "_id": 3136
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 57,
+    "y": 18,
+    "z": 0,
+    "direction": 3,
+    "_id": 3137
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 0,
+    "z": 0,
+    "direction": 1,
+    "_id": 3138
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 1,
+    "z": 0,
+    "direction": 0,
+    "_id": 3139
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 58,
+    "y": 2,
+    "z": 0,
+    "direction": 2,
+    "_id": 3140
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 3,
+    "z": 0,
+    "direction": 2,
+    "_id": 3141
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 4,
+    "z": 0,
+    "direction": 2,
+    "_id": 3142
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 58,
+    "y": 5,
+    "z": 0,
+    "direction": 1,
+    "_id": 3143
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 6,
+    "z": 0,
+    "direction": 0,
+    "_id": 3144
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 9,
+    "z": 0,
+    "direction": 0,
+    "_id": 3145
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 58,
+    "y": 18,
+    "z": 0,
+    "direction": 3,
+    "_id": 3146
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 59,
+    "y": 0,
+    "z": 0,
+    "direction": 1,
+    "_id": 3147
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 59,
+    "y": 17,
+    "z": 0,
+    "direction": 3,
+    "_id": 3148
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 60,
+    "y": 0,
+    "z": 0,
+    "direction": 1,
+    "_id": 3149
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 60,
+    "y": 16,
+    "z": 0,
+    "direction": 3,
+    "_id": 3150
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 61,
+    "y": 0,
+    "z": 0,
+    "direction": 1,
+    "_id": 3151
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 61,
+    "y": 4,
+    "z": 0,
+    "direction": 2,
+    "_id": 3152
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 61,
+    "y": 5,
+    "z": 0,
+    "direction": 2,
+    "_id": 3153
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 61,
+    "y": 6,
+    "z": 0,
+    "direction": 2,
+    "_id": 3154
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 61,
+    "y": 7,
+    "z": 0,
+    "direction": 2,
+    "_id": 3155
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 61,
+    "y": 8,
+    "z": 0,
+    "direction": 2,
+    "_id": 3156
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 61,
+    "y": 15,
+    "z": 0,
+    "direction": 3,
+    "_id": 3157
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 0,
+    "z": 0,
+    "direction": 1,
+    "_id": 3158
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 1,
+    "z": 0,
+    "direction": 2,
+    "_id": 3159
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 2,
+    "z": 0,
+    "direction": 2,
+    "_id": 3160
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 62,
+    "y": 3,
+    "z": 0,
+    "direction": 1,
+    "_id": 3161
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 62,
+    "y": 9,
+    "z": 0,
+    "direction": 2,
+    "_id": 3162
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 10,
+    "z": 0,
+    "direction": 2,
+    "_id": 3163
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 11,
+    "z": 0,
+    "direction": 2,
+    "_id": 3164
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 12,
+    "z": 0,
+    "direction": 2,
+    "_id": 3165
+  },
+  {
+    "id": 44603,
+    "type": 9,
+    "x": 62,
+    "y": 13,
+    "z": 0,
+    "direction": 3,
+    "_id": 3166
+  },
+  {
+    "id": 44603,
+    "type": 0,
+    "x": 62,
+    "y": 14,
+    "z": 0,
+    "direction": 0,
+    "_id": 3167
+  },
+  {
+    "id": 56230,
+    "type": 10,
+    "x": 4,
+    "y": 7,
+    "z": 0,
+    "direction": 3,
+    "_id": 3169
+  },
+  {
+    "id": 56230,
+    "type": 10,
+    "x": 4,
+    "y": 29,
+    "z": 0,
+    "direction": 0,
+    "_id": 3170
   }
 ];

@@ -61,22 +61,12 @@ export class Loc {
     if(!modelId) {
         console.warn(`No model ID found for kind ${kind} in location ${this.id}.`);
     }
-
-    const modelDef = Cache.getModelDefinitionById(modelId);
-
-    if (!modelDef) {
-      const gltf = this.modelHandler.getModel(modelId)!;
-
-      const scene = gltf.scene.clone(true);
-
-      return {
-        model: scene.clone(true),
-        isGltf: true,
-      };
-    }
+    
+    const modelDef = Cache.getModelDefinitionById(modelId)!;
+    const objectDef = Cache.getObjectById(this.id)!;
 
     return {
-      model: new Model(modelDef).constructModel(rotation),
+      model: new Model(modelDef, objectDef).constructModel(rotation),
       isGltf: false,
     };
   }
